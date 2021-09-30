@@ -90,51 +90,64 @@
                             <a href="/"> Home </a>
                         </li>
                         <li class="menu-item">
-                            <a href="/forEmployer"> For Employers </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/medclin"> Med Clinics </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/workers"> Workers </a>
-                        </li>
-                        <li class="menu-item active">
-                            <a href="/urgentCare"> Urgent Care </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/chronicCare"> Chronic Care </a>
-                        </li>
-                        <!-- <li>
-                            <a href="solutions.html" class="menudropitem"> Solutions <img src="img/Icon ionic-ios-arrow-down.svg" class="ml-2 darr"></a>
+                            <a href="/employers"> Employers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
                                     <li>
-                                        <a href="">Virtual Primary Care</a>
+                                        <a href="">VPC</a>
                                     </li>
                                     <li>
-                                        <a href="workers-compensation.html">Worker's Compensation</a>
+                                        <a href="">Worker's Compensation</a>
                                     </li>
                                     <li>
-                                        <a href="med-clinics.html">Akos Med Clinics</a>
+                                        <a href="">Onsite Clinics</a>
                                     </li>
                                     <li>
-                                        <a href="">Akos 360 Connected Care</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Population Health Management</a>
-                                    </li>
-                                    <li>
-                                        <a href="chronic-care-management.html">Chronic Care Management</a>
-                                    </li>
-                                    <li>
-                                        <a href="urgent-care.html">Urgent Care</a>
+                                        <a href="">Telemedicine</a>
                                     </li>
                                 </ul>
                             </div>
-                        </li> -->
-                        <li>
-                            <a href="" class="cta-btn-outline"> Member Login </a>
                         </li>
+                        <li class="menu-item">
+                            <a href="/onsiteclinics"> Onsite Clinics </a>
+                        </li>                            
+                        <li class="menu-item active">
+                            <a href="/urgentcare"> Urgent Care Centre </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/providers"> Providers </a>
+                            <div class="submenu-cont">
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="">Primary Providers</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Specialist</a>
+                                    </li>
+                                    <li>
+                                        <a href="">ACI/Value Based entities</a>
+                                    </li>
+                                    <li>
+                                        <a href="">CCM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">RPM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Answering servicce/Nurse triage</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/remotepatient"> Remote Patient monitoring </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/whowe"> Who we are </a>
+                        </li>
+                        <!-- <li>
+                            <a href="" class="cta-btn-outline"> Member Login </a>
+                        </li> -->
                         <li>
                             <a href="" class="cta-btn-1">
                                 Contact Us

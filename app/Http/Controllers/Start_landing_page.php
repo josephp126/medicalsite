@@ -20,27 +20,31 @@ class Start_landing_page extends Controller
 {
     public function index()
     {
-        return view('pages.landing_page');    
+        return view('pages.Home');    
     }
 
-    public function forEmployer(){
-        return view('pages.foremployers');
+    public function Employers(){
+        return view('pages.Employers');
     }
 
-    public function medclin(){
-        return view('pages.medclin');
+    public function OnsiteClinics(){
+        return view('pages.OnsiteClinics');
     }
 
-    public function workers(){
-        return view('pages.workers');
+    public function Providers(){
+        return view('pages.Providers');
     }
 
     public function urgentCare(){
         return view('pages.urgentCare');
     }
 
-    public function chronicCare(){
-        return view('pages.chronicCare');
+    public function RemotePatient(){
+        return view('pages.RemotePatient');
+    }
+
+    public function WhoWe(){
+        return view('pages.WhoWe');
     }
     
     public function general_search_2(Request $request){   

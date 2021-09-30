@@ -256,12 +256,12 @@ p {
 }
 
 #main-top.main-index {
-  background-image: url("../img/main-bg.jpg");
+  background-image: url("../img/for-employers/employers-cover.jpg");
   background-size: cover;
 }
 
 #main-top.for-employers{
-  background-image: url("../img/for-employers/employers-cover.jpg");
+  background-image: url("../img/prac.mp4");
   background-size: cover;
 }
 
@@ -1443,7 +1443,7 @@ span.vdivider {
   }
 
   #main-top .header .main-menu li:hover .submenu:after {
-    display: none;
+   display: none;
   }
 
 

@@ -19,15 +19,17 @@ Route::post('/create-property', 'admin\AdminController@createProperty')->name('c
 //PAGES and FORMS
 Route::get('/', 'Start_landing_page@index');
 
-Route::get('/forEmployer', 'Start_landing_page@forEmployer');
+Route::get('/employers', 'Start_landing_page@Employers');
 
-Route::get('/medclin', 'Start_landing_page@medclin');
+Route::get('/onsiteclinics', 'Start_landing_page@OnsiteClinics');
 
-Route::get('/workers', 'Start_landing_page@workers');
+Route::get('/providers', 'Start_landing_page@Providers');
 
-Route::get('/urgentCare', 'Start_landing_page@urgentCare');
+Route::get('/urgentcare', 'Start_landing_page@urgentCare');
 
-Route::get('/chronicCare', 'Start_landing_page@chronicCare');
+Route::get('/remotepatient', 'Start_landing_page@RemotePatient');
+
+Route::get('/whowe', 'Start_landing_page@WhoWe');
 
 Route::get('/logout', 'Start_landing_page@index');
 
