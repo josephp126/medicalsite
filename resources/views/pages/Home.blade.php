@@ -93,16 +93,16 @@
                         <div class="submenu-cont">
                             <ul class="submenu">
                                 <li>
-                                    <a href="">VPC</a>
+                                    <a href="/employers/vpc">VPC</a>
                                 </li>
                                 <li>
-                                    <a href="">Worker's Compensation</a>
+                                    <a href="/employers/vpc">Worker's Compensation</a>
                                 </li>
                                 <li>
-                                    <a href="">Onsite Clinics</a>
+                                    <a href="/employers/vpc">Onsite Clinics</a>
                                 </li>
                                 <li>
-                                    <a href="">Telemedicine</a>
+                                    <a href="/employers/vpc">Telemedicine</a>
                                 </li>
                             </ul>
                         </div>
