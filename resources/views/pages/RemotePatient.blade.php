@@ -90,20 +90,20 @@
                                 <a href="/"> Home </a>
                             </li>
                             <li class="menu-item">
-                                <a href="/employers"> Employers </a>
+                                <a href="/vpc"> Employers </a>
                                 <div class="submenu-cont">
                                     <ul class="submenu">
                                         <li>
-                                            <a href="">VPC</a>
+                                            <a href="/vpc">VPC</a>
                                         </li>
                                         <li>
-                                            <a href="">Worker's Compensation</a>
+                                            <a href="/workerscompensation">Worker's Compensation</a>
                                         </li>
                                         <li>
-                                            <a href="">Onsite Clinics</a>
+                                            <a href="/onsiteclinics">Onsite Clinics</a>
                                         </li>
                                         <li>
-                                            <a href="">Telemedicine</a>
+                                            <a href="/telemedicine">Telemedicine</a>
                                         </li>
                                     </ul>
                                 </div>

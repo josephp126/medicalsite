@@ -20,10 +20,7 @@
                 </a>
             </div>
             <div class="col-6 col-lg-10 text-right">
-                <a
-                href="javascript:void(0)"
-                class="menu-toggle-btn pt-2 d-inline-block d-lg-none"
-                >
+                <a href="javascript:void(0)" class="menu-toggle-btn pt-2 d-inline-block d-lg-none">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="47"
@@ -89,20 +86,20 @@
                         <a href="/"> Home </a>
                     </li>
                     <li class="menu-item">
-                        <a href="/employers"> Employers </a>
+                        <a href="/vpc"> Employers </a>
                         <div class="submenu-cont">
                             <ul class="submenu">
                                 <li>
-                                    <a href="/employers/vpc">VPC</a>
+                                    <a href="/vpc">VPC</a>
                                 </li>
                                 <li>
-                                    <a href="/employers/vpc">Worker's Compensation</a>
+                                    <a href="/workerscompensation">Worker's Compensation</a>
                                 </li>
                                 <li>
-                                    <a href="/employers/vpc">Onsite Clinics</a>
+                                    <a href="/onsiteclinics">Onsite Clinics</a>
                                 </li>
                                 <li>
-                                    <a href="/employers/vpc">Telemedicine</a>
+                                    <a href="/telemedicine">Telemedicine</a>
                                 </li>
                             </ul>
                         </div>

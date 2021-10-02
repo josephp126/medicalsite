@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('mainContent')
-<div id="main-top" class="medclinic">
+<div id="main-top" class="workers-compensation">
     <!-- <div id="fullwidth-video">
         <div class="fullwidth-video-bg">
             <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
@@ -89,7 +89,7 @@
                         <li class="menu-item">
                             <a href="/"> Home </a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item active">
                             <a href="/vpc"> Employers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
@@ -108,7 +108,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="menu-item active">
+                        <li class="menu-item">
                             <a href="/onsiteclinics"> Onsite Clinics </a>
                         </li>                            
                         <li class="menu-item">
@@ -164,11 +164,11 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 data-aos="fade-right">
-                        Care On Demand And <br>
-                        On Location
+                        A healthier way to  <br>
+do business
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Akos Med Clinic has you covered
+                        Get the Akos advantage and transform the way your employees get care
                     </h6>
                     <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
@@ -185,182 +185,80 @@
 <!--    TOP SECTION-->
 
 <div id="wrapper">
-    <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-frow bottom4-frow-newhome">
+    <!--SHORT DESC-->
+    <div id="short-desc" class="mb-0 border-bottom-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="item item-blue">
-                        <h3 class="section-title">Healthcare has <br class="d-none d-lg-block">
-                            a new home
-                        </h3>
-                        <p class="pt-4">
-                            At Akos Med Clinic, we recognize that the satisfaction
-                            and care of our patients takes precedence above all else.
-                            Our goal is to create an environment and experience that
-                            exceeds expectations from the moment you arrive.
-                            We treat every patient with speed, compassion and
-                            medical expertise because advanced medical care means
-                            catering to you.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-block d-lg-none mt-4">
-                    <img src="img/medclinic/newhome.jpg" style="width: 100%" alt="" />
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h3 class="section-title">
+                        Workers compensation that works <br class="d-none d-lg-block">
+For you, for them, for everyone
+                    </h3>
+                    <p class="pt-4">
+                        70% of worker's compensation cases can be resolved without a physical visit to the ER or Urgent Care.
+Akos Worker's Compensation Program reduces medical costs, avoids unnecessary ER and urgent visits, 
+improves employee productivity, and keeps employees on site for diagnosis and treatment. 
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- BOTTOM 4 -->
+    <!--SHORT DESC-->
 
-    <!-- FEATBOX -->
-    <div id="featbox">
-        <div class="container">
-            <div class="row featrow">
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/registration.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-
-                            Patient Registration
-                        </h5>
-                        <p>
-                            Patient uploads picture of ID,
-                            insurance and prescriptions to
-                            establish patient profile
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/interview.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Patient Interview
-                        </h5>
-                        <p>
-                            Patient enters chief compliant with
-                            AI predictive engine, which then
-                            supplies additional questions to
-                            collect a clinical differential diagnosis
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/measurements.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Vital & Lab Measurements
-                        </h5>
-                        <p>
-                            Using Artificial Intelligence ( AI ) and
-                            Augmented Reality ( AR ), patient is
-                            guided to collect medical vitals-temperature,
-                            blood pressure, blood oxygen, weight, ear,
-                            nose and throat image as well as chest,
-                            lung and abdomen sounds.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/consultation.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Provider Consultation
-                        </h5>
-                        <p>
-                            The AI delivers a complete patient work-up
-                            to an Akos provider with a breakdown of
-                            predicted illnesses and treatment options.
-                            The patient virtually connects with and Akos
-                            medical provider to review the AI collected
-                            information, verify the diagnosis and confirm
-                            or modify the treatment plan formulated
-                            by the system.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/treatmentplan.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Treatment Plan
-                        </h5>
-                        <p>
-                            The AI electronically sends any necessary
-                            prescriptions or procedure orders to
-                            the appropriate healthcare partner,
-                            and completes the billing process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/medclinic/followup.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Follow Up
-                        </h5>
-                        <p>
-                            When appropriate, the AI follows up with the
-                            patient via text or email. If the patient indicates
-                            no or slow improvement, an appointment is
-                            made for a return visit with an Akos provider
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- FEATBOX -->
-
-
+    
 
     <!-- BOTTOM 4 -->
     <div id="bottom4" class="bottom4-frow bottom4-frow-solid-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 d-flex align-items-center">
+                <div class="col-lg-6 d-flex align-items-center">
                     <div class="item item-blue">
                         <h3 class="section-title">
-                            Just What The <br class="d-none d-lg-block">
-                            Doctor Ordered
+                            Immediate care, <br class="d-none d-lg-block">
+long term results
                         </h3>
                         <p class="pt-4">
-                            We perform a wide range of lab tests and diagnostics
-                            onsite so you can get treated as quickly and conveniently
-                            as possible. Check the list of some of the most common
-                            lab tests and diagnostics performed at Akos Med Clinic.
+                            Businesses benefit from Akos
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 offset-lg-2 mt-4 b-box">
-                    <h3 class="section-title">
-                        On Site Testing, On Call Providers
-                    </h3>
+                <div class="col-lg-6 mt-4 text-center b-box">
+                    
+                    <div class="sect">
+                        <img src="img/workers-compensation/device.svg" alt="">
+                        <h6 class="pt-3">
+                            24/7/365 access from a <br class="d-none d-lg-block">
+smartphone or tablet
+                        </h6>
+                    </div>
 
-                    <ul class="pt-4 greenul splitul">
-                        <li>
-                            Blood Test
-                        </li>
-                        <li>
-                            Drug Screen
-                        </li>
-                        <li>
-                            Flu Test
-                        </li>
-                        <li>
-                            STD Test
-                        </li>
-                        <li>
-                            Strep Screen
-                        </li>
-                        <li>
-                            Pregnancy Test
-                        </li>
-                        <li>
-                            Urinalysis
-                        </li>
-                    </ul>
+                    
+                    <div class="sect">
+                        <img src="img/workers-compensation/virtaully-consult.svg" alt="">
+                        <h6 class="pt-3">
+                            Virtually consult with board-certified <br class="d-none d-lg-block">
+healthcare providers
+                        </h6>
+                    </div>
+
+                    
+                    <div class="sect">
+                        <img src="img/workers-compensation/piggie-bank.svg" alt="">
+                        <h6 class="pt-3">
+                            Reduced workers’ compensation <br class="d-none d-lg-block">
+claims and medical costs
+                        </h6>
+                    </div>
+
+                    
+                    <div class="sect">
+                        <img src="img/workers-compensation/urgent-care.svg" alt="">
+                        <h6 class="pt-3">
+                            Avoid unnecessary ER and <br class="d-none d-lg-block">
+urgent care visits
+                        </h6>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -369,7 +267,7 @@
 
 
     <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-srow bottom4-chronic">
+    <div id="bottom4" class="bottom4-srow bottom4-commonworkplace">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-block d-lg-none mb-4">
@@ -379,27 +277,31 @@
                 <div class="col-lg-5 offset-lg-7">
                     <div class="item item-blue">
                         <h3 class="section-title">
-                            What We Treat
+                            Common workplace <br class="d-none d-lg-block">
+injuries treated
                         </h3>
-
-                        <ul class="pt-4 greenul splitul">
+                        
+                        <ul class="pt-4 greenul">
                             <li>
-                                Allergies / Asthma
+                                Abrasions
                             </li>
                             <li>
-                                Illness
+                                Back Pain
                             </li>
                             <li>
-                                Aches / Pains
+                                Burns & Rashes
                             </li>
                             <li>
-                                Minor Injuries
+                                Carpal Tunnel
                             </li>
                             <li>
-                                Minor Injuries
+                                Chemical Exposure
                             </li>
                             <li>
-                                Behavioral Health
+                                Contusions
+                            </li>
+                            <li>
+                                Sprains & Strains
                             </li>
                         </ul>
                     </div>
@@ -410,70 +312,139 @@
     <!-- BOTTOM 4 -->
 
 
-    <!--SHORT DESC-->
-    <div id="short-desc" class="mb-0 border-bottom-0">
+    <!--IPCE-->
+    <div id="ipce" class="ipceworkers">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h3 class="section-title">
-                        Can Akos prescribe medicine?
-                    </h3>
+                <div class="col-lg-12">
 
-                    <h6>
-                        Akos can prescribe when needed
-                    </h6>
-                    <p class="pt-3">
-                        When necessary, Akos providers can prescribe medications to treat your condition. <br
-                            class="d-none d-lg-block">
-                        We will not prescribe or renew medications in large quantities or controlled <br
-                            class="d-none d-lg-block">
-                        substances regulated by the DEA.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--SHORT DESC-->
-
-
-
-
-    <!-- MAP SECT -->
-    <div id="map-sect">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <h3 class="section-title pb-4">
-                        Care you can trust, right where you live.
-                    </h3>
-                    <h6>
-                        So whether you walk in or call ahead, we'll be ready to take care of you.
-                    </h6>
-
-                    <div class="map-frame">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55565170.29301636!2d-132.08532758867793!3d31.786060306224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1624372261876!5m2!1sen!2sin"
-                            style="border:0;height: 400px;width: 100%;" allowfullscreen="" loading="lazy"></iframe>
-
-                        <div class="text-left">
-                            <h4 class="pt-4 text-left" style="color: #071F3E;font-size: 23px;">
-                                Hours of Operation
-                            </h4>
-
-                            <span class="timing pb-2" style="color: #707070;font-size: 15px;line-height: 22px;">
-                                Monday - Friday 9am - 9pm <br>
-                                Saturday - Sunday 10am - 6pm
-                            </span>
-                            <br>
-                            <a href="mailto:MedClinic@akosmd.com"
-                                style="color: #071F3E;font-size: 15px;">MedClinic@akosmd.com</a>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="section-title text-center">
+                                Employee Workflow
+                            </h3>
                         </div>
                     </div>
+
+                    <div class="row pt-5 mt-3">
+
+                        <div class="col-lg-4">
+                            <div class="item" data-aos="fade-right">
+                                <img src="img/workers-compensation/injury-authorization.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <h4>
+                                        Injury Authorization
+                                    </h4>
+                                    <p>
+                                        The injured employee reports the injury to 
+their supervisor, who in turn advises the 
+employee to call Akos, their workers’ 
+compensation healthcare provider.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item" data-aos="fade-right" data-aos-delay="300">
+                                <img src="img/workers-compensation/account-registration.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <h4>
+                                        Account Registration
+                                    </h4>
+                                    <p>
+                                        The employee creates an account profile
+                                        that is connected to their employer database.
+                                        Here they can enter a brief medical history
+                                        and pre-existing medical conditions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item" data-aos="fade-right">
+                                <img src="img/workers-compensation/nurse-triage.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <h4>
+                                        Nurse Triage
+                                    </h4>
+                                    <p>
+                                        During triage, the employee connects with a 
+nurse who is specialized in workers' 
+compensation cases and works under the 
+supervision of a physician. The nurse then 
+triages the employee and determines best care
+path.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 offset-lg-2">
+                            <div class="item" data-aos="fade-right" data-aos-delay="300">
+                                <img src="img/workers-compensation/physician-consult.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <h4>
+                                        Physician Consult
+                                    </h4>
+                                    <p>
+                                        Should the injury require care beyond first-aid,
+the nurse will transfer the call to a board-certified
+provider experienced in occupational medicine
+who will diagnose the injury and provide a 
+treatment plan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item" data-aos="fade-right" data-aos-delay="300">
+                                <img src="img/workers-compensation/redirection.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <h4>
+                                        Redirection
+                                    </h4>
+                                    <p>
+                                        If needed, the employee may be referred for
+an in-person visit with an Akos Prefrred 
+Provider Network physician, a specialist, PT/OT
+services or ancillary service provider.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- MAP SECT -->
+    <!--IPCE-->
+
+
+    <!-- SIGN UP -->
+    <div class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6>
+                        Sign up today to get started
+                    </h6>
+                    <h3>
+                        Akos takes business further
+                    </h3>
+                    <a href="" class="cta-btn">
+                        Connect with Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SIGN UP -->
 
 
     <!-- STAY CONNECTED FORM -->

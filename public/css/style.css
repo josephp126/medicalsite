@@ -6,11 +6,126 @@ body * {
 }
 
 /* Winner */
-.menu-item a:hover{
-  color:rgba(255, 251, 5, 0.6) !important;
+.menu-item a:hover {
+  color: rgba(255, 251, 5, 0.6) !important;
 }
-.menu-item.active{
+.menu-item.active {
   border-bottom: 3px solid #dbb624;
+}
+#wrapper #vpc_explanation .healthcare-benefit {
+  padding: 15px 3% 15px 4%;
+}
+#wrapper #vpc_explanation .immediate-access {
+  padding: 15px 22px 15px 1.2rem;
+  background-color: rgb(148, 148, 148);
+}
+
+#wrapper #vpc_explanation .section-title {
+  border-bottom: 2px dashed #1aa5cb;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#wrapper #vpc_explanation .section-content .sub-title {
+  font-size: 24px;
+  color: #1aa5cb;
+}
+
+#wrapper #vpc_explanation .medical-care {
+  margin-top: 25px;
+}
+
+#wrapper #vpc_explanation .section-content .sub-content {
+  font-size: 24px;
+}
+
+#wrapper #vpc_explanation .section-content .sub-content .plus-symbol {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1aa5cb;
+}
+
+#wrapper #vpc_explanation .immediate-access .section-title {
+  color: white;
+  border-bottom: 2px dashed white;
+}
+
+#wrapper #vpc_explanation .immediate-access .section-content p {
+  font-size: 26px;
+  color: white;
+}
+
+#wrapper #vpc_explanation .immediate-access .virtual-visit,
+#wrapper #vpc_explanation .immediate-access .medical-kiosk {
+  margin-top: 30px;
+}
+
+#wrapper #vpc_explanation .immediate-access .virtual-visit .title p,
+#wrapper #vpc_explanation .immediate-access .medical-kiosk .title p {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+#wrapper #vpc_explanation .immediate-access .virtual-visit .title {
+  background-color: #089fc7;
+  padding: 2px 7px;
+}
+
+#wrapper #vpc_explanation .immediate-access .medical-kiosk .title {
+  background-color: #1c6693;
+  padding: 2px 7px;
+}
+
+#wrapper #vpc_explanation .immediate-access .virtual-visit .title p span,
+#wrapper #vpc_explanation .immediate-access .medical-kiosk .title p span {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#wrapper #vpc_explanation .immediate-access .virtual-visit img,
+#wrapper #vpc_explanation .immediate-access .medical-kiosk img {
+  width: 100%;
+}
+
+#wrapper #vpc_explanation .immediate-access .medical-kiosk .description p,
+#wrapper #vpc_explanation .immediate-access .virtual-visit .description p {
+  font-size: 18px;
+}
+
+.dark-mask.schools {
+  background-image: url(../img/home_schools_bg.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 100px 0;
+  min-height: 800px;
+  color: #fff;
+  position: relative;
+}
+
+.dark-mask.schools h4 {
+  color: white;
+}
+
+section p {
+  color: white;
+}
+
+section .learn-more {
+  color: white;
+  font-weight: bold;
+}
+
+section.blog-module {
+  background-color: white;
+}
+
+section.newsletter-form {
+  background-color: white;
+}
+
+#main-top.telemedicine {
+  background-image: url("../img/prac.mp4");
+  background-size: cover;
 }
 
 /* Winner */
@@ -260,28 +375,32 @@ p {
   background-size: cover;
 }
 
-#main-top.for-employers{
+#main-top.vpc {
+  background-image: url("../img/for-employers/vpc-back.jpg");
+  background-size: cover;
+}
+
+#main-top.for-employers {
   background-image: url("../img/prac.mp4");
   background-size: cover;
 }
 
-#main-top.workers-compensation{
+#main-top.workers-compensation {
   background-image: url("../img/workers-compensation/workers-compensation-cover.jpg");
   background-size: cover;
 }
 
-#main-top.chroniccare{
+#main-top.chroniccare {
   background-image: url("../img/chroniccare/chronic-care-cover.jpg");
   background-size: cover;
 }
 
-#main-top.medclinic{
+#main-top.medclinic {
   background-image: url("../img/medclinic/medclinics-cover.jpg");
   background-size: cover;
 }
 
-
-#main-top.medclinic1{
+#main-top.medclinic1 {
   background-image: url("../img/med-clinic-1/med-clinic1-cover.jpg");
   background-size: cover;
 }
@@ -299,6 +418,18 @@ p {
   color: #ffffff;
   line-height: 60px;
   margin-bottom: 40px;
+}
+
+#main-top.vpc .hero h2 {
+  margin-bottom: 10px;
+}
+
+#main-top.vpc .hero p {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 
 #main-top .hero h6 {
@@ -326,8 +457,8 @@ a.navarrow {
   border-bottom: thin #d3d3d5 solid;
 }
 
-#short-desc h6{
-  color: #071F3E;
+#short-desc h6 {
+  color: #071f3e;
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -855,15 +986,14 @@ span.vdivider {
   padding-top: 10px;
 }
 
-#bottom4{
-  background-color: #FBFCFE;
+#bottom4 {
+  background-color: #fbfcfe;
 }
 
 #bottom4 .container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 
 #bottom4.bottom4-frow {
   background-image: url(../img/doc-knee.jpg);
@@ -881,14 +1011,13 @@ span.vdivider {
   background-image: url(../img/for-employers/bigpicture-improvements.jpg) !important;
 }
 
-#bottom4.bottom4-frow-newhome{
+#bottom4.bottom4-frow-newhome {
   background-image: url(../img/medclinic/newhome.jpg) !important;
 }
 
-#bottom4.bottom4-frow-exceptional{
+#bottom4.bottom4-frow-exceptional {
   background-image: url(../img/med-clinic-1/exceptional-care.jpg) !important;
 }
-
 
 #bottom4.bottom4-frow h3 {
   color: #071f3e;
@@ -900,15 +1029,15 @@ span.vdivider {
   line-height: 26px;
 }
 
-#bottom4.bottom4-frow-solid-1{
+#bottom4.bottom4-frow-solid-1 {
   position: relative;
   background-image: none !important;
 }
 
-#bottom4.bottom4-frow-solid-1:before{
+#bottom4.bottom4-frow-solid-1:before {
   content: "";
   position: absolute;
-  background-color: #071F3E;
+  background-color: #071f3e;
   height: 100%;
   width: 50%;
   right: 0;
@@ -916,27 +1045,27 @@ span.vdivider {
   z-index: 0;
 }
 
-#bottom4.bottom4-frow-solid-1 .container{
+#bottom4.bottom4-frow-solid-1 .container {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-#bottom4.bottom4-frow-solid-1 .sect{
+#bottom4.bottom4-frow-solid-1 .sect {
   padding-bottom: 30px;
 }
 
-#bottom4.bottom4-frow-solid-1 .sect h6{
+#bottom4.bottom4-frow-solid-1 .sect h6 {
   font-size: 15px;
   line-height: 22px;
 }
 
-#bottom4.bottom4-frow-solid-1 .sectl{
+#bottom4.bottom4-frow-solid-1 .sectl {
   width: 100%;
   text-align: left;
   margin-bottom: 23px;
 }
 
-#bottom4.bottom4-frow-solid-1 .sectl h6{
+#bottom4.bottom4-frow-solid-1 .sectl h6 {
   font-size: 15px;
   line-height: 24px;
   text-align: left;
@@ -960,19 +1089,19 @@ span.vdivider {
   color: #071f3e;
 }
 
-#bottom4.bottom4-srowseamless{
+#bottom4.bottom4-srowseamless {
   background-image: url(../img/for-employers/morewith-seamless-app.jpg);
 }
 
-#bottom4.bottom4-commonworkplace{
+#bottom4.bottom4-commonworkplace {
   background-image: url(../img/for-employers/bigpicture-improvements.jpg);
 }
 
-#bottom4.bottom4-chronic{
+#bottom4.bottom4-chronic {
   background-image: url(../img/chroniccare/chronic-c-we-treat.jpg);
 }
 
-#bottom4.bottom4-whatwetreat2{
+#bottom4.bottom4-whatwetreat2 {
   background-image: url(../img/med-clinic-1/what-we-treat.jpg);
 }
 
@@ -1149,11 +1278,11 @@ span.vdivider {
   font-weight: 400;
 }
 
-.greenul{
+.greenul {
   position: relative;
 }
 
-.greenul li{
+.greenul li {
   font-size: 18px;
   color: #262626;
   position: relative;
@@ -1174,26 +1303,24 @@ span.vdivider {
   top: 5px;
 }
 
-
-#bottom4.bottom4-frow-solid-1 .b-box h3.section-title{
+#bottom4.bottom4-frow-solid-1 .b-box h3.section-title {
   font-size: 25px;
   margin-bottom: 20px;
 }
 
-
-#bottom4.bottom4-frow-solid-1 .b-box *{
+#bottom4.bottom4-frow-solid-1 .b-box * {
   color: #fff !important;
 }
 
-#map-sect{
-  background-color: #071F3E;
+#map-sect {
+  background-color: #071f3e;
   padding: 70px 0 370px 0;
   color: #fff;
   position: relative;
   margin-bottom: 370px;
 }
 
-#map-sect .map-frame{
+#map-sect .map-frame {
   position: absolute;
   left: 0;
   top: 0;
@@ -1201,11 +1328,10 @@ span.vdivider {
   margin-top: 170px;
 }
 
-#map-sect *{
+#map-sect * {
   color: #fff;
   text-align: center;
 }
-
 
 @media only screen and (max-width: 1400px) {
   #partners {
@@ -1244,14 +1370,12 @@ span.vdivider {
 }
 
 @media only screen and (max-width: 991px) {
-
-
-  #bottom4.bottom4-frow-solid-1:before{
+  #bottom4.bottom4-frow-solid-1:before {
     background-color: #fff;
   }
 
-  #bottom4.bottom4-frow-solid-1 .b-box{
-    background-color: #071F3E;
+  #bottom4.bottom4-frow-solid-1 .b-box {
+    background-color: #071f3e;
     padding: 40px 0 10px 0;
   }
 
@@ -1371,18 +1495,14 @@ span.vdivider {
   transition: none;
 }
 
-
-
 @media only screen and (max-width: 991px) {
-
-  
   #main-top .header .main-menu li:hover .submenu-cont {
     max-height: 0 !important;
     transition: all 1s;
     -webkit-transition: all 1s;
   }
 
-  #main-top .header .main-menu li .submenu-cont{
+  #main-top .header .main-menu li .submenu-cont {
     max-height: 0 !important;
   }
 
@@ -1392,29 +1512,28 @@ span.vdivider {
     -webkit-transition: all 1s;
     padding-top: 10px;
   }
-  
-  #main-top .header ul.main-menu > li{
+
+  #main-top .header ul.main-menu > li {
     margin-left: 0;
     padding-left: 30px !important;
     padding-bottom: 15px;
-    padding-top:0;
+    padding-top: 0;
   }
 
-  #main-top .header ul.main-menu > li:not(:first-child,:last-child)
-  {
+  #main-top .header ul.main-menu > li:not(:first-child, :last-child) {
     border-bottom: thin #344761 solid;
   }
 
-  #main-top .header ul.main-menu > li > a:not(.cta-btn-outline,.cta-btn-1){
-    padding:0 0 10px 0;
+  #main-top .header ul.main-menu > li > a:not(.cta-btn-outline, .cta-btn-1) {
+    padding: 0 0 10px 0;
   }
 
   #main-top .header .main-menu a.menudropitem .darr {
     transform: rotate(-90deg);
   }
 
-  #main-top .header .main-menu a.menudropitem.open .darr{
-    transform:rotate(0deg);
+  #main-top .header .main-menu a.menudropitem.open .darr {
+    transform: rotate(0deg);
   }
 
   #main-top .header .main-menu .submenu-cont {
@@ -1443,9 +1562,8 @@ span.vdivider {
   }
 
   #main-top .header .main-menu li:hover .submenu:after {
-   display: none;
+    display: none;
   }
-
 
   #main-top .header .main-menu .submenu li {
     margin-left: 0 !important;
@@ -1503,30 +1621,28 @@ span.vdivider {
   }
 }
 
-
-.signup-section{
+.signup-section {
   text-align: center;
-  background-color: #FBFCFE !important;
+  background-color: #fbfcfe !important;
   padding: 80px 0;
 }
 
-.ipceworkers{
-  border:0 !important;
+.ipceworkers {
+  border: 0 !important;
   padding-bottom: 10px;
 }
 
-
-.signup-section h6{
+.signup-section h6 {
   text-align: center;
   font-size: 22px;
   margin-bottom: 10px;
-  color: #071F3E;
+  color: #071f3e;
 }
 
-.signup-section h3{
+.signup-section h3 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 40px;
-  color: #071F3E;
+  color: #071f3e;
 }

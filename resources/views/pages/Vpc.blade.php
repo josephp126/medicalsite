@@ -1,16 +1,17 @@
 @extends('layouts.app')
 
 @section('mainContent')
-<div id="main-top" class="for-employers">
-    <div id="fullwidth-video">
+<div id="main-top" class="vpc">
+    <!-- <div id="fullwidth-video">
         <div class="fullwidth-video-bg">
             <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
                 defaultMuted playsinline webkit-playsinline oncontextmenu="return false;" preload="auto"
                 onplaying="this.controls=false">
-                <source src="{{asset('img/prac.mp4')}}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="img/bgvideo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
         </div>
-    </div>
+    </div> -->
+
     <div class="header">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
@@ -86,7 +87,7 @@
                             </a>
                         </li>
                         <li class="menu-item">
-                        <a href="/"> Home </a>
+                            <a href="/"> Home </a>
                         </li>
                         <li class="menu-item active">
                             <a href="/vpc"> Employers </a>
@@ -161,21 +162,25 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <h2 data-aos="fade-right">
-                        Always on call, <br>
-                        so you never fall behind
-                    </h2>
+                        Virtual Primary Care <br>
+                    </h2>   
+                    <p data-aos="fade-right">Member Benefits Summary</p>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Improve the health of your employees with Akos
+                        Your employer has expanded their healthcare <br>
+                        benefits package to include Akos as a direct <br>
+                        primary care partner. As a member of the <br>
+                        Akos health plan, you have unlimited access <br>
+                        to many of the services Akos has to offer. <br>
+                        The benefits listed are available to you with <br>
+                        no copay and $0 deductible.
                     </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
-                        Connect with Us
-                    </a>
                 </div>
             </div>
         </div>
     </div>
+
     <a href="javascript:void(0)" class="navarrow">
         <img src="img/down-arrow.svg" alt="" />
     </a>
@@ -183,138 +188,135 @@
 <!--    TOP SECTION-->
 
 <div id="wrapper">
-    <!--SHORT DESC-->
-    <div id="short-desc" class="mb-0 border-bottom-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h3 class="section-title">
-                        Akos offers medical care for <br class="d-none d-lg-block">
-                        modern professionals
-                    </h3>
-                    <p class="pt-4">
-                        With Akos, you can provide your employees with 24/7 access to medical care for both
-                        workplace injury and personal medical needs in one seamless telemedicine app.
-                    </p>
+    <!-- BOTTOM 4 -->
+    <div id="vpc_explanation" class="bottom4-frow bottom4-frow-newhome">
+        <div class="row">
+            <div class="col-lg-8 healthcare-benefit">
+                <div class="item item-blue">
+                    <div class="all-inclusive">
+                        <p class="section-title">
+                            All-Inclusive Healthcare Benefits 
+                        </p>
+                        <div class="row section-content">
+                            <div class="col-lg-6">
+                                <p class="sub-title">
+                                    Primary Care
+                                </p>
+                                <p class="sub-content">
+                                    <span class="plus-symbol">+</span> 24/7/365 access to care<br>
+                                    <span class="plus-symbol">+</span> Unlimited virtual visits<br>
+                                    <span class="plus-symbol">+</span> Dedicated primary care provider<br>
+                                    <span class="plus-symbol">+</span> Real-time consultations<br>
+                                    <span class="plus-symbol">+</span> No appointment necessary<br>
+                                    <span class="plus-symbol">+</span> HIPAA-compliant platform<br>
+                                    <span class="plus-symbol">+</span> National provider coverage<br>
+                                    <span class="plus-symbol">+</span> Prescriptions and refills<br>
+                                    <span class="plus-symbol">+</span> Sick & return-to-work notes<br>
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="sub-title">
+                                    Planned & Preventive Care
+                                </p>
+                                <p class="sub-content">
+                                    <span class="plus-symbol">+</span> Whole health evaluation<br>
+                                    <span class="plus-symbol">+</span> Health rish assessment<br>
+                                    <span class="plus-symbol">+</span> Chronic care management<br>
+                                    <span class="plus-symbol">+</span> Health & wellness coaching<br>
+                                    <span class="plus-symbol">+</span> Smoking cessation<br>
+                                    <span class="plus-symbol">+</span> Diabetes prevention<br>
+                                    <span class="plus-symbol">+</span> Weight management<br>
+                                </p>
+                            </div>
+                        </div><br>
+                        <div class="row section-content">
+                            <div class="col-lg-6">
+                                <div class="primary-care">
+                                    <p class="sub-title">
+                                        Care Navigation
+                                    </p>
+                                    <p class="sub-content">
+                                        <span class="plus-symbol">+</span> Dedicated care navigator<br>
+                                        <span class="plus-symbol">+</span> Guidance to providers<br>
+                                        <span class="plus-symbol">+</span> Scheduling support<br>
+                                        <span class="plus-symbol">+</span> Referrals to specialists<br>
+                                        <span class="plus-symbol">+</span> Specialty care coordination<br>
+                                        <span class="plus-symbol">+</span> Lab and imaging coordination<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="sub-title">
+                                    Patient Dashboard
+                                </p>
+                                <p class="sub-content">
+                                    <span class="plus-symbol">+</span> Medical records<br>
+                                    <span class="plus-symbol">+</span> Health score and goals<br>
+                                    <span class="plus-symbol">+</span> Claims data<br>
+                                    <span class="plus-symbol">+</span> Plan benefit information<br>
+                                    <span class="plus-symbol">+</span> Low-cost prescription finder<br>
+                                    <span class="plus-symbol">+</span> Education materials<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medical-care">
+                        <p class="section-title">
+                            Medical Care Made Easy 
+                        </p>
+                        <div class="section-content">
+                            <p class="sub-content">
+                                <span class="plus-symbol">+</span> Real-time consultations<br>
+                                <span class="plus-symbol">+</span> Secure chat and video with care team<br>
+                                <span class="plus-symbol">+</span> Online appointment setting<br>
+                                <span class="plus-symbol">+</span> Care team collaboration<br>
+                                <span class="plus-symbol">+</span> Integrate medical data across providers<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 immediate-access">
+                <p class="section-title">
+                    Immediate Access to Care
+                </p>
+                <div class="section-content">
+                    <p style="margin-bottom: 5px;">Unlimited Visits</p>
+                    <p style="font-style:italic;">No copay, $o deductible</p>
+                    <div class="virtual-visit">
+                        <div class="title">
+                            <p>Virtual Visit (<span>NationWide</span>)</p>
+                        </div>
+                        <div class="content">
+                            <img src="{{asset('img/vpc/vpc-virtual-visit.png')}}" />
+                        </div>
+                        <div class="description">
+                            <p>
+                                Consult with a provider whenever,<br>
+                                wherever, within minutes from any<br>
+                                smart device
+                            </p>
+                        </div>
+                    </div>
+                    <div class="medical-kiosk">
+                        <div class="title">
+                            <p>Medical Kiosk (<span>Where Available</span>)</p>
+                        </div>
+                        <div class="content">
+                            <img src="{{asset('img/vpc/vpc-medical-kiosk.png')}}" />
+                        </div>
+                        <div class="description">
+                            <p>
+                                Get additional vitals, labs and diagnostics<br>
+                                at our AI/AR telehealth-enabled medical<br>
+                                station
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--SHORT DESC-->
-
-    <!-- FEATBOX -->
-    <div id="featbox" class="pt-0">
-        <div class="container">
-            <div class="row featrow">
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/more-convenience.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            More Convenience
-                        </h5>
-                        <p>
-                            Akos offers customized implementation
-                            so you can streamline the way your business
-                            handles work-related injuries and illness.
-                            We can even go live in as little as 30 days to
-                            make your transition easier.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/less-cost.html.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Less Cost
-                        </h5>
-                        <p>
-                            With Akos, you can minimize the cost of ER
-                            and urgent care visits. And thanks to our 
-                            proactive approach to healthcare, 
-                            we can also reduce claims and risks for 
-                            workplace injury, which in turn helps you lower 
-                            your E-MOD ratings and insurance costs
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/better-care.html.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Better care
-                        </h5>
-                        <p>
-                            Akos improves more than employee productivity,
-                            it helps boost morale. By giving your staff 
-                            the opportunity to diagnose and treat interfering 
-                            medical conditions through our telemedicine 
-                            app, you can put the well-being of your 
-                            employees first without compromising
-                            the health of your business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- FEATBOX -->
-
-    <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-frow bottom4-frow-big">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="item item-blue">
-                        <h3 class="section-title">
-                            See big picture improvements
-                        </h3>
-                        <p class="pt-4">
-                            Akos provides 24/7/365 access to care, with same day appointment
-                            for urgent care. We also offer extended office visits with dedicated
-                            primary care provider. The Akos care model reduces the overall pocket
-                            spend and offers wellness and reward programs to promote employee
-                            health and well being.
-                        </p>
-                        <a href="" class="btn-cta-outline-white mt-5">Connect with Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-block d-lg-none mt-4">
-                    <img src="img/for-employers/bigpicture-improvements.jpg" style="width: 100%;" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- BOTTOM 4 -->
-
-
-    <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-srow bottom4-srowseamless">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 d-block d-lg-none mb-4">
-                    <img src="img/for-employers/morewith-seamless-app.jpg" style="width: 100%;" alt="">
-                </div>
-
-                <div class="col-lg-5 offset-lg-7">
-                    <div class="item item-blue">
-                        <h3 class="section-title">
-                            Get more with one seamless app
-                        </h3>
-                        <p class="pt-4">
-                            Day or night, weekend or holidays, Akos is there to diagnose
-                            and treat a wide range of health concerns - from ankle
-                            sprains to anxiety. Finally, a medical app that takes care of
-                            you so you can take care of everything else.
-                        </p>
-                        <a href="" class="cta-btn mt-5">Connect with Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- BOTTOM 4 -->
-
 
     <!-- STAY CONNECTED FORM -->
     <div id="sc-form">
