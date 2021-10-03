@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     @yield('custom_css')
 </head>
 
@@ -266,6 +267,20 @@
                 arrows: false,
                 buttons: false,
             });
+        });
+        if($(window).width() < 760){
+            $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
+        }
+        else{
+            $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
+        }
+        $(window).on('resize', function(){
+            var win = $(this);
+            if (win.width() <= 760) {
+                $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
+            }else{
+                $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
+            }
         });
     </script>
     @yield('custom_js')

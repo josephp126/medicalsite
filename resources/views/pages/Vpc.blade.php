@@ -190,129 +190,97 @@
 <div id="wrapper">
     <!-- BOTTOM 4 -->
     <div id="vpc_explanation" class="bottom4-frow bottom4-frow-newhome">
-        <div class="row">
-            <div class="col-lg-8 healthcare-benefit">
-                <div class="item item-blue">
-                    <div class="all-inclusive">
-                        <p class="section-title">
-                            All-Inclusive Healthcare Benefits 
-                        </p>
-                        <div class="row section-content">
-                            <div class="col-lg-6">
-                                <p class="sub-title">
-                                    Primary Care
-                                </p>
-                                <p class="sub-content">
-                                    <span class="plus-symbol">+</span> 24/7/365 access to care<br>
-                                    <span class="plus-symbol">+</span> Unlimited virtual visits<br>
-                                    <span class="plus-symbol">+</span> Dedicated primary care provider<br>
-                                    <span class="plus-symbol">+</span> Real-time consultations<br>
-                                    <span class="plus-symbol">+</span> No appointment necessary<br>
-                                    <span class="plus-symbol">+</span> HIPAA-compliant platform<br>
-                                    <span class="plus-symbol">+</span> National provider coverage<br>
-                                    <span class="plus-symbol">+</span> Prescriptions and refills<br>
-                                    <span class="plus-symbol">+</span> Sick & return-to-work notes<br>
-                                </p>
-                            </div>
-                            <div class="col-lg-6">
-                                <p class="sub-title">
-                                    Planned & Preventive Care
-                                </p>
-                                <p class="sub-content">
-                                    <span class="plus-symbol">+</span> Whole health evaluation<br>
-                                    <span class="plus-symbol">+</span> Health rish assessment<br>
-                                    <span class="plus-symbol">+</span> Chronic care management<br>
-                                    <span class="plus-symbol">+</span> Health & wellness coaching<br>
-                                    <span class="plus-symbol">+</span> Smoking cessation<br>
-                                    <span class="plus-symbol">+</span> Diabetes prevention<br>
-                                    <span class="plus-symbol">+</span> Weight management<br>
-                                </p>
-                            </div>
-                        </div><br>
-                        <div class="row section-content">
-                            <div class="col-lg-6">
-                                <div class="primary-care">
-                                    <p class="sub-title">
-                                        Care Navigation
-                                    </p>
-                                    <p class="sub-content">
-                                        <span class="plus-symbol">+</span> Dedicated care navigator<br>
-                                        <span class="plus-symbol">+</span> Guidance to providers<br>
-                                        <span class="plus-symbol">+</span> Scheduling support<br>
-                                        <span class="plus-symbol">+</span> Referrals to specialists<br>
-                                        <span class="plus-symbol">+</span> Specialty care coordination<br>
-                                        <span class="plus-symbol">+</span> Lab and imaging coordination<br>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <p class="sub-title">
-                                    Patient Dashboard
-                                </p>
-                                <p class="sub-content">
-                                    <span class="plus-symbol">+</span> Medical records<br>
-                                    <span class="plus-symbol">+</span> Health score and goals<br>
-                                    <span class="plus-symbol">+</span> Claims data<br>
-                                    <span class="plus-symbol">+</span> Plan benefit information<br>
-                                    <span class="plus-symbol">+</span> Low-cost prescription finder<br>
-                                    <span class="plus-symbol">+</span> Education materials<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="medical-care">
-                        <p class="section-title">
-                            Medical Care Made Easy 
-                        </p>
-                        <div class="section-content">
-                            <p class="sub-content">
-                                <span class="plus-symbol">+</span> Real-time consultations<br>
-                                <span class="plus-symbol">+</span> Secure chat and video with care team<br>
-                                <span class="plus-symbol">+</span> Online appointment setting<br>
-                                <span class="plus-symbol">+</span> Care team collaboration<br>
-                                <span class="plus-symbol">+</span> Integrate medical data across providers<br>
-                            </p>
-                        </div>
-                    </div>
+        <div class="all-inclusive">
+            <p class="section-title">
+                All-Inclusive Healthcare Benefits 
+            </p>
+            <div class="row section-content">
+                <div class="col-sm-6">
+                    <p class="sub-title">
+                        Primary Care
+                    </p>
+                </div>
+                <div class="col-sm-6 sub-content-div">
+                    <p class="sub-content">
+                        <span class="plus-symbol">+</span> 24/7/365 access to care<br>
+                        <span class="plus-symbol">+</span> Unlimited virtual visits<br>
+                        <span class="plus-symbol">+</span> Dedicated primary care provider<br>
+                        <span class="plus-symbol">+</span> Real-time consultations<br>
+                        <span class="plus-symbol">+</span> No appointment necessary<br>
+                        <span class="plus-symbol">+</span> HIPAA-compliant platform<br>
+                        <span class="plus-symbol">+</span> National provider coverage<br>
+                        <span class="plus-symbol">+</span> Prescriptions and refills<br>
+                        <span class="plus-symbol">+</span> Sick & return-to-work notes<br>
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12 immediate-access">
-                <p class="section-title">
-                    Immediate Access to Care
-                </p>
-                <div class="section-content">
-                    <p style="margin-bottom: 5px;">Unlimited Visits</p>
-                    <p style="font-style:italic;">No copay, $o deductible</p>
-                    <div class="virtual-visit">
-                        <div class="title">
-                            <p>Virtual Visit (<span>NationWide</span>)</p>
-                        </div>
-                        <div class="content">
-                            <img src="{{asset('img/vpc/vpc-virtual-visit.png')}}" />
-                        </div>
-                        <div class="description">
-                            <p>
-                                Consult with a provider whenever,<br>
-                                wherever, within minutes from any<br>
-                                smart device
-                            </p>
-                        </div>
-                    </div>
-                    <div class="medical-kiosk">
-                        <div class="title">
-                            <p>Medical Kiosk (<span>Where Available</span>)</p>
-                        </div>
-                        <div class="content">
-                            <img src="{{asset('img/vpc/vpc-medical-kiosk.png')}}" />
-                        </div>
-                        <div class="description">
-                            <p>
-                                Get additional vitals, labs and diagnostics<br>
-                                at our AI/AR telehealth-enabled medical<br>
-                                station
-                            </p>
-                        </div>
-                    </div>
+            <div class="row section-content">
+                <div class="col-sm-6 col-sm-push-6">
+                    <p class="sub-title">
+                        Planned & Preventive Care
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 sub-content-div">
+                    <p class="sub-content">
+                        <span class="plus-symbol">+</span> Whole health evaluation<br>
+                        <span class="plus-symbol">+</span> Health rish assessment<br>
+                        <span class="plus-symbol">+</span> Chronic care management<br>
+                        <span class="plus-symbol">+</span> Health & wellness coaching<br>
+                        <span class="plus-symbol">+</span> Smoking cessation<br>
+                        <span class="plus-symbol">+</span> Diabetes prevention<br>
+                        <span class="plus-symbol">+</span> Weight management<br>
+                    </p>
+                </div>
+                
+            </div>
+            <div class="row section-content">
+                <div class="col-sm-6">
+                    <p class="sub-title">
+                        Care Navigation
+                    </p>
+                </div>
+                <div class="col-sm-6 sub-content-div">
+                    <p class="sub-content">
+                        <span class="plus-symbol">+</span> Dedicated care navigator<br>
+                        <span class="plus-symbol">+</span> Guidance to providers<br>
+                        <span class="plus-symbol">+</span> Scheduling support<br>
+                        <span class="plus-symbol">+</span> Referrals to specialists<br>
+                        <span class="plus-symbol">+</span> Specialty care coordination<br>
+                        <span class="plus-symbol">+</span> Lab and imaging coordination<br>
+                    </p>
+                </div>
+            </div>
+            <div class="row section-content">
+                <div class="col-sm-6 col-sm-push-6">
+                    <p class="sub-title">
+                        Patient Dashboard
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 sub-content-div">
+                    <p class="sub-content">
+                        <span class="plus-symbol">+</span> Medical records<br>
+                        <span class="plus-symbol">+</span> Health score and goals<br>
+                        <span class="plus-symbol">+</span> Claims data<br>
+                        <span class="plus-symbol">+</span> Plan benefit information<br>
+                        <span class="plus-symbol">+</span> Low-cost prescription finder<br>
+                        <span class="plus-symbol">+</span> Education materials<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="medical-care">
+            <p class="section-title">
+                Medical Care Made Easy 
+            </p>
+            <div class="section-content">
+                <div class="sub-content-div">
+                    <p class="sub-content">
+                        <span class="plus-symbol">+</span> Real-time consultations<br>
+                        <span class="plus-symbol">+</span> Secure chat and video with care team<br>
+                        <span class="plus-symbol">+</span> Online appointment setting<br>
+                        <span class="plus-symbol">+</span> Care team collaboration<br>
+                        <span class="plus-symbol">+</span> Integrate medical data across providers<br>
+                    </p>
                 </div>
             </div>
         </div>

@@ -25,19 +25,29 @@ body * {
   font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  padding-left: 24px;
 }
 
 #wrapper #vpc_explanation .section-content .sub-title {
-  font-size: 24px;
+  font-size: 32px;
   color: #1aa5cb;
 }
 
+#wrapper #vpc_explanation .all-inclusive {
+  margin-top: 20px;
+}
+
 #wrapper #vpc_explanation .medical-care {
-  margin-top: 25px;
+  margin-top: 50px;
+}
+
+#wrapper #vpc_explanation .medical-care .sub-content-div {
+  padding-left: 24px !important;
 }
 
 #wrapper #vpc_explanation .section-content .sub-content {
   font-size: 24px;
+  color: white;
 }
 
 #wrapper #vpc_explanation .section-content .sub-content .plus-symbol {
@@ -46,50 +56,15 @@ body * {
   color: #1aa5cb;
 }
 
-#wrapper #vpc_explanation .immediate-access .section-title {
-  color: white;
-  border-bottom: 2px dashed white;
+#wrapper #vpc_explanation .section-content .col-sm-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#wrapper #vpc_explanation .immediate-access .section-content p {
-  font-size: 26px;
-  color: white;
-}
-
-#wrapper #vpc_explanation .immediate-access .virtual-visit,
-#wrapper #vpc_explanation .immediate-access .medical-kiosk {
-  margin-top: 30px;
-}
-
-#wrapper #vpc_explanation .immediate-access .virtual-visit .title p,
-#wrapper #vpc_explanation .immediate-access .medical-kiosk .title p {
-  font-size: 24px;
-  margin-bottom: 0px;
-}
-#wrapper #vpc_explanation .immediate-access .virtual-visit .title {
-  background-color: #089fc7;
-  padding: 2px 7px;
-}
-
-#wrapper #vpc_explanation .immediate-access .medical-kiosk .title {
-  background-color: #1c6693;
-  padding: 2px 7px;
-}
-
-#wrapper #vpc_explanation .immediate-access .virtual-visit .title p span,
-#wrapper #vpc_explanation .immediate-access .medical-kiosk .title p span {
-  font-size: 18px;
-  font-style: italic;
-}
-
-#wrapper #vpc_explanation .immediate-access .virtual-visit img,
-#wrapper #vpc_explanation .immediate-access .medical-kiosk img {
-  width: 100%;
-}
-
-#wrapper #vpc_explanation .immediate-access .medical-kiosk .description p,
-#wrapper #vpc_explanation .immediate-access .virtual-visit .description p {
-  font-size: 18px;
+#wrapper #vpc_explanation .section-content .sub-content-div {
+  background-color: #071f3e;
+  padding: 30px 0px;
 }
 
 .dark-mask.schools {
@@ -223,7 +198,6 @@ p {
   text-align: center;
   left: 50%;
   margin-left: -120px;
-  max-height: 0 !important;
   overflow: hidden !important;
   margin-top: -2px;
   z-index: 10;
@@ -1502,9 +1476,9 @@ span.vdivider {
     -webkit-transition: all 1s;
   }
 
-  #main-top .header .main-menu li .submenu-cont {
+  /* #main-top .header .main-menu li .submenu-cont {
     max-height: 0 !important;
-  }
+  } */
 
   #main-top .header .main-menu li .submenu-cont.open {
     max-height: 400px !important;
@@ -1543,7 +1517,7 @@ span.vdivider {
     text-align: left;
     left: 0;
     margin-left: 0;
-    max-height: 0 !important;
+    /* max-height: 0 !important; */
     overflow: hidden !important;
     margin-top: 0;
     padding-top: 0;

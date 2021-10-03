@@ -240,7 +240,7 @@
         <div class="row">
         <div class="col-12">
             <h3 class="section-title">
-            Comprehensive Employers Healthcare Solutions
+            Comprehensive Healthcare Solutions
             </h3>
         </div>
         </div>
