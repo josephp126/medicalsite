@@ -268,6 +268,24 @@
                 buttons: false,
             });
         });
+        if($(window).width() < 760){
+            $('#main-top .main-menu').css('overflow', 'scroll');
+            $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
+        }
+        else{
+            $('#main-top .main-menu').css('overflow', 'unset');
+            $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
+        }
+        $(window).on('resize', function(){
+            var win = $(this);
+            if (win.width() <= 760) {
+                $('#main-top .main-menu').css('overflow', 'scroll');
+                $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
+            }else{
+                $('#main-top .main-menu').css('overflow', 'unset');
+                $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
+            }
+        });
     </script>
     
 </body>
