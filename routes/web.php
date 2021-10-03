@@ -27,6 +27,7 @@ Route::get('/workerscompensation', 'Start_landing_page@WorkersCompensation');
 
 Route::get('/onsiteclinics', 'Start_landing_page@OnsiteClinics');
 
+Route::get('/employers', 'Start_landing_page@Employers');
 
 Route::get('/providers', 'Start_landing_page@Providers');
 

@@ -86,7 +86,7 @@
                         <a href="/"> Home </a>
                     </li>
                     <li class="menu-item">
-                        <a href="/vpc"> Employers </a>
+                        <a href="/employers"> Employers </a>
                         <div class="submenu-cont">
                             <ul class="submenu">
                                 <li>
@@ -249,19 +249,19 @@
         <div class="col-md-6 col-lg-4 mb-5">
             <div class="item" style="background-image: url('img/hc-solutions/virtual-hc.jpg');">
             <h6>Virtual <br>Primary Care</h6>
-            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <a href="/vpc"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-5">
             <div class="item" style="background-image: url('img/hc-solutions/compensation-hc.jpg');">
             <h6>Worker's <br>Compensation</h6>
-            <a href="workers-compensation.html"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <a href="/workerscompensation"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-5">
             <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
             <h6>Akos Med <br>Clinics</h6>
-            <a href="med-clinics.html"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <a href="/onsiteclinics"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-5">
@@ -279,7 +279,7 @@
         <div class="col-md-6 col-lg-4 mb-5">
             <div class="item" style="background-image: url('img/hc-solutions/chronic-hc.jpg');">
             <h6>Chronic Care<br>Management</h6>
-            <a href="chronic-care-management.html"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <a href="/ccm"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
             </div>
         </div>
         </div>

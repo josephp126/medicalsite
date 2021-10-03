@@ -90,7 +90,7 @@
                             <a href="/"> Home </a>
                         </li>
                         <li class="menu-item active">
-                            <a href="/vpc"> Employers </a>
+                            <a href="/employers"> Employers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
                                     <li>

@@ -31,6 +31,10 @@ class Start_landing_page extends Controller
         return view('pages.Vpc');
     }
 
+    public function Employers(){
+        return view('pages.Employers');
+    }
+
     public function Telemedicine(){
         return view('pages.Telemedicine');
     }
