@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('mainContent')
-<div id="main-top" class="workers-compensation">
+<div id="main-top" class="chroniccare">
     <!-- <div id="fullwidth-video">
         <div class="fullwidth-video-bg">
             <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
@@ -164,11 +164,11 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 data-aos="fade-right">
-                        A healthier way to  <br>
-do business
+                        Welcome to Chronic <br>
+                        Care Management
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Get the Akos advantage and transform the way your employees get care
+                        A program centered on you
                     </h6>
                     <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
@@ -191,13 +191,16 @@ do business
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h3 class="section-title">
-                        Workers compensation that works <br class="d-none d-lg-block">
-For you, for them, for everyone
+                        Akos Chronic Care Management
                     </h3>
-                    <p class="pt-4">
-                        70% of worker's compensation cases can be resolved without a physical visit to the ER or Urgent Care.
-Akos Worker's Compensation Program reduces medical costs, avoids unnecessary ER and urgent visits, 
-improves employee productivity, and keeps employees on site for diagnosis and treatment. 
+
+                    <h6>
+                        A program centered on you
+                    </h6>
+                    <p class="pt-3">
+                        The Akos Virtual Care Ecosystem is supported by our comprehensive care management program.
+                        Akos Chronic Care Management is a clinically validated, provider led care management
+                        program aimed at improving health and reducing healthcare costs.
                     </p>
                 </div>
             </div>
@@ -205,59 +208,122 @@ improves employee productivity, and keeps employees on site for diagnosis and tr
     </div>
     <!--SHORT DESC-->
 
-    
+
 
     <!-- BOTTOM 4 -->
     <div id="bottom4" class="bottom4-frow bottom4-frow-solid-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
+                <div class="col-lg-5 d-flex align-items-center">
                     <div class="item item-blue">
                         <h3 class="section-title">
-                            Immediate care, <br class="d-none d-lg-block">
-long term results
+                            Understanding<br class="d-none d-lg-block">
+                            Chronic Conditions
                         </h3>
                         <p class="pt-4">
-                            Businesses benefit from Akos
+                            Chronic conditions are ongoing, incurable illnesses that
+                            affect more than 117 million people in the United States.
+                            The good news is, these conditions and diseases are often
+                            preventable and can be controlled with early detection,
+                            an improvement in diet, increased exercise, and treatment
+                            therapy. All of which you will receive help with achieving
+                            while in the Akos Care Management program.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 text-center b-box">
-                    
-                    <div class="sect">
-                        <img src="img/workers-compensation/device.svg" alt="">
-                        <h6 class="pt-3">
-                            24/7/365 access from a <br class="d-none d-lg-block">
-smartphone or tablet
-                        </h6>
+                <div class="col-lg-5 offset-lg-2 mt-4 text-center b-box">
+
+
+                    <div class="sectl">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2">
+                                <img src="img/chroniccare/care-navigator.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Provides you with a Care Navigator who <br class="d-none d-lg-block">
+                                    helps you manage your health
+                                </h6>
+                            </div>
+                        </div>
                     </div>
 
-                    
-                    <div class="sect">
-                        <img src="img/workers-compensation/virtaully-consult.svg" alt="">
-                        <h6 class="pt-3">
-                            Virtually consult with board-certified <br class="d-none d-lg-block">
-healthcare providers
-                        </h6>
+
+                    <div class="sectl">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2 pt-2">
+                                <img src="img/chroniccare/health-data.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Consolidates your health data into<br class="d-none d-lg-block">
+                                    one record that can be shared
+                                </h6>
+                            </div>
+                        </div>
                     </div>
 
-                    
-                    <div class="sect">
-                        <img src="img/workers-compensation/piggie-bank.svg" alt="">
-                        <h6 class="pt-3">
-                            Reduced workers’ compensation <br class="d-none d-lg-block">
-claims and medical costs
-                        </h6>
+
+                    <div class="sectl">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2 pt-2">
+                                <img src="img/chroniccare/costs.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Lowers your healthcare costs by <br class="d-none d-lg-block">
+eliminating redundancy
+                                </h6>
+                            </div>
+                        </div>
                     </div>
 
-                    
-                    <div class="sect">
-                        <img src="img/workers-compensation/urgent-care.svg" alt="">
-                        <h6 class="pt-3">
-                            Avoid unnecessary ER and <br class="d-none d-lg-block">
-urgent care visits
-                        </h6>
+
+                    <div class="sectl">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2 pt-2">
+                                <img src="img/chroniccare/communication.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Keeps communication open between <br class="d-none d-lg-block">
+you and all your doctors
+                                </h6>
+                            </div>
+                        </div>
                     </div>
+
+
+                    <div class="sectl">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2 pt-2">
+                                <img src="img/chroniccare/low-cost.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Helps you find low-cost medications <br class="d-none d-lg-block">
+if options are available
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sectl mb-5">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2 pt-2">
+                                <img src="img/chroniccare/setgoals.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h6 class="pt-3">
+                                    Enables you to set health goals and <br class="d-none d-lg-block">
+helps you achieve them
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
             </div>
@@ -267,7 +333,7 @@ urgent care visits
 
 
     <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-srow bottom4-commonworkplace">
+    <div id="bottom4" class="bottom4-srow bottom4-chronic">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-block d-lg-none mb-4">
@@ -278,30 +344,39 @@ urgent care visits
                     <div class="item item-blue">
                         <h3 class="section-title">
                             Common workplace <br class="d-none d-lg-block">
-injuries treated
+                            injuries treated
                         </h3>
-                        
-                        <ul class="pt-4 greenul">
+
+                        <ul class="pt-4 greenul splitul">
                             <li>
-                                Abrasions
+                                Asthma
                             </li>
                             <li>
-                                Back Pain
+                                Arthritis
                             </li>
                             <li>
-                                Burns & Rashes
+                                Allergies
                             </li>
                             <li>
-                                Carpal Tunnel
+                                Cancer
                             </li>
                             <li>
-                                Chemical Exposure
+                                COPD
                             </li>
                             <li>
-                                Contusions
+                                Depression
                             </li>
                             <li>
-                                Sprains & Strains
+                                Diabetes
+                            </li>   
+                            <li>
+                                Heart Failure
+                            </li>
+                            <li>
+                                High Blood Pressure
+                            </li>
+                            <li>
+                                Stroke
                             </li>
                         </ul>
                     </div>
@@ -312,119 +387,7 @@ injuries treated
     <!-- BOTTOM 4 -->
 
 
-    <!--IPCE-->
-    <div id="ipce" class="ipceworkers">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="section-title text-center">
-                                Employee Workflow
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div class="row pt-5 mt-3">
-
-                        <div class="col-lg-4">
-                            <div class="item" data-aos="fade-right">
-                                <img src="img/workers-compensation/injury-authorization.jpg" class="img-fluid" alt="">
-                                <div class="desc">
-                                    <h4>
-                                        Injury Authorization
-                                    </h4>
-                                    <p>
-                                        The injured employee reports the injury to 
-their supervisor, who in turn advises the 
-employee to call Akos, their workers’ 
-compensation healthcare provider.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="item" data-aos="fade-right" data-aos-delay="300">
-                                <img src="img/workers-compensation/account-registration.jpg" class="img-fluid" alt="">
-                                <div class="desc">
-                                    <h4>
-                                        Account Registration
-                                    </h4>
-                                    <p>
-                                        The employee creates an account profile
-                                        that is connected to their employer database.
-                                        Here they can enter a brief medical history
-                                        and pre-existing medical conditions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="item" data-aos="fade-right">
-                                <img src="img/workers-compensation/nurse-triage.jpg" class="img-fluid" alt="">
-                                <div class="desc">
-                                    <h4>
-                                        Nurse Triage
-                                    </h4>
-                                    <p>
-                                        During triage, the employee connects with a 
-nurse who is specialized in workers' 
-compensation cases and works under the 
-supervision of a physician. The nurse then 
-triages the employee and determines best care
-path.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 offset-lg-2">
-                            <div class="item" data-aos="fade-right" data-aos-delay="300">
-                                <img src="img/workers-compensation/physician-consult.jpg" class="img-fluid" alt="">
-                                <div class="desc">
-                                    <h4>
-                                        Physician Consult
-                                    </h4>
-                                    <p>
-                                        Should the injury require care beyond first-aid,
-the nurse will transfer the call to a board-certified
-provider experienced in occupational medicine
-who will diagnose the injury and provide a 
-treatment plan.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="item" data-aos="fade-right" data-aos-delay="300">
-                                <img src="img/workers-compensation/redirection.jpg" class="img-fluid" alt="">
-                                <div class="desc">
-                                    <h4>
-                                        Redirection
-                                    </h4>
-                                    <p>
-                                        If needed, the employee may be referred for
-an in-person visit with an Akos Prefrred 
-Provider Network physician, a specialist, PT/OT
-services or ancillary service provider.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--IPCE-->
-
+    
 
     <!-- SIGN UP -->
     <div class="signup-section">
@@ -435,7 +398,7 @@ services or ancillary service provider.
                         Sign up today to get started
                     </h6>
                     <h3>
-                        Akos takes business further
+                        It's time to change the way you do healthcare
                     </h3>
                     <a href="" class="cta-btn">
                         Connect with Us
@@ -445,6 +408,41 @@ services or ancillary service provider.
         </div>
     </div>
     <!-- SIGN UP -->
+
+    <!-- HEALTHCARE SOLUTIONS -->
+    <div id="healthcare-solutions" class="pt-5 mt-5">
+    <div class="container">
+        <div class="row">
+        <div class="col-12 mb-5">
+            <h3 class="section-title text-center">
+            Other Solutions
+            </h3>
+        </div>
+        </div>
+
+        <div class="row sols-row">
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="item" style="background-image: url('img/hc-solutions/virtual-hc.jpg');">
+            <h6>Virtual <br>Primary Care</h3>
+            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="item" style="background-image: url('img/hc-solutions/compensation-hc.jpg');">
+            <h6>Worker's <br>Compensation</h3>
+            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
+            <h6>Akos Med <br>Clinics</h3>
+            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- HEALTHCARE SOLUTIONS -->
 
 
     <!-- STAY CONNECTED FORM -->

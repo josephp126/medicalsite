@@ -34,6 +34,8 @@ Route::get('/urgentcare', 'Start_landing_page@urgentCare');
 
 Route::get('/remotepatient', 'Start_landing_page@RemotePatient');
 
+Route::get('/ccm', 'Start_landing_page@CCM');
+
 Route::get('/whowe', 'Start_landing_page@WhoWe');
 
 Route::get('/logout', 'Start_landing_page@index');

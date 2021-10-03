@@ -51,6 +51,10 @@ class Start_landing_page extends Controller
         return view('pages.RemotePatient');
     }
 
+    public function CCM(){
+        return view('pages.CCM');
+    }
+
     public function WhoWe(){
         return view('pages.WhoWe');
     }
