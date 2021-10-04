@@ -36,6 +36,9 @@
 	.read-more.career-toggle{
 		cursor: pointer;
 	}
+	.physicians-list .physician-tile .col-sm-9 {
+		padding-top: 25px; 
+	}
 </style>
 @endsection
 
@@ -187,9 +190,9 @@
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Kishlay Anand MD MS FHRS</h4> <span class="physician-title">Founder & Chief Executive Officer</span>
-									<div class="physician-bio">
+									<!-- <div class="physician-bio">
 										<p>Dr. Kishlay Anand is a board-certified cardiologist and electrophysiologist and Akos co-founder. Dr. Anand garnered extensive administrative experience serving as Chairman of InstantMed Health Center, an innovative healthcare delivery model with Urgent...</p>
-                  </div>
+                  					</div> -->
 								</div>
 							</div>
 						</div>
@@ -203,9 +206,9 @@
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Swaraj Singh MD</h4> <span class="physician-title">Founder & Chief Innovation Officer</span>
-									<div class="physician-bio">
+									<!-- <div class="physician-bio">
 										<p>Dr. Swaraj Singh is a vascular neurologist and Akos co-founder. Dr. Singh garnered extensive administrative experience serving as medical director for neurology and stroke programs at Banner Thunderbird Medical Center, Banner Estrella...</p> 
-                  					</div>
+                  					</div> -->
 								</div>
 							</div>
 						</div>
@@ -220,9 +223,9 @@
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Maria A Shah MD</h4> <span class="physician-title">Medical Officer</span>
-									<div class="physician-bio">
+									<!-- <div class="physician-bio">
 										<p>Maria A Shah is an experienced healthcare administrator with proven success in managing clinical operations to drive strong and sustained growth. Maria is a champion for evidence-based and cost-effective medical...</p>
-                  					</div>
+                  					</div> -->
 								</div>
 							</div>
 						</div>
@@ -236,9 +239,9 @@
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Dean Hoffman</h4> <span class="physician-title">Chief Financial Officer</span>
-									<div class="physician-bio">
+									<!-- <div class="physician-bio">
 										<p>Dean Hoffman is a senior executive with over 25 years of diverse executive leadership. His financial, operational, and entrepreneurial expertise has been the foundation of his working with both private...</p>
-                  					</div>
+                  					</div> -->
 								</div>
 							</div>
 						</div>
