@@ -355,6 +355,15 @@ p {
   background-size: cover;
 }
 
+/*winner*/
+
+#main-top.whowe {
+  background-image: url("../img/whowe/whowe-back.jpg");
+  background-size: cover;
+}
+
+/*winner*/
+
 #main-top.vpc {
   background-image: url("../img/for-employers/vpc-back.jpg");
   background-size: cover;

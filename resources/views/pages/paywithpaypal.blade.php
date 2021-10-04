@@ -6,10 +6,6 @@
 @if (Session::has('message'))
 <div class="alert alert-success">{{ Session::get('message') }}</div>
 @endif
-
-
-    
-
     <div class="w3-container">
         @if ($message = Session::get('success'))
         <div class="w3-panel w3-green w3-display-container">

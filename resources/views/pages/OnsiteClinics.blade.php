@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.sub_app')
 
 @section('mainContent')
 <div id="main-top" class="medclinic">

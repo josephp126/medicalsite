@@ -1,32 +1,13 @@
-<!doctype html>
-<html lang="en-US" prefix="og: http://ogp.me/ns#">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Telemedicine for Employers – Akos Medical Care for Employees</title>
+@extends('layouts.app')
 
-<!-- This site is optimized with the Yoast SEO plugin v5.2 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Reduce expenses with the Akos telemedicine app. With Akos app, employers put employees first without compromising the health of the business."/>
-<link rel="canonical" href="https://akosmd.com/employers/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Telemedicine for Employers – Akos Medical Care for Employees" />
-<meta property="og:description" content="Reduce expenses with the Akos telemedicine app. With Akos app, employers put employees first without compromising the health of the business." />
-<meta property="og:url" content="https://akosmd.com/employers/" />
-<meta property="og:site_name" content="Akos" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Reduce expenses with the Akos telemedicine app. With Akos app, employers put employees first without compromising the health of the business." />
-<meta name="twitter:title" content="Telemedicine for Employers – Akos Medical Care for Employees" />
-<!-- / Yoast SEO plugin. -->
-
+@section('custom_css')
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' id='sage/css-css'  href='https://akosmd.com/app/themes/akostheme/dist/styles/main-ae5c3d99f9.css' type='text/css' media='all' />
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='https://akosmd.com/wp-json/' />
-<link rel="alternate" type="application/json+oembed" href="https://akosmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fakosmd.com%2Femployers%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://akosmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fakosmd.com%2Femployers%2F&#038;format=xml" />
+<link rel="alternate" type="application/json+oembed" href="https://akosmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fakosmd.com%2Four-team%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://akosmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fakosmd.com%2Four-team%2F&#038;format=xml" />
 <script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_lAxoEaKyN2b7OYGd.js'); })(); </script><script type="text/javascript" src="https://secure.leadforensics.com/js/143156.js" ></script>
 <noscript><img src="https://secure.leadforensics.com/143156.png" style="display:none;" /></noscript><link rel="icon" href="https://akosmd.com/app/uploads/2018/05/favicon.png" sizes="32x32" />
 <link rel="icon" href="https://akosmd.com/app/uploads/2018/05/favicon.png" sizes="192x192" />
@@ -34,867 +15,490 @@
 <meta name="msapplication-TileImage" content="https://akosmd.com/app/uploads/2018/05/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400%7COpen+Sans:300" rel="stylesheet">
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLqQBbFAQfh5etT9JhoHO6F_7tGZc_IHQ"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js">
-</script>
-</head>
-<body class="page-template page-template-network-employers page-template-network-employers-php page page-id-35 employers sidebar-primary elementor-default">
-    <script>document.body.className += ' fade-out';var tdu = "https://akosmd.com/app/themes/akostheme";</script>
-    <div class="overlay">
-  <svg class="close-button" xmlns="http://www.w3.org/2000/svg" viewBox="39.2 22.3 25 24.5"><path d="M39.5,46.4c0.2,0.2,0.6,0.4,0.9,0.4c0.3,0,0.6-0.1,0.9-0.4l10.3-10.3L62,46.4c0.2,0.2,0.6,0.4,0.9,0.4c0.3,0,0.6-0.1,0.9-0.4c0.5-0.5,0.5-1.3,0-1.8L53.5,34.3l9.8-9.8c0.5-0.5,0.5-1.3,0-1.8c-0.5-0.5-1.3-0.5-1.8,0l-9.8,9.8l-9.8-9.8c-0.5-0.5-1.3-0.5-1.8,0c-0.5,0.5-0.5,1.3,0,1.8l9.8,9.8L39.5,44.6C39,45.1,39,45.9,39.5,46.4z"/></svg>
-  <div class="video-container">
-  <iframe id="video" src="https://player.vimeo.com/video/196455768?api=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+	section p{
+		color: #767373;
+	}
+	section.investors {
+		background-size: cover;
+		background-position: 0 0;
+		min-height: 600px;
+		background-image: url(../img/whowe/investors.jpg);
+	}
+	section.careers-list p{
+		font-weight: 300;
+	}
+	section.careers-list .full-post{
+		display: none;
+	}
+	.read-more.career-toggle{
+		cursor: pointer;
+	}
+</style>
+@endsection
+
+@section('mainContent')<div id="main-top" class="whowe">
+	<!-- <div id="fullwidth-video">
+      <div class="fullwidth-video-bg">
+          <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
+              defaultMuted playsinline webkit-playsinline oncontextmenu="return false;" preload="auto"
+              onplaying="this.controls=false">
+              <source src="img/bgvideo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+      </div>
+  </div> -->
+	<div class="header">
+		<div class="container-fluid d-flex justify-content-center">
+			<div class="row">
+				<div class="col-6 col-lg-2">
+					<a href="index.html"> <img src="img/logo.svg" class="img-fluid logo" alt="" /> </a>
+				</div>
+				<div class="col-6 col-lg-10 text-right">
+					<a href="javascript:void(0)" class="menu-toggle-btn pt-2 d-inline-block d-lg-none">
+						<svg xmlns="http://www.w3.org/2000/svg" width="47" height="18" viewBox="0 0 47 18">
+							<g id="menu-toggle" transform="translate(-46 -19)">
+								<rect id="Rectangle_2" data-name="Rectangle 2" width="47" height="3" transform="translate(46 19)" fill="#fff"></rect>
+								<rect id="Rectangle_3" data-name="Rectangle 3" width="32" height="3" transform="translate(61 34)" fill="#fff"></rect>
+							</g>
+						</svg>
+					</a>
+					<ul class="main-menu text-left text-lg-right">
+						<li class="pb-5 text-right d-block d-lg-none pt-4 pr-4">
+							<a href="javascript:void(0)" class="pt-1 menu-close-btn close-toggle">
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 46.531 45.619">
+									<g id="menu-close-btn" transform="translate(-51.469 -2.676)">
+										<rect id="Rectangle_2" data-name="Rectangle 2" width="60.644" height="3.871" transform="translate(52.381 45.557) rotate(-45)" fill="#fff"></rect>
+										<rect id="Rectangle_9" data-name="Rectangle 9" width="60.644" height="3.871" transform="translate(54.206 2.676) rotate(45)" fill="#fff"></rect>
+									</g>
+								</svg>
+							</a>
+						</li>
+						<li class="menu-item"> <a href="/"> Home </a> </li>
+						<li class="menu-item"> <a href="/employers"> Employers </a>
+							<div class="submenu-cont">
+								<ul class="submenu">
+									<li> <a href="/vpc">VPC</a> </li>
+									<li> <a href="/workerscompensation">Worker's Compensation</a> </li>
+									<li> <a href="/onsiteclinics">Onsite Clinics</a> </li>
+									<li> <a href="/telemedicine">Telemedicine</a> </li>
+								</ul>
+							</div>
+						</li>
+						<li class="menu-item"> <a href="/onsiteclinics"> Onsite Clinics </a> </li>
+						<li class="menu-item"> <a href="/urgentcare"> Urgent Care Centre </a> </li>
+						<li class="menu-item"> <a href="/providers"> Providers </a>
+							<div class="submenu-cont">
+								<ul class="submenu">
+									<li> <a href="">Primary Providers</a> </li>
+									<li> <a href="">Specialist</a> </li>
+									<li> <a href="">ACI/Value Based entities</a> </li>
+									<li> <a href="/ccm">CCM</a> </li>
+									<li> <a href="">RPM</a> </li>
+									<li> <a href="">Answering servicce/Nurse triage</a> </li>
+								</ul>
+							</div>
+						</li>
+						<li class="menu-item"> <a href="/remotepatient"> Remote Patient monitoring </a> </li>
+						<li class="menu-item active"> <a href="/whowe"> Who we are </a> </li>
+						<!-- <li>
+                          <a href="" class="cta-btn-outline"> Member Login </a>
+                      </li> -->
+						<li> <a href="" class="cta-btn-1">
+                              Contact Us
+                          </a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<h2 data-aos="fade-right">
+                      Care On Demand And <br>
+                      On Location
+                  </h2>
+					<h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
+                      Akos Med Clinic has you covered
+                  </h6> <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+                      Connect with Us
+                  </a> </div>
+			</div>
+		</div>
+	</div>
+	<a href="javascript:void(0)" class="navarrow"> <img src="img/down-arrow.svg" alt="" /> </a>
 </div>
-    <div id="nav-icon3" class="hidden-lg">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+<section class="network-top-panels">
+	<div class="network-top-panel">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 left-image">
+					<div class="main-image"><img src="https://akosmd.com/app/uploads/2017/01/out_team_top_panel1.jpg" alt="" /></div>
+				</div>
+				<div class="col-sm-4 col-sm-offset-1">
+					<h3>The future of healthcare</h3>
+					<p class="subtitle">A new era in digital health</p>
+					<p>Telemedicine is revolutionizing the healthcare industry, improving access and reducing cost for patients and providers alike. With digital health technology more advanced than ever and virtual consults that put both parties face to face, telemedicine is able to offer streamlined convenience without compromising quality care.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="network-top-panel">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6 right-image">
+					<div class="main-image"><img src="https://akosmd.com/app/uploads/2017/01/our_team_top_panel2.jpg" alt="" /></div>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6">
+					<h3>The future of telemedicine</h3>
+					<p class="subtitle">More than an app, an answer</p>
+					<p>Akos is a pioneer in telemedicine, offering patient-centered solutions that in turn benefit employers, physicians and healthcare centers. With a mobile interface that lets you virtually consult with a board-certified provider anywhere anytime and care coordinators to ensure your needs are always being met, Akos strives to provide the most comprehensive telemedicine service in healthcare.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="white-banner" id="team-anchor">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Meet the Akos Team</h1>
+				<p>Changing the way you do healthcare</p>
+			</div>
+			<div class="col-sm-12" style="padding-top: 30px">
+				<p>Our seasoned team of professionals brings decades of experience in healthcare and business to the field of telemedicine:</p>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="tab-content">
+	<div role="tabpanel" class="tab-pane fade in active" id="managementTeam">
+		<section class="physicians-detail physicians-list">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2016/12/Kishlay_2.jpg" alt="Kishlay Anand MD MS FHRS" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Kishlay Anand MD MS FHRS</h4> <span class="physician-title">Founder & Chief Executive Officer</span>
+									<div class="physician-bio">
+										<p>Dr. Kishlay Anand is a board-certified cardiologist and electrophysiologist and Akos co-founder. Dr. Anand garnered extensive administrative experience serving as Chairman of InstantMed Health Center, an innovative healthcare delivery model with Urgent...</p>
+                  </div>
+								</div>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2016/12/Swaraj_1.jpg" alt="Swaraj Singh MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Swaraj Singh MD</h4> <span class="physician-title">Founder & Chief Innovation Officer</span>
+									<div class="physician-bio">
+										<p>Dr. Swaraj Singh is a vascular neurologist and Akos co-founder. Dr. Singh garnered extensive administrative experience serving as medical director for neurology and stroke programs at Banner Thunderbird Medical Center, Banner Estrella...</p> 
+                  					</div>
+								</div>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Maria A Shah MD</h4> <span class="physician-title">Medical Officer</span>
+									<div class="physician-bio">
+										<p>Maria A Shah is an experienced healthcare administrator with proven success in managing clinical operations to drive strong and sustained growth. Maria is a champion for evidence-based and cost-effective medical...</p>
+                  					</div>
+								</div>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Dean Hoffman</h4> <span class="physician-title">Chief Financial Officer</span>
+									<div class="physician-bio">
+										<p>Dean Hoffman is a senior executive with over 25 years of diverse executive leadership. His financial, operational, and entrepreneurial expertise has been the foundation of his working with both private...</p>
+                  					</div>
+								</div>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 </div>
-<div id="mobile-menu" class="hidden-lg">
-    <div class="mobile-main-nav">
-        <ul>
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Patients</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/using-akos">Using Akos</a></li>
-                    <li><a href="/pricing">Pricing</a></li>
-                    <li><a href="/what-we-treat">What We Treat</a></li>
-                    <li><a href="/prescriptions-pharmacy">Prescriptions &amp; Pharmacy</a></li>
-                    <li><a href="/physicians">Physicians</a></li>
-                    <li><a href="/healthcare-centers">Healthcare Centers</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Urgent Care Centers</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/urgent-care-centers">About Us</a></li>
-                    <li><a href="/services-treatments">Services &amp; Treatments</a></li>
-                    <li><a href="/employer-services">Employer Services</a></li>
-                    <li><a href="/locations">Locations</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Med Clinics</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/med-clinics">About Us</a></li>
-                    <li><a href="/med-clinics/how-it-works">How It Works</a></li>
-                    <li><a href="/med-clinics/services-treatments">Services &amp; Treatments</a></li>
-                    <li><a href="/med-clinics/prescriptions-pharmacy">Prescriptions &amp; Pharmacy</a></li>
-                    <li><a href="/med-clinics/locations">Locations</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Businesses</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/employers">Employers</a></li>
-                    <li><a href="/workers-compensation">Workers Compensation</a></li>
-                    <li><a href="/wellness">Wellness</a></li>
-                    <li><a href="/schools">Schools</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Providers</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/providers">Providers</a></li>
-                    <li><a href="/network-healthcare-centers">Healthcare Centers</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="list-header">
-                    <div class="icon">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                    </div>
-                    <span>Our Team</span>
-                </div>
-                <ul class="list-drop">
-                    <li><a href="/our-team">About Akos</a></li>
-                    <li><a href="/our-team/#team-anchor">Meet the Akos Team</a></li>
-                    <li><a href="/our-team/#investor-anchor">Investors</a></li>
-                    <li><a href="/our-team/#career-anchor">Careers</a></li>
-                </ul>
-            </li>
-            <li><a href="/news">News</a></li>
-        </ul>
-    </div>
-</div>
-    <header class="container-fluid">
-    <div class="row">
-        <div class="col-lg-3 pull-left">
-            <div class="logo">
-                <a class="brand" href="https://akosmd.com/"><img src="https://akosmd.com/app/themes/akostheme/dist/images/logo.png" alt="AKOS" /></a>
-            </div>
-        </div>
-        <div class="col-lg-9 pull-right">
-            <div class="header-right">
-                <div class="apps hidden-sm hidden-xs hidden-md">
-                    <div class="google">
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.akosmd.patientapp"><img src="https://akosmd.com/app/themes/akostheme/dist/images/google_header.png" alt="" /></a>
-                    </div>
-                    <div class="apple">
-                        <a target="_blank" href="https://itunes.apple.com/us/app/akos/id1187895369?ls=1&mt=8"><img src="https://akosmd.com/app/themes/akostheme/dist/images/apple_header.png" alt="" /></a>
-                    </div>
-                    <div class="provider-header">
-                        <a target="_blank" href="https://medical.akosmd.com/#!/room/medical/landing"><img src="https://akosmd.com/app/themes/akostheme/dist/images/provider-button-header.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="navigation hidden-xs hidden-sm hidden-md">
-                    <nav class="nav-primary">
-                        <ul class="parent">
-                            <li class="trigger">
-                              <a class="handle" href="/employers">Businesses</a>
-                              <ul class="drop">
-                                <li><a href="/employers">Employers</a></li>
-                                <li><a href="/workers-compensation">Workers Compensation</a></li>
-                                <li><a href="/wellness">Wellness</a></li>
-                                <li><a href="/schools">Schools</a></li>
-                              </ul>
-                            </li>
-                            <li class="trigger">
-                              <a class="handle" href="/using-akos">Patients</a>
-                              <ul class="drop">
-                                <li><a href="/using-akos">Using Akos</a></li>
-                                <li><a href="/pricing">Pricing</a></li>
-                                <li><a href="/what-we-treat">What We Treat</a></li>
-                                <li><a href="/prescriptions-pharmacy">Prescriptions &amp; Pharmacy</a></li>
-                                <li><a href="/physicians">Healthcare Providers</a></li>
-                                <li><a href="/healthcare-centers">Healthcare Centers</a></li>
-                              </ul>
-                            </li>
-                            <li class="trigger">
-                              <a class="handle" href="/urgent-care-centers">Urgent Care Centers</a>
-                              <ul class="drop">
-                                <li><a href="/urgent-care-centers">About Us</a></li>
-                                <li><a href="/services-treatments">Services &amp; Treatments</a></li>
-                                <li><a href="/employer-services">Employer Services</a></li>
-                                <li><a href="/locations">Locations</a></li>
-                              </ul>
-                            </li>
-                            <li class="trigger">
-                              <a class="handle" href="/med-clinics">Med Clinics</a>
-                              <ul class="drop">
-                                <li><a href="/med-clinics">About Us</a></li>
-                                <li><a href="/med-clinics/how-it-works">How It Works</a></li>
-                                <li><a href="/med-clinics/services-treatments">Services &amp; Treatments</a></li>
-                                <li><a href="/med-clinics/prescriptions-pharmacy">Prescriptions &amp; Pharmacy</a></li>
-                                <li><a href="/med-clinics/locations">Locations</a></li>
-                              </ul>
-                            </li>
-                            <li class="trigger">
-                              <a class="handle" href="/providers">Providers</a>
-                              <ul class="drop">
-                                <li><a href="/providers">Providers</a></li>
-                                <li><a href="/network-healthcare-centers">Healthcare Centers</a></li>
-                              </ul>
-                            </li>
-                            <li class="trigger">
-                              <a class="handle" href="/our-team">Our Team</a></li>
-                            <li class="trigger"><a href="/news">News</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-    <div id="page" class="page" role="document">
-        
-    <div class="hero-area">
-<div class="video-mask"></div>
-<video poster="//i.vimeocdn.com/video/714604783.webp?mw=2000&mh=1125&q=70" id="bgvid" playsinline autoplay muted loop>
-  <source src="https://player.vimeo.com/external/280980433.sd.mp4?s=992a60e0c9e06ec3dc7b1634a3174893cf9ff39c&profile_id=165" type="video/mp4">
-</video>
-    <div class="container">
-        <div class="hero-form big-form">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="content">
-                                                    <span class="hero-title"><p>Always on call,</p>
-<p>so you never fall behind</p>
-</span>
-                                                                            <span class="hero-subtitle"><p>Improve the health of your employees with Akos</p>
-</span>
-                                            </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 video-button">
-                    <div class="play-video play">
-                        <img src="https://akosmd.com/app/themes/akostheme/dist/images/play_button.png" alt="play" />
-                    </div>
-                </div>
-            </div>
-                    </div>
-    </div>
-</div>
-<div class="hidden-lg">
-<section class="app-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-2 col-md-8 col-md-offset-2">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-2">
-                        <div class="icon">
-                            <img src="https://akosmd.com/app/themes/akostheme/dist/images/app_icon.png" alt="AKOS" />
-                        </div>
-                    </div>
-                    <div class="col-xs-9 col-sm-10">
-                        <h2>Download Akos Today</h2>
-                        <p>Medical care in minutes</p>
-                        <div class="apps">
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <div class="google">
-                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.akosmd.patientapp"><img class="google" src="https://akosmd.com/app/themes/akostheme/dist/images/google_header.png" alt="" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="apple">
-                                        <a target="_blank" href="https://itunes.apple.com/us/app/akos/id1187895369?ls=1&mt=8"><img class="apple" src="https://akosmd.com/app/themes/akostheme/dist/images/apple_header.png" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="app-bar investors mobile-panel" id="investor-anchor">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-6">
+				<h2>An investment in healthcare</h2>
+				<p class="subtitle">Be part of the solution with Akos</p>
+				<p style="color:white; font-weight: 300">With the ability to handle 70 percent of clinic visits, telemedicine isn’t just one of the fastest growing trends in digital health, it’s the future. Become part of the healthcare solution by providing affordable alternative care for non-emergent conditions with Akos. </p>
+				<p><a class="akos-button" href="mailto:KAnand@AkosMD.com?subject=Investor Inquiry">Contact Us</a></p>
+			</div>
+		</div>
+	</div>
 </section>
-</div>
-    <div class="affix-box hidden-xs hidden-sm">
-  <section id="snc" class="site-nav-container">
-    <div class="container-fluid">
-      <div class="row bb">
-        <div class="col-sm-12">
-          <div class="site-nav">
-            <ul>
-              <li><a href="/employers#snc">Employers</a></li>
-              <li><a href="/workers-compensation#snc">Workers' Compensation</a></li>
-              <li><a href="/wellness#snc">Wellness</a></li>
-              <li><a href="/schools#snc">Schools</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="white-bar"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<section class="network-top-panels">  <div class="network-top-panel">
-    <div class="container-fluid">
-      <div class="row">
-        
-          <div class="col-sm-6 left-image">
-            <div class="main-image"><img src="https://akosmd.com/app/uploads/2016/12/network_employers_top_1-e1483733699304.jpg" alt="" /></div>
-          </div>
-          <div class="col-sm-4 col-sm-offset-1">
-
-                                    <h3>All for one</h3>
-            
-                        <p class="subtitle">See big picture improvements</p>
-            
-            <p>When the health of your employees takes a hit, your business does too.  When a workplace injury occurs or personal medical issue springs up, employee productivity falls and medical costs rise. Akos is disrupting the healthcare industry by integrating employee medical benefits and workers’ compensation into one revolutionary telemedicine platform.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="network-top-panel">
-    <div class="container-fluid">
-      <div class="row">
-                <div class="col-sm-6 pull-right right-image">
-          <div class="main-image"><img src="https://akosmd.com/app/uploads/2016/12/network_employers_top_2.jpg" alt="" /></div>
-        </div>
-        <div class="col-sm-4 col-sm-offset-1">
-
-                                  <h3>One for all</h3>
-            
-                        <p class="subtitle">Get more with one seamless app</p>
-            
-            <p>With Akos, you can provide your employees with 24/7 access to medical care for both workplace injury and personal medical needs in one seamless telemedicine app.  There’s no need for commutes, waiting rooms or rescheduling the day. Our virtual consults offer immediate medical care so your employees can return to work faster and at less cost to you.  </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-
-<section class="white-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Telemedicine for employers</h1>
-                <p>Akos offers medical care for modern professionals</p>
-            </div>
-        </div>
-    </div>
+<section class="white-banner" id="career-anchor">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>Explore careers with Akos</h3>
+				<p>From doctors to developers</p>
+			</div>
+		</div>
+	</div>
 </section>
-
-<section class="physician-panel employer-panel-1 mobile-panel">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-6">
-        <div class="content">
-          <h3>More convenience</h3>
-          <p class="subtitle">Simplify the step-by-step process</p>
-
-          <p>Akos offers customized implementation so you can streamline the way your business handles work-related injuries and illness. We can even go live in as little as 30 days to make your transition easier.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="physician-panel employer-panel-2 mobile-panel">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>Less cost</h3>
-        <p class="subtitle">Reduce unnecessary expenses</p>
-
-        <p>With Akos, you can minimize the cost of ER and urgent care visits. And thanks to our proactive approach to healthcare, we can also reduce claims and risks for workplace injury, which in turn helps you lower your E-MOD ratings and insurance costs.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="physician-panel employer-panel-3 mobile-panel dark-mask">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-6">
-        <div class="content">
-          <h3>Better care</h3>
-          <p class="subtitle">Improve the well-being of your staff</p>
-
-          <p>Akos improves more than employee productivity, it helps boost morale. By giving your staff the opportunity to diagnose and treat interfering medical conditions through our telemedicine app, you can put the well-being of your employees first without compromising the health of your business.</p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="white-banner form-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 mobile-center">
-                <h2>Akos takes business further</h2>
-                <p class="subhead">Sign up today to get started</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="site-form form-fadeout">
-    <div class="container">
-
-        <form id="employer-form" target="_blank" class="infusion-form form-inline" accept-charset="UTF-8" action="https://ki344.infusionsoft.com/app/form/process/32e543caff8751f95aa039043adc08d7" method="POST">
-
-            <input name="inf_form_xid" type="hidden" value="32e543caff8751f95aa039043adc08d7" />
-            <input name="inf_form_name" type="hidden" value="Employer Signup" />
-            <input name="infusionsoft_version" type="hidden" value="1.62.0.48" />
-
-            <div class="row">
-
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_FirstName" name="inf_field_FirstName" required/>
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Contact First Name *</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" iid="inf_field_LastName" name="inf_field_LastName" required/>
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Contact Last Name *</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_Email" name="inf_field_Email" required/>
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Contact Email *</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_Phone1" name="inf_field_Phone1" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Contact Phone</span>
-                      </label>
-                    </span>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_Company" name="inf_field_Company" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Company Name</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <div class="select-wrapper">
-                        <select class="infusion-select" id="inf_custom_CompanySize0" name="inf_custom_CompanySize0"><option value="">Company Size</option><option value="1-100">1-100</option><option value="101-500">101-500</option><option value="501-1000">501-1000</option><option value="1000+">1000+</option></select>
-
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_StreetAddress1" name="inf_field_StreetAddress1" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Company Address 1</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_StreetAddress2" name="inf_field_StreetAddress2" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Company Address 2</span>
-                      </label>
-                    </span>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_City" name="inf_field_City" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_City">
-                        <span class="input__label-content input__label-content--hoshi">City</span>
-                      </label>
-                    </span>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="select-wrapper">
-                        <select class="infusion-select" id="inf_custom_State1" name="inf_custom_State1"><option value="">State</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_field_PostalCode" name="inf_field_PostalCode" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">ZIP Code</span>
-                      </label>
-                    </span>
-                </div>
-                <div class="col-sm-3">
-                    <span class="input input--hoshi">
-                      <input class="input__field input__field--hoshi" type="text" id="inf_custom_Industry" name="inf_custom_Industry" />
-                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Company">
-                        <span class="input__label-content input__label-content--hoshi">Industry</span>
-                      </label>
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 col-sm-offset-9">
-                    <button type="submit" value="Submit" class="akos-button">Submit</button>
-                </div>
-            </div>
-
-        </form>
-    </div>
-</section>
-
-<section class="white-banner form-banner form-confirmation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 mobile-center">
-                <h2>Thank you.</h2>
-                <p class="subtitle">We will be in contact soon.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="app-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-2 col-md-8 col-md-offset-2">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-2">
-                        <div class="icon">
-                            <img src="https://akosmd.com/app/themes/akostheme/dist/images/app_icon.png" alt="AKOS" />
-                        </div>
-                    </div>
-                    <div class="col-xs-9 col-sm-10">
-                        <h2>Download Akos Today</h2>
-                        <p>Medical care in minutes</p>
-                        <div class="apps">
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <div class="google">
-                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.akosmd.patientapp"><img class="google" src="https://akosmd.com/app/themes/akostheme/dist/images/google_header.png" alt="" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="apple">
-                                        <a target="_blank" href="https://itunes.apple.com/us/app/akos/id1187895369?ls=1&mt=8"><img class="apple" src="https://akosmd.com/app/themes/akostheme/dist/images/apple_header.png" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="careers-list">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="career-post">
+					<div class="career-title-date">
+						<h3>Health Services Manager</h3> <span class="date">Aug 05</span>
+					</div>
+					<div class="career-body">
+						<p class="excerpt">Job Responsibilities: As a Health Services Manager you will: Coordinate sales efforts with the V.P of Client Implementations &amp; Development Maintain accurate records of all sales and prospecting activities including sales calls, appointments, closed sales and follow up activity within&hellip;</p>
+						<div class="full-post">
+							<p><strong><u>Job Responsibilities:</u></strong></p>
+							<p><strong>As a Health Services Manager you will:</strong></p>
+							<ul>
+								<li>Coordinate sales efforts with the V.P of Client Implementations &amp; Development</li>
+								<li>Maintain accurate records of all sales and prospecting activities including sales calls, appointments, closed sales and follow up activity within assigned territory using a SalesForce CRM tool.</li>
+								<li>Identify sales targets and leads, develop a sales funnel with an expected outcome of closing the sale and securing the targeted business opportunity.</li>
+								<li>Develop and execute individual account sales plans to secure new customer prospects daily.</li>
+								<li>Close sales by obtaining signed business service agreements and execute existing implementation strategies as needed.</li>
+								<li>Meet minimum monthly revenue goals established by the V.P of Client Implementations &amp; Development.</li>
+								<li>Solicit appropriate approvals on Pricing/Margin targets across multiple disciplines.</li>
+							</ul>
+							<p><strong><u>Job Requirements:</u></strong></p>
+							<ul>
+								<li>Bachelor’s degree or equivalent experience; sales and business curriculum preferred.</li>
+								<li>One to three years business- to- business sales experience sales experience.</li>
+								<li>Experience with CRM’s</li>
+								<li>A valid state driver license, satisfactory driving record and reliable transportation.</li>
+							</ul>
+							<p><strong><u>Work Environment and Conditions:</u></strong></p>
+							<ul>
+								<li>External &amp; internal client activity</li>
+								<li>In-person customer contact</li>
+								<li>Extensive territory mobility</li>
+								<li>Medical Center/office environment</li>
+							</ul>
+							<p><strong><u>Benefits Summary:</u></strong></p>
+							<ul>
+								<li>Medical/Vision/Prescription/Dental Plans</li>
+								<li>Life Insurance/ Long Term Disability</li>
+								<li>PTO Plan</li>
+								<li>Competitive Salary</li>
+								<li>Variable Compensation Plan</li>
+							</ul>
+							<p>If you’re looking for an organization that cares for your growth and well-being as much as it does for it’s patients, Apply Today!</p> 
+							<a style="margin: 30px 0;" class="akos-button" href="mailto:hello@akosmd.com?subject=Resume Submission for Health Services Manager">Submit Resume</a> 
+						</div> 
+						<div class="read-more career-toggle">read more</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="career-post">
+					<div class="career-title-date">
+						<h3>Akos Patient Intake Coordinator</h3> <span class="date">Jan 13</span> </div>
+					<div class="career-body">
+						<p class="excerpt">Position Overview: Intake care coordinators work in a call center environment answering patient calls through a video chat platform. This team takes inbound and outbound video and voice calls from patients via the Akos staff portal. They interact with both&hellip;</p>
+						<div class="full-post">
+							<p><strong><u>Position Overview:</u></strong></p>
+							<p>Intake care coordinators work in a call center environment answering patient calls through a video chat platform. This team takes inbound and outbound video and voice calls from patients via the Akos staff portal. They interact with both patients and physicians. Providing an exceptional patient experience through the delivery of telemedicine is their top priority.</p>
+							<p><strong><u>Responsibilities:</u></strong></p>
+							<ul>
+								<li>
+									<p>Respond to virtual and video calls, emails and live chats from patients</p>
+								</li>
+								<li>
+									<p>Confirm patient medical history</p>
+								</li>
+								<li>
+									<p>Pre-screen patient to ensure symptoms can be treated virtually</p>
+								</li>
+								<li>
+									<p>Identify and transfer patient to appropriate physician</p>
+								</li>
+								<li>
+									<p>Direct patient to healthcare center in our preferred network if patient needs physical care</p>
+								</li>
+								<li>
+									<p>Provide patient follow up</p>
+								</li>
+								<li>
+									<p>Interacts with various other departments to obtain information and resolve outstanding patient issues</p>
+								</li>
+								<li>
+									<p>Handle sensitive material, such as medical documents, prescriptions, medical records, etc.</p>
+								</li>
+								<li>
+									<p>Provides patients with detailed information related to billing questions</p>
+								</li>
+								<li>
+									<p>Inputs patient information with a high degree of accuracy</p>
+								</li>
+								<li>
+									<p>Complies with all applicable regulations (i.e. HIPAA)</p>
+								</li>
+								<li>
+									<p>Performs other relevant duties as assigned</p>
+								</li>
+							</ul>
+							<p><strong><u>Full/Part Time:</u></strong></p>
+							<ul>
+								<li>
+									<p>Part Time</p>
+								</li>
+								<li>
+									<p>10 Hour Shifts</p>
+								</li>
+							</ul>
+							<p><strong><u>Preferred Qualifications:</u></strong></p>
+							<ul>
+								<li>
+									<p>Medical Assistant, LPN or RN</p>
+								</li>
+								<li>
+									<p>Minimum 2 years in medical office or hospital</p>
+								</li>
+								<li>
+									<p>Knowledge of healthcare and medical terminology</p>
+								</li>
+								<li>
+									<p>Thorough knowledge of regulations governing medical services</p>
+								</li>
+								<li>
+									<p>Exceptional customer service skills</p>
+								</li>
+								<li>
+									<p>Excellent communication skills</p>
+								</li>
+								<li>
+									<p>High level of computer literacy and proficient typing skills</p>
+								</li>
+								<li>
+									<p>Experience working with web based systems</p>
+								</li>
+								<li>
+									<p>Must speak clearly and present in a professional manner</p>
+								</li>
+								<li>
+									<p>Ability to obtain, understand and analyze information received during call interactions</p>
+								</li>
+								<li>
+									<p>Bi-lingual (English/Spanish) preferred but not required</p>
+								</li>
+							</ul> 
+							<a style="margin: 30px 0;" class="akos-button" href="mailto:hello@akosmd.com?subject=Resume Submission for Akos Patient Intake Coordinator">Submit Resume</a> 
+						</div>
+						<div class="read-more career-toggle">read more</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="newsletter-form form-fadeout">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 mobile-center">
-                <h2>Join our newsletter</h2>
-                <p>Stay current with everything Akos</p>
-            </div>
-            <div class="col-sm-6">
-                <div class="form gray">
-                    <form accept-charset="UTF-8" target="_blank" action="https://ki344.infusionsoft.com/app/form/process/244a800f6d493b1da1ef25996f43a583" class="infusion-form" method="POST">
-                        <input name="inf_form_xid" type="hidden" value="244a800f6d493b1da1ef25996f43a583" />
-                        <input name="inf_form_name" type="hidden" value="Web Form submitted" />
-                        <input name="infusionsoft_version" type="hidden" value="1.62.0.37" />
-
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="infusion-field">
-                                    <span class="input input--hoshi">
-                                      <input class="input__field input__field--hoshi" type="text" id="inf_field_Email" name="inf_field_Email" />
-                                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Email">
-                                        <span class="input__label-content input__label-content--hoshi">Email *</span>
-                                      </label>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 pull-right text-right">
-                                <div class="infusion-submit">
-                                    <button type="submit" class="akos-button">Sign Up</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 mobile-center">
+				<h2>Join our newsletter</h2>
+				<p>Stay current with everything Akos</p>
+			</div>
+			<div class="col-sm-6">
+				<div class="form gray">
+					<form accept-charset="UTF-8" target="_blank" action="https://ki344.infusionsoft.com/app/form/process/244a800f6d493b1da1ef25996f43a583" class="infusion-form" method="POST">
+						<input name="inf_form_xid" type="hidden" value="244a800f6d493b1da1ef25996f43a583" />
+						<input name="inf_form_name" type="hidden" value="Web Form submitted" />
+						<input name="infusionsoft_version" type="hidden" value="1.62.0.37" />
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="infusion-field"> <span class="input input--hoshi">
+									<input class="input__field input__field--hoshi" type="text" id="inf_field_Email" name="inf_field_Email" />
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inf_field_Email">
+									<span class="input__label-content input__label-content--hoshi">Email *</span> </label>
+									</span>
+								</div>
+							</div>
+							<div class="col-xs-6 pull-right text-right">
+								<div class="infusion-submit">
+									<button type="submit" class="akos-button">Sign Up</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="white-banner form-banner form-confirmation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 mobile-center">
-                <h2>Thank you.</h2>
-                <p class="subtitle">You are now signed up to receive the latest patient news, updates and more.</p>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 mobile-center">
+				<h2>Thank you.</h2>
+				<p class="subtitle">You are now signed up to receive the latest patient news, updates and more.</p>
+			</div>
+		</div>
+	</div>
 </section>
-<section class="condition-carousel">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-          <h2>Some of our valued clients</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <div id="client-carousel-1" class="carousel slide" data-ride="carousel" data-interval="false" style="height: 220px; min-height: 220px;">
-          <ol class="carousel-indicators" style="bottom: -50px">
-                          <li data-target="#client-carousel-1" data-slide-to="0" class="active"></li>
-                            <li data-target="#client-carousel-1" data-slide-to="1" ></li>
-                            <li data-target="#client-carousel-1" data-slide-to="2" ></li>
-                            <li data-target="#client-carousel-1" data-slide-to="3" ></li>
-                            <li data-target="#client-carousel-1" data-slide-to="4" ></li>
-                            <li data-target="#client-carousel-1" data-slide-to="5" ></li>
-                        </ol>
+</div>
+@endsection
 
-          <div class="carousel-inner" role="listbox">
-                          <div class="item active">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Anthem-WC.png" alt="Anthem Workers' Compensation" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Quad-Graphics.png" alt="Quad Graphics" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Michels.png" alt="Michels" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                          <div class="item ">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/CPC-Logistics.png" alt="CPC Logistics" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/First-MCO.png" alt="First MCO" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Averitt.png" alt="Averitt" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                          <div class="item ">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/kohls.png" alt="Kohls" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Commscope.png" alt="Commscope" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/S1-Medical.png" alt="S1 Medical" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                          <div class="item ">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/paradigm.png" alt="Paradigm" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/city-health.png" alt="CityHealth Urgent Care" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/VML.png" alt="VML" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                          <div class="item ">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Workfirst-Casualty.png" alt="WorkFirst Casualty Company" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/Steward-Health.png" alt="Steward Health" />
-                      </div>
-                    </div>
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/WCCA.png" alt="WCCAmerica" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                          <div class="item ">
-                <div class="item-content" style="top:70px;">
-                  <div class="row" style="display: flex; flex-wrap: wrap;">
-                                        <div class="col-xs-4" style="flex-grow: 1;align-self: flex-end;">
-                      <div style="height: 150px;display: table-cell; vertical-align: middle">
-                        <img class="center-block img-responsive" style="" src="https://akosmd.com/app/uploads/2019/08/VRS.png" alt="VRS" />
-                      </div>
-                    </div>
-                                      </div>
-                </div>
-              </div>
-                      </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#client-carousel-1" role="button" data-slide="prev">
-            <span class="arrow" aria-hidden="true"><img src="https://akosmd.com/app/themes/akostheme/dist/images/prev_arrow.png" alt="previous"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#client-carousel-1" role="button" data-slide="next">
-            <span class="arrow" aria-hidden="true"><img src="https://akosmd.com/app/themes/akostheme/dist/images/next_arrow.png" alt="Next"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>    </div>
-    <footer class="footer">
-    <div class="container">
-        <div class="row top-footer">
-
-            <div class="col-sm-2 col-xs-12">
-                <div class="footer-logo">
-                    <div class="footer-logo-img">
-                        <img src="https://akosmd.com/app/themes/akostheme/dist/images/footer_logo.png" alt="AKOS" />
-                    </div>
-                    <p>1.844.900.AKOS<br/>
-                        <a href="mailto:hello@akosmd.com">hello@akosmd.com</a><br />
-                        P.O. Box 41638<br />
-                        Phoenix, AZ 85080<br />
-                        <a href="/contact-us">Contact Us</a></p>
-                </div>
-            </div>
-
-            <div class="col-sm-2 col-xs-12">
-                <div class="">
-                    <h4>Patients</h4>
-                    <a href="/using-akos/#snc">Using Akos</a>
-                    <a href="/pricing/#snc">Pricing</a>
-                    <a href="/what-we-treat/#snc">What We Treat</a>
-                    <a href="/prescriptions/#snc">Prescriptions and Pharmacy</a>
-                    <a href="/physicians/#snc">Healthcare Providers</a>
-                    <a href="/healthcare-centers/#snc">Healthcare Centers</a>
-                    <a href="/frequently-asked-questions#faq-anchor">FAQ</a>
-                </div>
-            </div>
-
-            <div class="col-sm-2 col-xs-12">
-                <div class="">
-                    <h4>Businesses</h4>
-                    <a href="/employers/#snc">Employers</a>
-                    <a href="/workers-compensation/#snc">Workers Comp</a>
-                    <a href="/wellness/#snc">Wellness</a>
-                    <a href="/schools/#snc">Schools</a>
-
-                    <h4 class="sub-head">Join Our Network</h4>
-                    <a href="/providers/#snc">Providers</a>
-                    <a href="/healthcare-centers/#snc">Healthcare Centers</a>
-                </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12">
-                <div class="">
-                    <h4>Urgent Care Centers</h4>
-                    <a href="/urgent-care-centers/#snc">About Us</a>
-                    <a href="/services-treatments/#snc">Services &amp; Treatments</a>
-                    <a href="/employer-services/#snc">Employer Services</a>
-                    <a href="/locations/#snc">Locations</a>
-
-                    <h4 class="sub-head">Our Team</h4>
-                    <a href="/our-team">About Akos</a>
-                    <a href="/our-team/#team-anchor">Meet the Akos Team</a>
-                    <a href="/our-team/#investor-anchor">Investors</a>
-                    <a href="/our-team/#career-anchor">Careers</a>
-                </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12">
-                <div class="social">
-                    <h4>Follow Us:</h4>
-                    <ul>
-                        <li><a target="_blank" href="//www.facebook.com/AkosMDTelehealth/"><i class="fa fa-facebook fa-2" aria-hidden="true"></i></a></li>
-                        <li><a target="_blank" href="//twitter.com/akos_md/"><i class="fa fa-twitter fa-2" aria-hidden="true"></i></a></li>
-                        <li><a target="_blank" href="//www.instagram.com/akos_md/"><i class="fa fa-instagram fa-2" aria-hidden="true"></i></a></li>
-                        <!-- <li><a target="_blank" href="#"><img src="https://akosmd.com/app/themes/akostheme/dist/images/footer_youtube.png" alt="" /></a></li> -->
-                        <li><a target="_blank" href="//www.linkedin.com/company/akos-md"><i class="fa fa-linkedin fa-2" aria-hidden="true"></i></a></li>
-                        <!-- <li><a target="_blank" href="#"><img src="https://akosmd.com/app/themes/akostheme/dist/images/footer_snapchat.png" alt="" /></a></li> -->
-                    </ul>
-                    <h4 class="sub-head">HIPAA Compliance</h4>
-                    <a href="https://www.vmracks.com/verify" target="_blank"><img src="https://akosmd.com/app/themes/akostheme/dist/images/hipaa_logo.png" alt="HIPAA Compliant Cloud Secured by VM Racks" id="vmracks-secure"></a>
-                    <div id="google_translate_element" style="margin-top: 20px"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-88632021-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 sub-footer">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p>Copyright &copy; 2021 Akos. All rights reserved.
-                    </div>
-                    <div class="col-sm-8 support-links">
-                        <a href="/contact-us">Customer Support</a> <span class="hidden-xs">|</span>
-                        <a href="/terms-of-service">Terms of Use</a> <span class="hidden-xs">|</span>
-                        <a href="/privacy-policy">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+@section('custom_js')
 <script type='text/javascript' src='https://akosmd.com/app/themes/akostheme/dist/scripts/main-fb0b5c7b76.js'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/wp-embed.min.js?ver=5.4.7'></script>
-    <a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a>
-    <script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a>
+<script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-88632021-1', 'auto');
+    ga('send', 'pageview');
 
-        ga('create', 'UA-88632021-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-</body>
-</html>
+	$('.read-more.career-toggle').click(function(){
+		if($(this).prev().prev().css('display') == 'block'){
+			$(this).prev().prev().css('display', 'none');
+		} else {
+			$(this).prev().prev().css('display', 'block');
+		}
+		if($(this).html() == 'read more'){
+			$(this).html('READ LESS');
+		} else {
+			$(this).html('READ MORE');
+		}
+		$(this).prev().slideToggle();
+		
+	})
+</script>
+@endsection
