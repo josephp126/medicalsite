@@ -202,15 +202,15 @@
                 </div>
                 <div class="col-sm-6 sub-content-div">
                     <p class="sub-content">
-                        <span class="plus-symbol">+</span> 24/7/365 access to care<br>
-                        <span class="plus-symbol">+</span> Unlimited virtual visits<br>
-                        <span class="plus-symbol">+</span> Dedicated primary care provider<br>
-                        <span class="plus-symbol">+</span> Real-time consultations<br>
-                        <span class="plus-symbol">+</span> No appointment necessary<br>
-                        <span class="plus-symbol">+</span> HIPAA-compliant platform<br>
-                        <span class="plus-symbol">+</span> National provider coverage<br>
-                        <span class="plus-symbol">+</span> Prescriptions and refills<br>
-                        <span class="plus-symbol">+</span> Sick & return-to-work notes<br>
+                        <span class="plus-symbol"></span> 24/7/365 access to care<br>
+                        <span class="plus-symbol"></span> Unlimited virtual visits<br>
+                        <span class="plus-symbol"></span> Dedicated primary care provider<br>
+                        <span class="plus-symbol"></span> Real-time consultations<br>
+                        <span class="plus-symbol"></span> No appointment necessary<br>
+                        <span class="plus-symbol"></span> HIPAA-compliant platform<br>
+                        <span class="plus-symbol"></span> National provider coverage<br>
+                        <span class="plus-symbol"></span> Prescriptions and refills<br>
+                        <span class="plus-symbol"></span> Sick & return-to-work notes<br>
                     </p>
                 </div>
             </div>
@@ -222,13 +222,13 @@
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 sub-content-div">
                     <p class="sub-content">
-                        <span class="plus-symbol">+</span> Whole health evaluation<br>
-                        <span class="plus-symbol">+</span> Health rish assessment<br>
-                        <span class="plus-symbol">+</span> Chronic care management<br>
-                        <span class="plus-symbol">+</span> Health & wellness coaching<br>
-                        <span class="plus-symbol">+</span> Smoking cessation<br>
-                        <span class="plus-symbol">+</span> Diabetes prevention<br>
-                        <span class="plus-symbol">+</span> Weight management<br>
+                        <span class="plus-symbol"></span> Whole health evaluation<br>
+                        <span class="plus-symbol"></span> Health rish assessment<br>
+                        <span class="plus-symbol"></span> Chronic care management<br>
+                        <span class="plus-symbol"></span> Health & wellness coaching<br>
+                        <span class="plus-symbol"></span> Smoking cessation<br>
+                        <span class="plus-symbol"></span> Diabetes prevention<br>
+                        <span class="plus-symbol"></span> Weight management<br>
                     </p>
                 </div>
                 
@@ -241,12 +241,12 @@
                 </div>
                 <div class="col-sm-6 sub-content-div">
                     <p class="sub-content">
-                        <span class="plus-symbol">+</span> Dedicated care navigator<br>
-                        <span class="plus-symbol">+</span> Guidance to providers<br>
-                        <span class="plus-symbol">+</span> Scheduling support<br>
-                        <span class="plus-symbol">+</span> Referrals to specialists<br>
-                        <span class="plus-symbol">+</span> Specialty care coordination<br>
-                        <span class="plus-symbol">+</span> Lab and imaging coordination<br>
+                        <span class="plus-symbol"></span> Dedicated care navigator<br>
+                        <span class="plus-symbol"></span> Guidance to providers<br>
+                        <span class="plus-symbol"></span> Scheduling support<br>
+                        <span class="plus-symbol"></span> Referrals to specialists<br>
+                        <span class="plus-symbol"></span> Specialty care coordination<br>
+                        <span class="plus-symbol"></span> Lab and imaging coordination<br>
                     </p>
                 </div>
             </div>
@@ -258,12 +258,12 @@
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 sub-content-div">
                     <p class="sub-content">
-                        <span class="plus-symbol">+</span> Medical records<br>
-                        <span class="plus-symbol">+</span> Health score and goals<br>
-                        <span class="plus-symbol">+</span> Claims data<br>
-                        <span class="plus-symbol">+</span> Plan benefit information<br>
-                        <span class="plus-symbol">+</span> Low-cost prescription finder<br>
-                        <span class="plus-symbol">+</span> Education materials<br>
+                        <span class="plus-symbol"></span> Medical records<br>
+                        <span class="plus-symbol"></span> Health score and goals<br>
+                        <span class="plus-symbol"></span> Claims data<br>
+                        <span class="plus-symbol"></span> Plan benefit information<br>
+                        <span class="plus-symbol"></span> Low-cost prescription finder<br>
+                        <span class="plus-symbol"></span> Education materials<br>
                     </p>
                 </div>
             </div>
@@ -275,11 +275,11 @@
             <div class="section-content">
                 <div class="sub-content-div">
                     <p class="sub-content">
-                        <span class="plus-symbol">+</span> Real-time consultations<br>
-                        <span class="plus-symbol">+</span> Secure chat and video with care team<br>
-                        <span class="plus-symbol">+</span> Online appointment setting<br>
-                        <span class="plus-symbol">+</span> Care team collaboration<br>
-                        <span class="plus-symbol">+</span> Integrate medical data across providers<br>
+                        <span class="plus-symbol"></span> Real-time consultations<br>
+                        <span class="plus-symbol"></span> Secure chat and video with care team<br>
+                        <span class="plus-symbol"></span> Online appointment setting<br>
+                        <span class="plus-symbol"></span> Care team collaboration<br>
+                        <span class="plus-symbol"></span> Integrate medical data across providers<br>
                     </p>
                 </div>
             </div>

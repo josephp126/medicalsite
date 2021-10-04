@@ -21,16 +21,17 @@ body * {
 }
 
 #wrapper #vpc_explanation .section-title {
-  border-bottom: 2px dashed #1aa5cb;
-  font-size: 30px;
+  font-size: 36px;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   padding-left: 24px;
+  text-align: center;
 }
 
 #wrapper #vpc_explanation .section-content .sub-title {
-  font-size: 32px;
-  color: #1aa5cb;
+  font-size: 36px;
+  color: #071f3e;
+  font-weight: 600;
 }
 
 #wrapper #vpc_explanation .all-inclusive {
@@ -46,8 +47,9 @@ body * {
 }
 
 #wrapper #vpc_explanation .section-content .sub-content {
-  font-size: 24px;
+  font-size: 22px;
   color: white;
+  font-weight: 300;
 }
 
 #wrapper #vpc_explanation .section-content .sub-content .plus-symbol {
