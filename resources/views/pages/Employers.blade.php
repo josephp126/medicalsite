@@ -15,7 +15,7 @@
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-6 col-lg-2">
-                    <a href="index.html">
+                    <a href="">
                         <img src="img/logo.svg" class="img-fluid logo" alt="" />
                     </a>
                 </div>
@@ -184,137 +184,180 @@
 
 <div id="wrapper">
     <!--SHORT DESC-->
-    <div id="short-desc" class="mb-0 border-bottom-0">
+    <div id="bottom4" class="bottom4-frow bottom4-frow-emp">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h3 class="section-title">
-                        Akos offers medical care for <br class="d-none d-lg-block">
-                        modern professionals
-                    </h3>
-                    <p class="pt-4">
-                        With Akos, you can provide your employees with 24/7 access to medical care for both
-                        workplace injury and personal medical needs in one seamless telemedicine app.
-                    </p>
+            <div class="col-lg-5">
+                <div class="item item-blue">
+                <h3 class="section-title">Improve Corporate Health</h3>
+                <p class="pt-4">
+                    Akos provides 24/7/365 access to care, with same day
+                    appointment for urgent care. We also offer extended office
+                    visits with dedicated primary care provider. The Akos care
+                    model reduces the overall pocket spend and offers wellness and
+                    reward programs to promote employee health and well being.
+                </p>
+                <a href="for-employers.html" class="btn-cta-outline-white mt-4">Employers</a>
                 </div>
+            </div>
+            <div class="col-lg-6 d-block d-lg-none mt-4">
+                <img
+                src="img/doc-patient-employer.jpg"
+                style="width: 100%"
+                alt=""
+                />
+            </div>
             </div>
         </div>
     </div>
-    <!--SHORT DESC-->
 
-    <!-- FEATBOX -->
-    <div id="featbox" class="pt-0">
-        <div class="container">
-            <div class="row featrow">
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/more-convenience.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            More Convenience
-                        </h5>
-                        <p>
-                            Akos offers customized implementation
-                            so you can streamline the way your business
-                            handles work-related injuries and illness.
-                            We can even go live in as little as 30 days to
-                            make your transition easier.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/less-cost.html.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Less Cost
-                        </h5>
-                        <p>
-                            With Akos, you can minimize the cost of ER
-                            and urgent care visits. And thanks to our 
-                            proactive approach to healthcare, 
-                            we can also reduce claims and risks for 
-                            workplace injury, which in turn helps you lower 
-                            your E-MOD ratings and insurance costs
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 pl-4 pr-4">
-                    <div class="item">
-                        <img src="img/for-employers/better-care.html.svg" class="img-fluid mb-3" alt="">
-                        <h5>
-                            Better care
-                        </h5>
-                        <p>
-                            Akos improves more than employee productivity,
-                            it helps boost morale. By giving your staff 
-                            the opportunity to diagnose and treat interfering 
-                            medical conditions through our telemedicine 
-                            app, you can put the well-being of your 
-                            employees first without compromising
-                            the health of your business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- FEATBOX -->
-
-    <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-frow bottom4-frow-big">
-        <div class="container">
+    <div id="healthcare-solutions">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="item item-blue">
-                        <h3 class="section-title">
-                            See big picture improvements
-                        </h3>
-                        <p class="pt-4">
-                            Akos provides 24/7/365 access to care, with same day appointment
-                            for urgent care. We also offer extended office visits with dedicated
-                            primary care provider. The Akos care model reduces the overall pocket
-                            spend and offers wellness and reward programs to promote employee
-                            health and well being.
-                        </p>
-                        <a href="" class="btn-cta-outline-white mt-5">Connect with Us</a>
-                    </div>
+            <div class="col-12">
+                <h3 class="section-title">
+                    Comprehensive Healthcare Solutions
+                </h3>
+            </div>
+            </div>
+
+            <div class="row sols-row pt-5 mt-4">
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/virtual-hc.jpg');">
+                <h6>Virtual <br>Primary Care</h6>
+                <a href="/vpc"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
                 </div>
-                <div class="col-lg-6 d-block d-lg-none mt-4">
-                    <img src="img/for-employers/bigpicture-improvements.jpg" style="width: 100%;" alt="">
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/compensation-hc.jpg');">
+                <h6>Worker's <br>Compensation</h6>
+                <a href="/workerscompensation"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
+                <h6>Akos Med <br>Clinics</h6>
+                <a href="/onsiteclinics"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- BOTTOM 4 -->
 
-
-    <!-- BOTTOM 4 -->
-    <div id="bottom4" class="bottom4-srow bottom4-srowseamless">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 d-block d-lg-none mb-4">
-                    <img src="img/for-employers/morewith-seamless-app.jpg" style="width: 100%;" alt="">
-                </div>
-
-                <div class="col-lg-5 offset-lg-7">
-                    <div class="item item-blue">
-                        <h3 class="section-title">
-                            Get more with one seamless app
-                        </h3>
-                        <p class="pt-4">
-                            Day or night, weekend or holidays, Akos is there to diagnose
-                            and treat a wide range of health concerns - from ankle
-                            sprains to anxiety. Finally, a medical app that takes care of
-                            you so you can take care of everything else.
-                        </p>
-                        <a href="" class="cta-btn mt-5">Connect with Us</a>
-                    </div>
-                </div>
+    <div id = "employers_akos_table">
+        <div class="row">
+            <div class="col-md-4 description">
+                <p class="title">
+                    Akos vs. Competition
+                </p>
+                <hr></hr>
+                <p class="content">
+                    Akos delivers an industry-leading VPC<br>
+                    solution which goes well beyond<br>
+                    traditional telemedicine.<br><br>
+                    From a healthcare chatbot to a<br>
+                    comprehensive connected care<br>
+                    platform, Akos offers multiple<br>
+                    integration features to accommodate<br>
+                    the healthcare needs of any patient<br>
+                    or employer.<br><br>
+                    Moreover, Akos is disrupting the<br>
+                    digital health revolution with AI-<br>
+                    powered virtual med clinics. These<br>
+                    centers expand access to high-quality<br>
+                    healthcare by providing convenient<br>
+                    access points for patients.<br><br>
+                    No other virtual health provider was<br>
+                    delivering a closed loop continuum of<br>
+                    care under one platform... until now.
+                </p>
+            </div>
+            <div class="col-md-8">
+                <table>
+                    <thead align="center">
+                        <tr>
+                            <th style="width: 9%"></th>
+                            <th style="width: 10%; background-color:#73bfca"><img src="{{asset('img/for-employers/logo-table.png')}}" /></th>
+                            <th style="width: 10%; background-color:#4ea1b8">Telehealth</th>
+                            <th style="width: 10%; background-color:#327499">Dpc Brick &<br>Mortar</th>
+                            <th style="width: 10%; background-color:#2b5681">Onsite</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="body-title">24/7 Access</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"><img src="img/for-employers/telehealth-icon.svg" class="table-telehealth" alt="" /></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">1:1 PCP Relationship</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"><img src="img/for-employers/dpc-icon.svg" class="table-dpc" alt="" /></td>
+                            <td class="onsite"><img src="img/for-employers/onsite-icon.svg" class="table-onsite" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Chronic Disease<br>Management</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"><img src="img/for-employers/dpc-icon.svg" class="table-dpc" alt="" /></td>
+                            <td class="onsite"><img src="img/for-employers/onsite-icon.svg" class="table-onsite" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Care Navigation</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">$0 Copay PCP</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"><img src="img/for-employers/dpc-icon.svg" class="table-dpc" alt="" /></td>
+                            <td class="onsite"><img src="img/for-employers/onsite-icon.svg" class="table-onsite" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Onsite / Near-site</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"><img src="img/for-employers/onsite-icon.svg" class="table-onsite" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Employer Dashboard</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Worker's Compensation</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Employer Reporting</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                        <tr>
+                            <td class="body-title">Connected Care Platform</td>
+                            <td class="akos"><img src="img/for-employers/akos-icon.svg" class="table-akos" alt="" /></td>
+                            <td class="telehealth"></td>
+                            <td class="dpc"></td>
+                            <td class="onsite"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    <!-- BOTTOM 4 -->
-
 
     <!-- STAY CONNECTED FORM -->
     <div id="sc-form">

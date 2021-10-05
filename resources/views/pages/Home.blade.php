@@ -197,12 +197,12 @@
         <div class="row">
         <div class="col-lg-6 offset-lg-3 text-center">
             <h3 class="section-title">
-            Modern medicine meets modern convinience
+                Modern medicine meets modern convinience
             </h3>
             <p class="pt-4">
-            No commutes. No waiting rooms. Akos uses <br class="d-none d-lg-block"> telemedicine so you can
-            consult with a healthcare <br class="d-none d-lg-block"> professional without the hassles of a
-            physical visit
+                No commutes. No waiting rooms. Akos uses <br class="d-none d-lg-block"> telemedicine so you can
+                consult with a healthcare <br class="d-none d-lg-block"> professional without the hassles of a
+                physical visit
             </p>
         </div>
         </div>
@@ -236,84 +236,84 @@
 
     <!-- HEALTHCARE SOLUTIONS -->
     <div id="healthcare-solutions">
-    <div class="container text-center">
-        <div class="row">
-        <div class="col-12">
-            <h3 class="section-title">
-            Comprehensive Healthcare Solutions
-            </h3>
-        </div>
-        </div>
+        <div class="container text-center">
+            <div class="row">
+            <div class="col-12">
+                <h3 class="section-title">
+                    Comprehensive Healthcare Solutions
+                </h3>
+            </div>
+            </div>
 
-        <div class="row sols-row pt-5 mt-4">
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/virtual-hc.jpg');">
-            <h6>Virtual <br>Primary Care</h6>
-            <a href="/vpc"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="row sols-row pt-5 mt-4">
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/virtual-hc.jpg');">
+                <h6>Virtual <br>Primary Care</h6>
+                <a href="/vpc"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/compensation-hc.jpg');">
-            <h6>Worker's <br>Compensation</h6>
-            <a href="/workerscompensation"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/compensation-hc.jpg');">
+                <h6>Worker's <br>Compensation</h6>
+                <a href="/workerscompensation"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
-            <h6>Akos Med <br>Clinics</h6>
-            <a href="/onsiteclinics"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
+                <h6>Akos Med <br>Clinics</h6>
+                <a href="/onsiteclinics"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/360-hc.jpg');">
-            <h6>Akos 360 Connected <br>Care PLatform</h6>
-            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/360-hc.jpg');">
+                <h6>Akos 360 Connected <br>Care PLatform</h6>
+                <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/population-hc.jpg');">
-            <h6>Population Health <br>Management</h6>
-            <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/population-hc.jpg');">
+                <h6>Population Health <br>Management</h6>
+                <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="item" style="background-image: url('img/hc-solutions/chronic-hc.jpg');">
-            <h6>Chronic Care<br>Management</h6>
-            <a href="/ccm"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="item" style="background-image: url('img/hc-solutions/chronic-hc.jpg');">
+                <h6>Chronic Care<br>Management</h6>
+                <a href="/ccm"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
+                </div>
             </div>
+            </div>
+            <a href="" class="btn-cta-outline-white mt-4">See All Solutions</a>
         </div>
-        </div>
-        <a href="solutions.html" class="btn-cta-outline-white mt-4">See All Solutions</a>
-    </div>
     </div>
     <!-- HEALTHCARE SOLUTIONS -->
 
     <!-- BOTTOM 4 -->
     <div id="bottom4" class="bottom4-frow bottom4-frow-emp">
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-5">
-            <div class="item item-blue">
-            <h3 class="section-title">Improve Corporate Health</h3>
-            <p class="pt-4">
-                Akos provides 24/7/365 access to care, with same day
-                appointment for urgent care. We also offer extended office
-                visits with dedicated primary care provider. The Akos care
-                model reduces the overall pocket spend and offers wellness and
-                reward programs to promote employee health and well being.
-            </p>
-            <a href="for-employers.html" class="btn-cta-outline-white mt-4">Employers</a>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-5">
+                <div class="item item-blue">
+                <h3 class="section-title">Improve Corporate Health</h3>
+                <p class="pt-4">
+                    Akos provides 24/7/365 access to care, with same day
+                    appointment for urgent care. We also offer extended office
+                    visits with dedicated primary care provider. The Akos care
+                    model reduces the overall pocket spend and offers wellness and
+                    reward programs to promote employee health and well being.
+                </p>
+                <a href="for-employers.html" class="btn-cta-outline-white mt-4">Employers</a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-block d-lg-none mt-4">
+                <img
+                src="img/doc-patient-employer.jpg"
+                style="width: 100%"
+                alt=""
+                />
+            </div>
             </div>
         </div>
-        <div class="col-lg-6 d-block d-lg-none mt-4">
-            <img
-            src="img/doc-patient-employer.jpg"
-            style="width: 100%"
-            alt=""
-            />
-        </div>
-        </div>
-    </div>
     </div>
     <!-- BOTTOM 4 -->
 
@@ -445,7 +445,7 @@
                                 </h5>
                                 <p>
                                     Subscribe to get latest news & updates from Akos. You can 
-unsubscribe anytime and we won't share your information
+                                    unsubscribe anytime and we won't share your information
                                 </p>
                             </div>
                             <div class="col-lg-5 offset-lg-1 pt-3">

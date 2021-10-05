@@ -38,7 +38,7 @@
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-6 col-lg-2">
-                    <a href="index.html">
+                    <a href="">
                         <img src="img/logo.svg" class="img-fluid logo" alt="" />
                     </a>
                 </div>
