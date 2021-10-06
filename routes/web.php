@@ -39,6 +39,8 @@ Route::get('/ccm', 'Start_landing_page@CCM');
 
 Route::get('/whowe', 'Start_landing_page@WhoWe');
 
+Route::get('/news', 'Start_landing_page@News');
+
 Route::get('/logout', 'Start_landing_page@index');
 
 Route::get('/go_search', 'ProcessController@general_search_2');

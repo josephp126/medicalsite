@@ -144,7 +144,10 @@
                         <li class="menu-item">
                             <a href="/whowe"> Who we are </a>
                         </li>
-                        <!-- <li>
+                        <li class="menu-item">
+                            <a href="/news"> News </a>
+                        </li>
+                    <!-- <li>
                             <a href="" class="cta-btn-outline"> Member Login </a>
                         </li> -->
                         <li>
