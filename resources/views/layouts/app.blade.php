@@ -31,7 +31,6 @@
             <div class="row">
                 <div class="col-lg-3">
                     <img src="img/logo-white.png" width="150" class="img-fluid" alt="" />
-
                     <ul class="pt-5">
                         <li style="line-height: 30px">
                             1.844.900.AKOS <br />
@@ -39,8 +38,59 @@
                             P.O. Box 41638<br />
                             Phoenix, AZ 8508<br />
                         </li>
+                    </ul>                    
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h3><a href="/">HOME</a></h3>
+                    <ul>
+                        <a href="/employers">EMPLOYERS</a>
+                        <li>
+                            <a href="/vpc">Vpc</a>
+                        </li>
+                        <li>
+                            <a href="/workerscompensation">Worker's Compensation</a>
+                        </li>
+                        <li>
+                            <a href="/onsiteclinics">Onsite Clinics</a>
+                        </li>
+                        <li>
+                            <a href="/telemedicine">Telemedicine</a>
+                        </li>
                     </ul>
+                    <h3><a href="/onsiteclinics">ONSITE CLINICS</a></h3>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h3><a href="/onsiteclinics">URGENT CARE CENTER</a></h3>
+                    <ul>
+                        <a href="/onsiteclinics">PROVIDERS</a>
+                        <li>
+                            <a href="">Primary Providers</a>
+                        </li>
+                        <li>
+                            <a href="">Specialist</a>
+                        </li>
+                        <li>
+                            <a href="">ACI/Value Based entities</a>
+                        </li>
+                        <li>
+                            <a href="/ccm">CCM</a>
+                        </li>
+                        <li>
+                            <a href="">RPM</a>
+                        </li>
+                        <li>
+                            <a href="">Answering servicce/Nurse triage</a>
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="col-lg-2 mb-4">
+                    <h3><a href="/remotepatient">REMOTE PATIENT MONITORING</a></h3>
+                    <h3><a href="/whowe">WHO WE ARE</a></h3>
+                    <h3><a href="/news">NEWS</a></h3>
+                </div>
+
+                <div class="col-lg-3 text-left text-lg-right">
                     <div class="social-icons mb-5">
                         <a href="">
                             <img src="img/Icon%20awesome-facebook.svg" class="img-fluid" alt="" />
@@ -58,95 +108,10 @@
                             <img src="img/Icon%20awesome-youtube.svg" class="img-fluid" alt="" />
                         </a>
                     </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <h3>Patients</h3>
-
-                    <ul>
-                        <li>
-                            <a href="">
-                                Using Akos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                What We Treat
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Prescriptions and Pharmacy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Healthcare Providers
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Healthcare Centers
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                FAQ
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 mb-4">
-                    <h3>Join Our Network</h3>
-
-                    <ul>
-                        <li>
-                            <a href="">
-                                Providers
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 mb-4">
-                    <h3>Our Team</h3>
-
-                    <ul>
-                        <li>
-                            <a href="">
-                                About Akos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Meet the Akos Team
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Investors
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Careers
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 text-left text-lg-right">
                     <img src="img/hipaa_logo.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
-
         <!--COPYRIGHT-->
         <div id="copyright">
             <div class="container">

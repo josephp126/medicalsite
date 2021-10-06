@@ -921,7 +921,7 @@ ul.dottedlist li:last-child {
 }
 
 #footer .social-icons {
-  padding-top: 60px;
+  padding-top: 15px;
   letter-spacing: 15px;
 }
 
@@ -935,7 +935,7 @@ ul.dottedlist li:last-child {
 }
 
 #footer ul li {
-  margin-bottom: 12px;
+  /* margin-left: 3px; */
 }
 
 #footer a {

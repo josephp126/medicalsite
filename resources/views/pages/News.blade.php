@@ -51,10 +51,7 @@
                     </a>
                 </div>
                 <div class="col-6 col-lg-10 text-right">
-                    <a
-                            href="javascript:void(0)"
-                            class="menu-toggle-btn pt-2 d-inline-block d-lg-none"
-                    >
+                    <a  href="javascript:void(0)" class="menu-toggle-btn pt-2 d-inline-block d-lg-none">
                         <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="47"
