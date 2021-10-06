@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.sub_app')
 
 @section('custom_css')
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -37,8 +37,9 @@
             <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
                 defaultMuted playsinline webkit-playsinline oncontextmenu="return false;" preload="auto"
                 onplaying="this.controls=false">
-                <source src="https://player.vimeo.com/video/196455768?api=1" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="https://player.vimeo.com/external/196455093.sd.mp4?s=186bc7497622f6ae2781be270380a335dc450182&profile_id=165" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
+            <!-- <iframe id="video" src="https://player.vimeo.com/video/196455768?api=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
         </div>
     </div>
     <div class="header">
