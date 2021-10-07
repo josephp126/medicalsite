@@ -23,7 +23,7 @@ body * {
 #wrapper #vpc_explanation .section-title {
   font-size: 36px;
   padding-bottom: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   padding-left: 24px;
   text-align: center;
   line-height: 38px;
@@ -68,6 +68,12 @@ body * {
 #wrapper #vpc_explanation .section-content .sub-content-div {
   background-color: #071f3e;
   padding: 30px 0px;
+}
+
+#wrapper #vpc_explanation .vpc-description {
+  display: flex;
+  justify-content: center;
+  padding-left: 4%;
 }
 
 .dark-mask.schools {
@@ -186,6 +192,219 @@ section.newsletter-form {
 #wrapper #employers_akos_table table tbody .onsite {
   text-align: center;
   background-color: #d5dce6;
+}
+
+#wrapper .advisor-submit {
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+#wrapper .advisor-submit h2,
+#wrapper.advisor-wrapper .webinar h2 {
+  font-size: 36px;
+  color: #071f3e;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+
+#wrapper.advisor-wrapper .webinar h2 {
+  margin-bottom: 40px;
+}
+
+#wrapper .advisor-submit form label {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #071f3e;
+}
+
+#wrapper .advisor-submit form input {
+  border: none;
+  border-bottom: 1px solid rgb(143, 141, 141);
+  box-shadow: none;
+  border-radius: 0px !important;
+}
+
+#wrapper .advisor-submit form input[type="submit"] {
+  margin-top: 70px;
+  border-radius: 6px !important;
+}
+
+#wrapper .advisor-submit .form-person {
+  text-align: right;
+}
+
+#wrapper.advisor-wrapper .webinar {
+  padding: 40px 0px;
+  text-align: center;
+  border-top: 2px solid rgb(230, 227, 227);
+  border-bottom: 2px solid rgb(230, 227, 227);
+}
+
+#wrapper.advisor-wrapper .webinar .reserve,
+#wrapper.advisor-wrapper .howhealth .visit {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.advisor-wrapper #integrate {
+  /* border-bottom: thin #d3d3d5 solid; */
+  padding-top: 50px;
+}
+
+.advisor-wrapper #integrate .item {
+  position: relative;
+}
+
+.advisor-wrapper #integrate .col-lg-4 h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #071f3e;
+}
+
+.advisor-wrapper #integrate .item .desc {
+  position: absolute;
+  background-color: #ffffff;
+  width: 90%;
+  left: 5%;
+  z-index: 1;
+  bottom: -170px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.06);
+}
+
+.advisor-wrapper #integrate .col-lg-4 {
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+.advisor-wrapper #integrate .desc h4 {
+  color: #071f3e;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.advisor-wrapper #integrate .desc p {
+  color: #2a2a2a;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.advisor-wrapper .turnkey .dot {
+  font-size: 70px;
+  color: #00bcc4;
+}
+
+.advisor-wrapper .turnkey p.pt-4 {
+  padding-top: 0px !important;
+  margin-bottom: 0px;
+}
+
+.advisor-wrapper .turnkey .turnkey-img {
+  text-align: right;
+  padding-right: 0px;
+  padding-top: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+  .advisor-wrapper .turnkey .turnkey-img,
+  #wrapper .advisor-submit .form-person {
+    text-align: center;
+  }
+}
+
+.advisor-wrapper .turnkey .turnkey-img img {
+  width: 80%;
+}
+
+.advisor-wrapper .howhealth {
+  margin-top: 70px;
+}
+
+.advisor-wrapper .howhealth .col-sm-push-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advisor-wrapper .download {
+  padding: 20px 10px;
+  background-color: #061e3c;
+}
+
+.advisor-wrapper .download .download-akos {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.advisor-wrapper .download .download-akos {
+  color: white !important;
+}
+
+.advisor-wrapper .download .download-akos h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.advisor-wrapper .download .download-akos h6 {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.advisor-wrapper .download .download-akos p {
+  color: white !important;
+  font-weight: 100;
+}
+
+.advisor-wrapper .download .download-akos .phone {
+  display: flex;
+}
+.advisor-wrapper .download .download-akos .phone span {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.advisor-wrapper .download .download-akos .phone .form-control {
+  width: 70%;
+  margin-right: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.advisor-wrapper .download .download-akos input[type="submit"] {
+  width: 100px;
+  background-color: #00bcc4;
+  border-radius: 4px;
+  border: none;
+}
+
+.advisor-wrapper .download .download-akos .google-link {
+  margin-top: 30px;
+  display: flex;
+}
+
+.advisor-wrapper .download .download-akos .google-link a {
+  width: 105px;
+  height: 40px;
+}
+.advisor-wrapper .download .download-akos .google-link .app-store {
+  background: url("../img/advisor/app-store.png") no-repeat center center;
+  margin-right: 20px;
+}
+
+.advisor-wrapper .download .download-akos .google-link .google-play {
+  background: url("../img/advisor/google-play.png") no-repeat center center;
 }
 
 /* Winner */
@@ -430,7 +649,8 @@ p {
 }
 
 #main-top.main-index {
-  background-image: url("../img/for-employers/employers-cover.jpg");
+  background: url("../img/for-employers/employers-cover.jpg") no-repeat center
+    center;
   background-size: cover;
 }
 
@@ -469,7 +689,13 @@ p {
 }
 
 #main-top.medclinic1 {
-  background-image: url("../img/med-clinic-1/med-clinic1-cover.jpg");
+  background: url("../img/med-clinic-1/med-clinic1-cover.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+#main-top.advisor {
+  background: url("../img/advisor/advisor-back.png") no-repeat center center;
   background-size: cover;
 }
 

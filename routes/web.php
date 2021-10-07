@@ -41,6 +41,8 @@ Route::get('/whowe', 'Start_landing_page@WhoWe');
 
 Route::get('/news', 'Start_landing_page@News');
 
+Route::get('/akosadvisor', 'Start_landing_page@AkosAdvisor');
+
 Route::get('/logout', 'Start_landing_page@index');
 
 Route::get('/go_search', 'ProcessController@general_search_2');

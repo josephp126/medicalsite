@@ -66,6 +66,10 @@ class Start_landing_page extends Controller
     public function News(){
         return view('pages.News');
     }
+
+    public function AkosAdvisor(){
+        return view('pages.AkosAdvisor');
+    }
     
     public function general_search_2(Request $request){   
         $name = $request->name;

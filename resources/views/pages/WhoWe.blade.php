@@ -82,21 +82,23 @@
 						<li class="menu-item"> <a href="/employers"> Employers </a>
 							<div class="submenu-cont">
 								<ul class="submenu">
-									<li> <a href="/vpc">VPC</a> </li>
+									<li> <a href="/vpc">Virtual Primary Care</a> </li>
 									<li> <a href="/workerscompensation">Worker's Compensation</a> </li>
 									<li> <a href="/onsiteclinics">Onsite Clinics</a> </li>
 									<li> <a href="/telemedicine">Telemedicine</a> </li>
 								</ul>
 							</div>
 						</li>
-						<li class="menu-item"> <a href="/onsiteclinics"> Onsite Clinics </a> </li>
+						<li class="menu-item">
+                            <a href="/akosadvisor"> Akos Advisor</a>
+                        </li>
 						<li class="menu-item"> <a href="/urgentcare"> Urgent Care Centre </a> </li>
 						<li class="menu-item"> <a href="/providers"> Providers </a>
 							<div class="submenu-cont">
 								<ul class="submenu">
 									<li> <a href="">Primary Providers</a> </li>
 									<li> <a href="">Specialist</a> </li>
-									<li> <a href="">ACI/Value Based entities</a> </li>
+									<li> <a href="">ACO/Value Based entities</a> </li>
 									<li> <a href="/ccm">CCM</a> </li>
 									<li> <a href="">RPM</a> </li>
 									<li> <a href="">Answering servicce/Nurse triage</a> </li>
@@ -105,6 +107,9 @@
 						</li>
 						<li class="menu-item"> <a href="/remotepatient"> Remote Patient monitoring </a> </li>
 						<li class="menu-item active"> <a href="/whowe"> Who we are </a> </li>
+						<li class="menu-item">
+                            <a href="/news"> News </a>
+                        </li>
 						<!-- <li>
                           <a href="" class="cta-btn-outline"> Member Login </a>
                       </li> -->

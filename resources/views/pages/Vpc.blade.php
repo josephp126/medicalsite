@@ -94,7 +94,7 @@
                             <div class="submenu-cont">
                                 <ul class="submenu">
                                     <li>
-                                        <a href="/vpc">VPC</a>
+                                        <a href="/vpc">Virtual Primary Care</a>
                                     </li>
                                     <li>
                                         <a href="/workerscompensation">Worker's Compensation</a>
@@ -109,7 +109,7 @@
                             </div>
                         </li>
                         <li class="menu-item">
-                            <a href="/onsiteclinics"> Onsite Clinics </a>
+                            <a href="/akosadvisor"> Akos Advisor</a>
                         </li>                            
                         <li class="menu-item">
                             <a href="/urgentcare"> Urgent Care Centre </a>
@@ -125,7 +125,7 @@
                                         <a href="">Specialist</a>
                                     </li>
                                     <li>
-                                        <a href="">ACI/Value Based entities</a>
+                                        <a href="">ACO/Value Based entities</a>
                                     </li>
                                     <li>
                                         <a href="/ccm">CCM</a>
@@ -197,6 +197,15 @@
             <p class="section-title">
                 All-Inclusive Healthcare Benefits 
             </p>
+            <div class="container vpc-description">
+                <p>
+                    A strong company cannot exist without healthy employees. The everyday choieces <br>
+                    we make can help us live healthier, happier, and more fulfilling lives - both at <br>
+                    work and at home. And that's why(employer) is offering an essential tool as part <br>
+                    of your overall benefits package - a comprehensive Health and Wellness Program <br>
+                    designed to improve your health, well-being, and productivity.
+                </p>
+            </div>
             <div class="row section-content">
                 <div class="col-sm-6">
                     <p class="sub-title">
@@ -333,26 +342,4 @@
 @endsection
 
 @section('custom_js')
-<!-- <script>
-    $(document).ready(function(){
-        if($(window).width() < 760){
-            $('#main-top .main-menu').css('overflow', 'scroll');
-            $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
-        }
-        else{
-            $('#main-top .main-menu').css('overflow', 'unset');
-            $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
-        }
-        $(window).on('resize', function(){
-            var win = $(this);
-            if (win.width() <= 760) {
-                $('#main-top .main-menu').css('overflow', 'scroll');
-                $('#main-top .main-menu .menu-item .submenu-cont').css({'max-height':'400px', 'padding-left':'20px'});
-            }else{
-                $('#main-top .main-menu').css('overflow', 'unset');
-                $('#main-top .main-menu .menu-item .submenu-cont').css('max-height', '0');
-            }
-        });
-    });
-</script> -->
 @endsection

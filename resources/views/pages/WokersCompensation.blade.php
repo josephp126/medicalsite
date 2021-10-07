@@ -94,7 +94,7 @@
                             <div class="submenu-cont">
                                 <ul class="submenu">
                                     <li>
-                                        <a href="/vpc">VPC</a>
+                                        <a href="/vpc">Virtual Primary Care</a>
                                     </li>
                                     <li>
                                         <a href="/workerscompensation">Worker's Compensation</a>
@@ -109,7 +109,7 @@
                             </div>
                         </li>
                         <li class="menu-item">
-                            <a href="/onsiteclinics"> Onsite Clinics </a>
+                            <a href="/akosadvisor"> Akos Advisor</a>
                         </li>                            
                         <li class="menu-item">
                             <a href="/urgentcare"> Urgent Care Centre </a>
@@ -125,7 +125,7 @@
                                         <a href="">Specialist</a>
                                     </li>
                                     <li>
-                                        <a href="">ACI/Value Based entities</a>
+                                        <a href="">ACO/Value Based entities</a>
                                     </li>
                                     <li>
                                         <a href="/ccm">CCM</a>
@@ -340,9 +340,9 @@ injuries treated
                                     </h4>
                                     <p>
                                         The injured employee reports the injury to 
-their supervisor, who in turn advises the 
-employee to call Akos, their workers’ 
-compensation healthcare provider.
+                                        their supervisor, who in turn advises the 
+                                        employee to call Akos, their workers’ 
+                                        compensation healthcare provider.
                                     </p>
                                 </div>
                             </div>
@@ -374,12 +374,11 @@ compensation healthcare provider.
                                     </h4>
                                     <p>
                                         During triage, the employee connects with a 
-nurse who is specialized in workers' 
-compensation cases and works under the 
-supervision of a physician. The nurse then 
-triages the employee and determines best care
-path.
-
+                                        nurse who is specialized in workers' 
+                                        compensation cases and works under the 
+                                        supervision of a physician. The nurse then 
+                                        triages the employee and determines best care
+                                        path.
                                     </p>
                                 </div>
                             </div>
@@ -394,10 +393,10 @@ path.
                                     </h4>
                                     <p>
                                         Should the injury require care beyond first-aid,
-the nurse will transfer the call to a board-certified
-provider experienced in occupational medicine
-who will diagnose the injury and provide a 
-treatment plan.
+                                        the nurse will transfer the call to a board-certified
+                                        provider experienced in occupational medicine
+                                        who will diagnose the injury and provide a 
+                                        treatment plan.
                                     </p>
                                 </div>
                             </div>
@@ -412,9 +411,9 @@ treatment plan.
                                     </h4>
                                     <p>
                                         If needed, the employee may be referred for
-an in-person visit with an Akos Prefrred 
-Provider Network physician, a specialist, PT/OT
-services or ancillary service provider.
+                                        an in-person visit with an Akos Prefrred 
+                                        Provider Network physician, a specialist, PT/OT
+                                        services or ancillary service provider.
                                     </p>
                                 </div>
                             </div>

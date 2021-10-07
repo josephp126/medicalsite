@@ -51,7 +51,7 @@
                             <div class="submenu-cont">
                                 <ul class="submenu">
                                     <li>
-                                        <a href="/vpc">VPC</a>
+                                        <a href="/vpc">Virtual Primary Care</a>
                                     </li>
                                     <li>
                                         <a href="/workerscompensation">Worker's Compensation</a>
@@ -66,7 +66,7 @@
                             </div>
                         </li>
                         <li class="menu-item">
-                            <a href="/onsiteclinics"> Onsite Clinics </a>
+                            <a href="/akosadvisor"> Akos Advisor</a>
                         </li>
                         <li class="menu-item">
                             <a href="/urgentcare"> Urgent Care Centre </a>
@@ -82,7 +82,7 @@
                                         <a href="">Specialist</a>
                                     </li>
                                     <li>
-                                        <a href="">ACI/Value Based entities</a>
+                                        <a href="">ACO/Value Based entities</a>
                                     </li>
                                     <li>
                                         <a href="/ccm">CCM</a>

@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     @yield('custom_css')
 </head>
 
@@ -45,7 +45,7 @@
                     <ul>
                         <a href="/employers">EMPLOYERS</a>
                         <li>
-                            <a href="/vpc">Vpc</a>
+                            <a href="/vpc">Virtual Primary Care</a>
                         </li>
                         <li>
                             <a href="/workerscompensation">Worker's Compensation</a>
@@ -70,7 +70,7 @@
                             <a href="">Specialist</a>
                         </li>
                         <li>
-                            <a href="">ACI/Value Based entities</a>
+                            <a href="">ACO/Value Based entities</a>
                         </li>
                         <li>
                             <a href="/ccm">CCM</a>
