@@ -239,7 +239,7 @@
 
                         <div class="col-lg-4">
                             <div class="item" data-aos="fade-right">
-                                <img src="img/workers-compensation/injury-authorization.jpg" class="img-fluid" alt="">
+                                <img src="img/advisor/integrate-1.jpg" class="img-fluid" alt="">
                                 <div class="desc">
                                     <h4>Injury Authorization</h4>
                                     <h6>24x7 cares</h6>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="item" data-aos="fade-right" data-aos-delay="300">
-                                <img src="img/workers-compensation/account-registration.jpg" class="img-fluid" alt="">
+                                <img src="img/advisor/integrate-2.png" class="img-fluid" alt="">
                                 <div class="desc">
                                     <h4>Medical Kiosk</h4>
                                     <h6>On Site Care</h6>
@@ -266,7 +266,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="item" data-aos="fade-right">
-                                <img src="img/workers-compensation/nurse-triage.jpg" class="img-fluid" alt="">
+                                <img src="img/advisor/advisor-back.png" class="img-fluid" alt="">
                                 <div class="desc">
                                     <h4>Connected Care Platform</h4>
                                     <h6>Care Navigation</h6>
