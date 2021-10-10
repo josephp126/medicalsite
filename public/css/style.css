@@ -53,10 +53,10 @@ body * {
   font-weight: 300;
 }
 
-#wrapper #vpc_explanation .section-content .sub-content .plus-symbol {
+#wrapper .plus-symbol {
   font-size: 28px;
   font-weight: bold;
-  color: #1aa5cb;
+  color: #14a5ad;
 }
 
 #wrapper #vpc_explanation .section-content .col-sm-6 {
@@ -407,6 +407,170 @@ section.newsletter-form {
   background: url("../img/advisor/google-play.png") no-repeat center center;
 }
 
+#main-top.remotepatient {
+  min-height: 205.4vh;
+}
+
+.remote-wrapper .top-text {
+  width: 100%;
+  height: 400px;
+  background-color: #14a5ad;
+  padding: 10px 10%;
+}
+
+.remote-wrapper .top-text p {
+  color: white;
+  font-size: 80px;
+  line-height: 92px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 1400px) {
+  #main-top.remotepatient {
+    min-height: 145.4vh;
+  }
+}
+
+.remote-wrapper .benefits {
+  padding: 50px 7% 20px 7%;
+}
+
+.remote-wrapper .benefits h2 {
+  font-size: 36px;
+  color: #14a5ad;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.remote-wrapper .benefits p {
+  font-size: 24px;
+  padding-top: 9px;
+  margin-bottom: 30px;
+}
+
+.remote-wrapper .benefits .col-md-6 {
+  padding-top: 20px;
+}
+
+.remote-wrapper .benefits .col-md-6:first-child {
+  border-top: 1px dotted black;
+}
+
+.remote-wrapper .cloud {
+  background-color: #213f6a;
+  padding: 25px 0px;
+}
+
+.remote-wrapper .cloud p {
+  text-align: center;
+  font-size: 44px;
+  color: white;
+  line-height: 56px;
+  font-weight: 300;
+}
+
+.remote-wrapper .woman-doctor .col-sm-6 {
+  padding-right: 0;
+}
+
+.remote-wrapper .woman-doctor .col-sm-6:last-child {
+  padding: 30px 80px 10px 40px;
+}
+
+.remote-wrapper .woman-doctor h2,
+.remote-wrapper .easy-monitor h2 {
+  font-size: 40px;
+  color: #14a5ad;
+  font-weight: 300;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+.remote-wrapper .woman-doctor .col-sm-6:last-child div {
+  margin-bottom: 45px;
+}
+.remote-wrapper .woman-doctor div h3 {
+  font-size: 32px;
+  color: rgb(95, 100, 145);
+  font-weight: 300;
+}
+
+.remote-wrapper .woman-doctor div p {
+  font-size: 24px;
+  color: black;
+  margin-left: 10px;
+}
+
+.remote-wrapper .easy-monitor {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.remote-wrapper .simple-akos {
+  position: relative;
+}
+
+.remote-wrapper .simple-akos p {
+  position: absolute;
+  font-size: 56px;
+  color: white;
+  top: 7%;
+  left: 5%;
+  line-height: 76px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 800px) {
+  .remote-wrapper .top-text p {
+    font-size: 56px;
+    line-height: 63px;
+  }
+
+  .remote-wrapper .cloud p {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .remote-wrapper .simple-akos p {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.remote-wrapper .about-akos .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.remote-wrapper .about-akos .about h2 {
+  color: #14a5ad;
+  font-weight: 300;
+}
+
+.remote-wrapper .about-akos .request {
+  background-color: #777878;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remote-wrapper .about-akos .request h3 {
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
+  border-bottom: 1px dotted white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.remote-wrapper .about-akos .request p {
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
 /* Winner */
 
 a {
@@ -696,6 +860,11 @@ p {
 
 #main-top.advisor {
   background: url("../img/advisor/advisor-back.png") no-repeat center center;
+  background-size: cover;
+}
+
+#main-top.remotepatient {
+  background: url("../img/rpm/rpm-back.png") no-repeat center center;
   background-size: cover;
 }
 

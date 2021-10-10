@@ -42,7 +42,8 @@
 </style>
 @endsection
 
-@section('mainContent')<div id="main-top" class="whowe">
+@section('mainContent')
+<div id="main-top" class="whowe">
 	<!-- <div id="fullwidth-video">
       <div class="fullwidth-video-bg">
           <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
@@ -128,12 +129,14 @@
 					<h2 data-aos="fade-right">
                       Care On Demand And <br>
                       On Location
-                  </h2>
+					</h2>
 					<h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                      Akos Med Clinic has you covered
-                  </h6> <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
-                      Connect with Us
-                  </a> </div>
+						Akos Med Clinic has you covered
+					</h6> 
+					<!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+						Connect with Us
+					</a>  -->
+				</div>
 			</div>
 		</div>
 	</div>

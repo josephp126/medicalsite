@@ -129,10 +129,10 @@
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         Akos puts healthcare in the palm of your hands.
                     </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+                    <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         <img src="img/Icon%20feather-play.svg" class="mr-2" alt="" />
                         Watch the film
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>

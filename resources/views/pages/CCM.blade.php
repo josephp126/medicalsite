@@ -173,9 +173,9 @@
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         A program centered on you
                     </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+                    <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>

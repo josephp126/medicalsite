@@ -131,7 +131,7 @@
                                         <a href="/ccm">CCM</a>
                                     </li>
                                     <li>
-                                        <a href="">RPM</a>
+                                        <a href="remotepatient">RPM</a>
                                     </li>
                                     <li>
                                         <a href="">Answering servicce/Nurse triage</a>
@@ -168,14 +168,14 @@
                 <div class="col-lg-8">
                     <h2 data-aos="fade-right">
                         A healthier way to  <br>
-do business
+                        do business
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         Get the Akos advantage and transform the way your employees get care
                     </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+                    <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
