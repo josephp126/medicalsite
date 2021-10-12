@@ -411,10 +411,6 @@ section.newsletter-form {
   background: url("../img/advisor/google-play.png") no-repeat center center;
 }
 
-#main-top.remotepatient {
-  min-height: 205.4vh;
-}
-
 .remote-wrapper .top-text {
   width: 100%;
   /* height: 400px; */
@@ -427,12 +423,6 @@ section.newsletter-form {
   font-size: 80px;
   line-height: 92px;
   font-weight: 300;
-}
-
-@media only screen and (max-width: 1400px) {
-  #main-top.remotepatient {
-    min-height: 145.4vh;
-  }
 }
 
 .remote-wrapper .benefits {
@@ -852,7 +842,7 @@ p {
 }
 
 #main-top.aco {
-  background-image: url("../img/aco/aco-back.png");
+  background: url("../img/aco/aco-back.png") no-repeat center center;
   background-size: cover;
 }
 

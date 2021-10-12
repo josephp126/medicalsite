@@ -15,72 +15,30 @@
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-6 col-lg-2">
-                    <a href="">
+                    <a href="index.html">
                         <img src="img/logo.svg" class="img-fluid logo" alt="" />
                     </a>
                 </div>
                 <div class="col-6 col-lg-10 text-right">
-                    <a
-                            href="javascript:void(0)"
-                            class="menu-toggle-btn pt-2 d-inline-block d-lg-none"
-                    >
-                        <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="47"
-                                height="18"
-                                viewBox="0 0 47 18"
-                        >
+                    <a href="javascript:void(0)" class="menu-toggle-btn pt-2 d-inline-block d-lg-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="47" height="18" viewBox="0 0 47 18">
                             <g id="menu-toggle" transform="translate(-46 -19)">
-                                <rect
-                                        id="Rectangle_2"
-                                        data-name="Rectangle 2"
-                                        width="47"
-                                        height="3"
-                                        transform="translate(46 19)"
-                                        fill="#fff"
-                                ></rect>
-                                <rect
-                                        id="Rectangle_3"
-                                        data-name="Rectangle 3"
-                                        width="32"
-                                        height="3"
-                                        transform="translate(61 34)"
-                                        fill="#fff"
-                                ></rect>
+                                <rect id="Rectangle_2" data-name="Rectangle 2" width="47" height="3"
+                                    transform="translate(46 19)" fill="#fff"></rect>
+                                <rect id="Rectangle_3" data-name="Rectangle 3" width="32" height="3"
+                                    transform="translate(61 34)" fill="#fff"></rect>
                             </g>
                         </svg>
                     </a>
                     <ul class="main-menu text-left text-lg-right">
                         <li class="pb-5 text-right d-block d-lg-none pt-4 pr-4">
-                            <a
-                                    href="javascript:void(0)"
-                                    class="pt-1 menu-close-btn close-toggle"
-                            >
-                                <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="30"
-                                        viewBox="0 0 46.531 45.619"
-                                >
-                                    <g
-                                            id="menu-close-btn"
-                                            transform="translate(-51.469 -2.676)"
-                                    >
-                                        <rect
-                                                id="Rectangle_2"
-                                                data-name="Rectangle 2"
-                                                width="60.644"
-                                                height="3.871"
-                                                transform="translate(52.381 45.557) rotate(-45)"
-                                                fill="#fff"
-                                        ></rect>
-                                        <rect
-                                                id="Rectangle_9"
-                                                data-name="Rectangle 9"
-                                                width="60.644"
-                                                height="3.871"
-                                                transform="translate(54.206 2.676) rotate(45)"
-                                                fill="#fff"
-                                        ></rect>
+                            <a href="javascript:void(0)" class="pt-1 menu-close-btn close-toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 46.531 45.619">
+                                    <g id="menu-close-btn" transform="translate(-51.469 -2.676)">
+                                        <rect id="Rectangle_2" data-name="Rectangle 2" width="60.644" height="3.871"
+                                            transform="translate(52.381 45.557) rotate(-45)" fill="#fff"></rect>
+                                        <rect id="Rectangle_9" data-name="Rectangle 9" width="60.644" height="3.871"
+                                            transform="translate(54.206 2.676) rotate(45)" fill="#fff"></rect>
                                     </g>
                                 </svg>
                             </a>
@@ -109,7 +67,7 @@
                         </li>
                         <li class="menu-item">
                             <a href="/akosadvisor"> Akos Advisor</a>
-                        </li>                            
+                        </li>
                         <li class="menu-item">
                             <a href="/urgentcare"> Urgent Care Centre </a>
                         </li>
@@ -147,9 +105,9 @@
                         <li class="menu-item">
                             <a href="/news"> News </a>
                         </li>
-                    <!-- <li>
-                            <a href="" class="cta-btn-outline"> Member Login </a>
-                        </li> -->
+                        <!-- <li>
+                        <a href="" class="cta-btn-outline"> Member Login </a>
+                    </li> -->
                         <li>
                             <a href="" class="cta-btn-1">
                                 Contact Us
@@ -164,23 +122,16 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <!-- <h2 data-aos="fade-right">
-                        The digital health <br>
-                        revolution begins here
-                    </h2>   
-                    <p data-aos="fade-right">Member Benefits Summary</p>
-                    <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Your employer has expanded their healthcare <br>
-                        benefits package to include Akos as a direct <br>
-                        primary care partner. As a member of the <br>
-                        Akos health plan, you have unlimited access <br>
-                        to many of the services Akos has to offer. <br>
-                        The benefits listed are available to you with <br>
-                        no copay and $0 deductible.
-                    </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
-                        Connect with Us
+                <div class="col-lg-6">
+                    <h2 data-aos="fade-right">
+                        Remote Patient Monitoring.
+                    </h2>
+                    <!-- <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
+                        Akos puts healthcare in the palm of your hands.
+                    </h6> -->
+                    <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
+                        <img src="img/Icon%20feather-play.svg" class="mr-2" alt="" />
+                        Watch the film
                     </a> -->
                 </div>
             </div>
