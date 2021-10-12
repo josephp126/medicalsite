@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('mainContent')
-<div id="main-top" class="remotepatient">
+<div id="main-top" class="aco">
     <!-- <div id="fullwidth-video">
         <div class="fullwidth-video-bg">
             <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
@@ -11,6 +11,7 @@
             </video>
         </div>
     </div> -->
+
     <div class="header">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
@@ -88,7 +89,7 @@
                         <li class="menu-item">
                             <a href="/"> Home </a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item active">
                             <a href="/employers"> Employers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
@@ -138,7 +139,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="menu-item active">
+                        <li class="menu-item">
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li>
                         <li class="menu-item">
@@ -165,12 +166,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <!-- <h2 data-aos="fade-right">
-                        The digital health <br>
-                        revolution begins here
+                    <h2 data-aos="fade-right">
+                        Value based entities <br>
                     </h2>   
-                    <p data-aos="fade-right">Member Benefits Summary</p>
-                    <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
+                    <!-- <p data-aos="fade-right">Member Benefits Summary</p> -->
+                    <!-- <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         Your employer has expanded their healthcare <br>
                         benefits package to include Akos as a direct <br>
                         primary care partner. As a member of the <br>
@@ -178,10 +178,7 @@
                         to many of the services Akos has to offer. <br>
                         The benefits listed are available to you with <br>
                         no copay and $0 deductible.
-                    </h6>
-                    <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
-                        Connect with Us
-                    </a> -->
+                    </h6> -->
                 </div>
             </div>
         </div>
@@ -193,188 +190,127 @@
 </div>
 <!--    TOP SECTION-->
 
-<div id="wrapper" class="remote-wrapper">
-    <div class="top-text">
-        <p>
-            Telehealth System <br>
-            of Chronic Disease <br>
-            Management
-        </p>
-    </div>
-    <div class="benefits">
-        <h2>
-            Benefits of using the<br>
-            24/7 Telehealth System
-        </h2>
-        <div class="row container">
-            <div class="col-md-6">
-                <div style="display:flex">
-                    <span class="plus-symbol">+</span>&nbsp;
-                    <p>
-                        Patient measures using Bluetooth or 3G<br>
-                        Cellular data transmission device, readings are <br>
-                        immediately organized in the patient's account.
+<div id="wrapper" class="aco-wrapper">
+    <!-- BOTTOM 4 -->
+    <div id="aco_explanation" class="bottom4-frow bottom4-frow-newhome">
+        <div class="all-inclusive">
+            <div class="row section-content">
+                <div class="col-sm-6">
+                    <p class="sub-title">
+                        Integrated Connected Care Platform
                     </p>
                 </div>
-                <div style="display:flex">
-                    <span class="plus-symbol">+</span>&nbsp;
-                    <p>
-                        Reduce health care costs by identifying key<br>
-                        problems early and avoid costly ER visits,<br>
-                        hospital stays and long-term complications.
-                    </p>
+                <div class="col-sm-6">
+                    <img src="{{asset('img/aco/care-platform.png')}}" />
                 </div>
             </div>
-            <div class="col-md-6">
-                <div style="display:flex">
-                    <span class="plus-symbol">+</span>&nbsp;
-                    <p>
-                        Print out reports, view pie and trend graphs<br>
-                        for compliance, add data and monitor multiple<br>
-                        parameters such as blood glucose, β-ketone,<br>
-                        pressure, oxygen, weight.
-                    </p>
+            <div class="row section-content" style="margin-top: 20px">
+                <div class="col-sm-6 col-sm-push-6">
+                    <div class="item item-blue">
+                        <h3 class="section-title">
+                            Comprehensive Connected <br class="d-none d-lg-block">
+                            Care Portal
+                        </h3>
+                        
+                        <ul class="pt-4 greenul">
+                            <li>
+                                Multi team comunications
+                            </li>
+                            <li>
+                                HRA based risk score
+                            </li>
+                            <li>
+                                Individualized care plans
+                            </li>
+                            <li>
+                                Bidirectional EMR connections
+                            </li>
+                            <li>
+                                Inbuilt HIPPA secure chat and messaging
+                            </li>
+                            <li>
+                                Inbuilt Telmed
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div style="display:flex">
-                    <span class="plus-symbol">+</span>&nbsp;
-                    <p>
-                        Improve your patient's outcomes by daily, <br>
-                        weekly and monthly monitoring.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cloud">
-        <p>
-            Akos's Cloud provides tools that empower<br>
-            healthcare professionals and caregivers to<br>
-            remotely monitor patients at home.
-        </p>
-    </div>
-    <div class="row woman-doctor">
-        <div class="col-sm-6">
-            <img src="{{asset('img/rpm/woman-doctor.png')}}" style="width: 100%" />
-        </div>
-        <div class="col-sm-6">
-            <h2>Core features include</h2>
-            <div>
-                <h3>User Interface Functionality</h3>
-                <p>
-                    Intuitive, easy to navigate and customize<br>
-                    dashboard for caregivers and patients
-                </p>
-            </div>
-            <div>
-                <h3>Accessible</h3>
-                <p>
-                    Real-time data is easily accessed from any web-<br>
-                    browser including moblie devices.
-                </p>
-            </div>
-            <div>
-                <h3>Various Measurements</h3>
-                <p>
-                    Blood glucose, β-ketone, blood pressure &<br>
-                    pulse, weight, SpO2 and temperature.
-                </p>
-            </div>
-            <div>
-                <h3>Flexible Reporting</h3>
-                <p>
-                    Pie charts, trend graphs, and scatter plots.<br>
-                </p>
-            </div>
-            <div>
-                <h3>Key Alerts</h3>
-                <p>
-                    Alerts are auto-generated when your patient's<br>
-                    reading goes out of range.
-                </p>
-            </div>
-            <div>
-                <h3>Multi-Level Access</h3>
-                <p>
-                    Group manager, caregiver, and end-user
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container easy-monitor">
-        <div class="row">
-            <div class="col-sm-6">
-                <h2>
-                    Easy-to-use 24/7 access<br>
-                    to patient's data via HIPAA<br>
-                    compliant web-based software
-                </h2>
-            </div>
-            <div class="col-sm-6"></div>
-        </div>
-        <div>
-            <img src="{{asset('img/rpm/easy.png')}}" style="width: 100%" />
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <h2>
-                    Monitor your chronic disease<br>
-                    management patients in real time.
-                </h2>
-            </div>
-            <div class="col-sm-6"></div>
-        </div>
-        <div>
-            <img src="{{asset('img/rpm/monitor.png')}}" style="width: 100%" />
-        </div>
-    </div>
-    <div class="simple-akos">
-        <p>
-            Monitoring and managing your patient's<br>
-            chronic disease is simple with Akos
-        </p>
-        <img src="{{asset('img/rpm/simple-akos.png')}}" style="width: 100%" />
-    </div>
-    <div class="about-akos">
-        <div class="row">
-            <div class="col-sm-7 about">
-                <div>
-                    <h2>About Akos</h2>
-                    <p>
-                        Akos. is a fully-integrated healthcare technology<br>
-                        company, edicated to imporving patient care for<br>
-                        chronic conditions including diabetes mellitus, <br>
-                        hypertension, CHF and COPD. With offices and <br>
-                        customers around the world, Akos researches,<br>
-                        designs and manufactures Akos branded<br>
-                        innovative, easy-to-use, highly accurate devices,<br>
-                        mobile applications and software serving both<br>
-                        patients and healthcare professionals.
-                    </p>
-                    <p>
-                        Akos seeks to embody the spirit of progress in its<br>
-                        efforts at developing and improving medical device<br>
-                        technology, data-based management software and<br>
-                        high quality products with the aim of reducing costs
-                    </p>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <img src="{{asset('img/aco/comprehensive.png')}}" style="width: 100%" />
                 </div>
             </div>
-            <div class="col-sm-5 request">
-                <div class="">
-                    <h3>
-                        Request a <br>
-                        Demonstration<br>
-                        Today.
-                    </h3>
-                    <p>1.844.900.AKOS</p>
+            <div class="row section-content">
+                <div class="col-sm-6">
+                    <div class="item item-blue">
+                        <h3 class="section-title">
+                            Extensive Reporting <br class="d-none d-lg-block">
+                            Suite
+                        </h3>
+                        
+                        <ul class="pt-4 greenul">
+                            <li>
+                                Health Care Cost
+                            </li>
+                            <li>
+                                Raf Scoring
+                            </li>
+                            <li>
+                                Provider Quality and HEDIS
+                            </li>
+                            <li>
+                                Utilization Reports
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="{{asset('img/aco/graph.png')}}" style="width:100%" />
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- STAY CONNECTED FORM -->
+    <div id="sc-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="fcontainer">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h5>
+                                    Stay Connected
+                                </h5>
+                                <p>
+                                    Subscribe to get latest news & updates from Akos. You can
+                                    unsubscribe anytime and we won't share your information
+                                </p>
+                            </div>
+                            <div class="col-lg-5 offset-lg-1 pt-3">
+                                <form action="">
+                                    <label>
+                                        Email
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="submit" value="Submit" class="cta-btn">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STAY CONNECTED FORM -->
+
 </div>
-
-
 @endsection
 
 @section('custom_js')
-
 @endsection

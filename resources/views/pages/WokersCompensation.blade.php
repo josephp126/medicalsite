@@ -125,7 +125,7 @@
                                         <a href="">Specialist</a>
                                     </li>
                                     <li>
-                                        <a href="">ACO/Value Based entities</a>
+                                        <a href="/aco">ACO/Value Based entities</a>
                                     </li>
                                     <li>
                                         <a href="/ccm">CCM</a>
@@ -218,7 +218,7 @@ improves employee productivity, and keeps employees on site for diagnosis and tr
                     <div class="item item-blue">
                         <h3 class="section-title">
                             Immediate care, <br class="d-none d-lg-block">
-long term results
+                            long term results
                         </h3>
                         <p class="pt-4">
                             Businesses benefit from Akos
@@ -231,7 +231,7 @@ long term results
                         <img src="img/workers-compensation/device.svg" alt="">
                         <h6 class="pt-3">
                             24/7/365 access from a <br class="d-none d-lg-block">
-smartphone or tablet
+                            smartphone or tablet
                         </h6>
                     </div>
 
@@ -240,7 +240,7 @@ smartphone or tablet
                         <img src="img/workers-compensation/virtaully-consult.svg" alt="">
                         <h6 class="pt-3">
                             Virtually consult with board-certified <br class="d-none d-lg-block">
-healthcare providers
+                            healthcare providers
                         </h6>
                     </div>
 
@@ -249,7 +249,7 @@ healthcare providers
                         <img src="img/workers-compensation/piggie-bank.svg" alt="">
                         <h6 class="pt-3">
                             Reduced workers’ compensation <br class="d-none d-lg-block">
-claims and medical costs
+                            claims and medical costs
                         </h6>
                     </div>
 
@@ -258,10 +258,9 @@ claims and medical costs
                         <img src="img/workers-compensation/urgent-care.svg" alt="">
                         <h6 class="pt-3">
                             Avoid unnecessary ER and <br class="d-none d-lg-block">
-urgent care visits
+                            urgent care visits
                         </h6>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -281,7 +280,7 @@ urgent care visits
                     <div class="item item-blue">
                         <h3 class="section-title">
                             Common workplace <br class="d-none d-lg-block">
-injuries treated
+                            injuries treated
                         </h3>
                         
                         <ul class="pt-4 greenul">

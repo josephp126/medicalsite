@@ -6,6 +6,10 @@ body * {
 }
 
 /* Winner */
+.row {
+  margin-right: 0 !important;
+}
+
 .menu-item a:hover {
   color: rgba(255, 251, 5, 0.6) !important;
 }
@@ -413,7 +417,7 @@ section.newsletter-form {
 
 .remote-wrapper .top-text {
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
   background-color: #14a5ad;
   padding: 10px 10%;
 }
@@ -569,6 +573,28 @@ section.newsletter-form {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+#wrapper #aco_explanation .section-content .col-sm-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper #aco_explanation .section-content .sub-title {
+  font-size: 36px;
+  color: #071f3e;
+  font-weight: 600;
+}
+
+#wrapper #aco_explanation .all-inclusive {
+  margin-top: 20px;
+}
+
+#wrapper #aco_explanation .section-content .sub-content {
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
 }
 
 /* Winner */
@@ -823,6 +849,24 @@ p {
 #main-top.whowe {
   background-image: url("../img/whowe/whowe-back.jpg");
   background-size: cover;
+}
+
+#main-top.aco {
+  background-image: url("../img/aco/aco-back.png");
+  background-size: cover;
+}
+
+#wrapper #aco_explanation .section-content {
+  margin-bottom: 50px;
+}
+
+#wrapper #aco_explanation .section-content:last-child {
+  margin-bottom: 0;
+}
+
+#wrapper #aco_explanation .section-content .sub-content-div {
+  background-color: #071f3e;
+  padding: 30px 0px;
 }
 
 /*winner*/
