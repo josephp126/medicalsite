@@ -89,7 +89,7 @@
                         <li class="menu-item">
                             <a href="/"> Home </a>
                         </li>
-                        <li class="menu-item active">
+                        <li class="menu-item">
                             <a href="/employers"> Employers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
@@ -114,7 +114,7 @@
                         <li class="menu-item">
                             <a href="/urgentcare"> Urgent Care Centre </a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item active">
                             <a href="/providers"> Providers </a>
                             <div class="submenu-cont">
                                 <ul class="submenu">
