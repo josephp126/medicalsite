@@ -515,18 +515,32 @@ section.newsletter-form {
 
 @media only screen and (max-width: 800px) {
   .remote-wrapper .top-text p {
-    font-size: 56px;
-    line-height: 63px;
+    font-size: 30px;
+    line-height: 43px;
+  }
+
+  .remote-wrapper .benefits h2,
+  .remote-wrapper .woman-doctor h2,
+  .remote-wrapper .easy-monitor h2 {
+    font-size: 26px;
+  }
+
+  .remote-wrapper .benefits p,
+  .remote-wrapper .woman-doctor div p {
+    font-size: 20px;
   }
 
   .remote-wrapper .cloud p {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 36px;
   }
 
   .remote-wrapper .simple-akos p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
+  }
+  .remote-wrapper .woman-doctor div h3 {
+    font-size: 22px;
   }
 }
 
