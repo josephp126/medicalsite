@@ -5,6 +5,11 @@ body * {
   font-weight: 400;
 }
 
+#map {
+  height: 600px;
+  width: 100%;
+}
+
 /* Winner */
 .row {
   margin-right: 0 !important;

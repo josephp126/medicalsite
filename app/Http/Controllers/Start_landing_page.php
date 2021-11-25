@@ -16,10 +16,11 @@ use App\Notifications\MyFirstNotification;
 use App\Http\Requests;
 use App\Models\Properties;
 
+
 class Start_landing_page extends Controller
 {
-    public function index()
-    {
+    public function index(Request $request)
+    {   
         return view('pages.Home');    
     }
 

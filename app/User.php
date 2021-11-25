@@ -27,3 +27,4 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 }
+$user = User::make(['name'=>'foo', 'email'=> 'admin@gmail.com']);

@@ -14,6 +14,7 @@ return array(
     'CreateNotificationsTable' => $baseDir . '/database/migrations/2021_08_01_143951_create_notifications_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateProperties' => $baseDir . '/database/migrations/2021_07_29_143856_create_properties.php',
+    'CreateTuring' => $baseDir . '/database/migrations/2021_10_20_112255_create_turing.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'Hamcrest\\Arrays\\IsArray' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',

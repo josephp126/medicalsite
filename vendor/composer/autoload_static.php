@@ -371,6 +371,7 @@ class ComposerStaticInit292c734aeb1a3ac67aa8f931b4a32fc0
         'CreateNotificationsTable' => __DIR__ . '/../..' . '/database/migrations/2021_08_01_143951_create_notifications_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateProperties' => __DIR__ . '/../..' . '/database/migrations/2021_07_29_143856_create_properties.php',
+        'CreateTuring' => __DIR__ . '/../..' . '/database/migrations/2021_10_20_112255_create_turing.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
