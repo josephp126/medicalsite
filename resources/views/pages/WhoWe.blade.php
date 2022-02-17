@@ -98,11 +98,11 @@
 							<div class="submenu-cont">
 								<ul class="submenu">
 									<li> <a href="">Primary Providers</a> </li>
-									<li> <a href="">Specialist</a> </li>
+									<li> <a href="">Specialists</a> </li>
 									<li> <a href="/aco">ACO/Value Based entities</a> </li>
-									<li> <a href="/ccm">CCM</a> </li>
-									<li> <a href="">RPM</a> </li>
-									<li> <a href="">Answering servicce/Nurse triage</a> </li>
+									<li> <a href="/ccm">Chronic Case Management</a> </li>
+									<!-- <li> <a href="">RPM</a> </li> -->
+									<li> <a href="">Answering service/Nurse triage</a> </li>
 								</ul>
 							</div>
 						</li>
@@ -115,7 +115,7 @@
                           <a href="" class="cta-btn-outline"> Member Login </a>
                       </li> -->
 						<li> <a href="" class="cta-btn-1">
-                              Contact Us
+                            Contact Us
                           </a> </li>
 					</ul>
 				</div>
@@ -133,9 +133,6 @@
 					<h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
 						Akos Med Clinic has you covered
 					</h6> 
-					<!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
-						Connect with Us
-					</a>  -->
 				</div>
 			</div>
 		</div>
@@ -152,7 +149,7 @@
 				<div class="col-sm-4 col-sm-offset-1">
 					<h3>The future of healthcare</h3>
 					<p class="subtitle">A new era in digital health</p>
-					<p>Telemedicine is revolutionizing the healthcare industry, improving access and reducing cost for patients and providers alike. With digital health technology more advanced than ever and virtual consults that put both parties face to face, telemedicine is able to offer streamlined convenience without compromising quality care.</p>
+					<p>Virtual health is revolutionizing the healthcare industry, improving access and reducing cost for patients and providers alike. With digital health technology more advanced than ever and virtual consults that put both parties face to face, Akos is able to offer streamlined convenience without compromising quality care.</p>
 				</div>
 			</div>
 		</div>
@@ -164,9 +161,9 @@
 					<div class="main-image"><img src="https://akosmd.com/app/uploads/2017/01/our_team_top_panel2.jpg" alt="" /></div>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6">
-					<h3>The future of telemedicine</h3>
+					<h3>The future of virtual health</h3>
 					<p class="subtitle">More than an app, an answer</p>
-					<p>Akos is a pioneer in telemedicine, offering patient-centered solutions that in turn benefit employers, physicians and healthcare centers. With a mobile interface that lets you virtually consult with a board-certified provider anywhere anytime and care coordinators to ensure your needs are always being met, Akos strives to provide the most comprehensive telemedicine service in healthcare.</p>
+					<p>Akos is a pioneer in virtual health, offering patient-centered solutions that in turn benefit employers, physicians and healthcare centers. With a device agnostic interface that lets you virtually consult with a board-certified provider anywhere, anytime and care coordinators to ensure your needs are always being met, Akos strives to provide the most comprehensive telemedicine virtual care in the industry.</p>
 				</div>
 			</div>
 		</div>
@@ -180,7 +177,7 @@
 				<p>Changing the way you do healthcare</p>
 			</div>
 			<div class="col-sm-12" style="padding-top: 30px">
-				<p>Our seasoned team of professionals brings decades of experience in healthcare and business to the field of telemedicine:</p>
+				<p>Our seasoned team of professionals brings decades of experience in healthcare and business to the field of virtual medicine:</p>
 			</div>
 		</div>
 	</div>
@@ -230,7 +227,7 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Maria A Shah MD</h4> <span class="physician-title">Medical Officer</span>
+									<h4 class="physician-name">Maria A Shah MD</h4> <span class="physician-title">Coo</span>
 									<!-- <div class="physician-bio">
 										<p>Maria A Shah is an experienced healthcare administrator with proven success in managing clinical operations to drive strong and sustained growth. Maria is a champion for evidence-based and cost-effective medical...</p>
                   					</div> -->
@@ -260,6 +257,16 @@
 		</section>
 	</div>
 </div>
+<section class="white-banner" id="career-anchor">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>Explore careers with Akos</h3>
+				<p>From doctors to developers</p>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="app-bar investors mobile-panel" id="investor-anchor">
 	<div class="container">
 		<div class="row">
@@ -272,17 +279,8 @@
 		</div>
 	</div>
 </section>
-<section class="white-banner" id="career-anchor">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h3>Explore careers with Akos</h3>
-				<p>From doctors to developers</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="careers-list">
+
+<!-- <section class="careers-list">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -436,7 +434,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="newsletter-form form-fadeout">
 	<div class="container">
 		<div class="row">
@@ -487,7 +485,7 @@
 @section('custom_js')
 <script type='text/javascript' src='https://akosmd.com/app/themes/akostheme/dist/scripts/main-fb0b5c7b76.js'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/wp-embed.min.js?ver=5.4.7'></script>
-<a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a>
+<!-- <a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a> -->
 <script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

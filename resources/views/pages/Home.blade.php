@@ -2,15 +2,6 @@
 
 @section('mainContent')
 <div id="main-top" class="main-index">
-    <!-- <div id="fullwidth-video">
-        <div class="fullwidth-video-bg">
-            <video id="bgvideop" poster="img/video-bg.jpg" autobuffer autoplay="autoplay" loop="loop" muted
-                defaultMuted playsinline webkit-playsinline oncontextmenu="return false;" preload="auto"
-                onplaying="this.controls=false">
-                <source src="img/bgvideo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-            </video>
-        </div>
-    </div> -->
     <div class="header">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
@@ -79,19 +70,19 @@
                                         <a href="">Primary Providers</a>
                                     </li>
                                     <li>
-                                        <a href="">Specialist</a>
+                                        <a href="">Specialists</a>
                                     </li>
                                     <li>
                                         <a href="/aco">ACO/Value Based entities</a>
                                     </li>
                                     <li>
-                                        <a href="/ccm">CCM</a>
+                                        <a href="/ccm">Chronic Case Management</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="">RPM</a>
-                                    </li>
+                                    </li> -->
                                     <li>
-                                        <a href="">Answering servicce/Nurse triage</a>
+                                        <a href="">Answering service/Nurse triage</a>
                                     </li>
                                 </ul>
                             </div>
@@ -122,12 +113,12 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <h2 data-aos="fade-right">
-                        Healthcare made easy and affordable.
+                        Healthcare made easy and affordable
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Akos puts healthcare in the palm of your hands.
+                        Akos puts healthcare in the palm of your hands
                     </h6>
                     <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         <img src="img/Icon%20feather-play.svg" class="mr-2" alt="" />
@@ -151,10 +142,10 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 text-center">
                     <h3 class="section-title">
-                        Modern medicine meets modern convinience
+                        Modern medicine meets modern convenience
                     </h3>
                     <p class="pt-4">
-                        No commutes. No waiting rooms. Akos uses <br class="d-none d-lg-block"> telemedicine so you can
+                        No commutes. No waiting rooms. Akos uses <br class="d-none d-lg-block"> virtual technology so you can
                         consult with a healthcare <br class="d-none d-lg-block"> professional without the hassles of a
                         physical visit
                     </p>
@@ -174,7 +165,7 @@
                         <p class="pt-4">
                             Day or night, weekend or holidays, Akos is there to diagnose
                             and treat a wide range of health concerns - from ankle sprains
-                            to anxiety. Finally, a medical app that takes care of you so
+                            to anxiety. Finally, a service that takes care of you so
                             you can take care of everything else.
                         </p>
                         <a href="" class="btn-cta-outline-white mt-4">Know More</a>
@@ -216,7 +207,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
-                        <h6>Akos Med <br>Clinics</h6>
+                        <h6>Virtual Med <br>kiosks</h6>
                         <a href="/onsiteclinics"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12"
                                 class="ml-2" alt=""></a>
                     </div>
@@ -230,14 +221,14 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="item" style="background-image: url('img/hc-solutions/population-hc.jpg');">
-                        <h6>Population Health <br>Management</h6>
+                        <h6>Population Health <br>Analytics</h6>
                         <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2"
                                 alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="item" style="background-image: url('img/hc-solutions/chronic-hc.jpg');">
-                        <h6>Chronic Care<br>Management</h6>
+                        <h6>Remote Patient<br>Monitering</h6>
                         <a href="/ccm"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2"
                                 alt=""></a>
                     </div>
@@ -455,7 +446,6 @@
     </div>
     <!--FEATURED-->
 </div>
-<div id="map"></div>
 @endsection
 
 @section('custom_js')

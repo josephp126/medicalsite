@@ -122,19 +122,19 @@
                                         <a href="">Primary Providers</a>
                                     </li>
                                     <li>
-                                        <a href="">Specialist</a>
+                                        <a href="">Specialists</a>
                                     </li>
                                     <li>
                                         <a href="/aco">ACO/Value Based entities</a>
                                     </li>
                                     <li>
-                                        <a href="/ccm">CCM</a>
+                                        <a href="/ccm">Chronic Case Management</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="">RPM</a>
-                                    </li>
+                                    </li> -->
                                     <li>
-                                        <a href="">Answering servicce/Nurse triage</a>
+                                        <a href="">Answering service/Nurse triage</a>
                                     </li>
                                 </ul>
                             </div>
@@ -346,8 +346,8 @@ helps you achieve them
                 <div class="col-lg-5 offset-lg-7">
                     <div class="item item-blue">
                         <h3 class="section-title">
-                            Common workplace <br class="d-none d-lg-block">
-                            injuries treated
+                            Common Chronic <br class="d-none d-lg-block">
+                            diseases
                         </h3>
 
                         <ul class="pt-4 greenul splitul">
@@ -438,7 +438,7 @@ helps you achieve them
         </div>
         <div class="col-md-6 col-lg-4 mb-5">
             <div class="item" style="background-image: url('img/hc-solutions/medclinics-hc.jpg');">
-            <h6>Akos Med <br>Clinics</h3>
+            <h6>Akos Med <br>kiosks</h3>
             <a href=""><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2" alt=""></a>
             </div>
         </div>

@@ -144,19 +144,19 @@
                                         <a href="">Primary Providers</a>
                                     </li>
                                     <li>
-                                        <a href="">Specialist</a>
+                                        <a href="">Specialists</a>
                                     </li>
                                     <li>
                                         <a href="/aco">ACO/Value Based entities</a>
                                     </li>
                                     <li>
-                                        <a href="/ccm">CCM</a>
+                                        <a href="/ccm">Chronic Case Management</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="">RPM</a>
-                                    </li>
+                                    </li> -->
                                     <li>
-                                        <a href="">Answering servicce/Nurse triage</a>
+                                        <a href="">Answering service/Nurse triage</a>
                                     </li>
                                 </ul>
                             </div>
