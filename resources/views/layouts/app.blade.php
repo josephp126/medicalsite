@@ -60,10 +60,10 @@
                         </li>
                     </ul> -->
                     <h3><a href="/onsiteclinics">ONSITE CLINICS</a></h3>
-                    <h3><a href="/onsiteclinics">URGENT CARE CENTER</a></h3>
+                    <h3><a href="/onsiteclinics">URGENT CARE</a></h3>
                 </div>
                 <!-- <div class="col-lg-2 mb-4">
-                    <h3><a href="/onsiteclinics">URGENT CARE CENTER</a></h3>
+                    <h3><a href="/onsiteclinics">URGENT CARE</a></h3>
                     <h3><a href="/onsiteclinics">PROVIDERS</a></h3>
                     <ul>
                         <a href="/onsiteclinics">PROVIDERS</a>

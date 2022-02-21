@@ -40,9 +40,10 @@
                         </li>
                     </ul>                    
                 </div>
-                <div class="col-lg-2 mb-4">
+                <div class="col-lg-3 mb-4">
                     <h3><a href="/">HOME</a></h3>
-                    <ul>
+                    <h3><a href="/employers">EMPLOYERS</a></h3>
+                    <!-- <ul>
                         <a href="/employers">EMPLOYERS</a>
                         <li>
                             <a href="/vpc">Virtual Primary Care</a>
@@ -56,11 +57,13 @@
                         <li>
                             <a href="/telemedicine">Telemedicine</a>
                         </li>
-                    </ul>
+                    </ul> -->
                     <h3><a href="/onsiteclinics">ONSITE CLINICS</a></h3>
+                    <h3><a href="/onsiteclinics">URGENT CARE</a></h3>
                 </div>
-                <div class="col-lg-2 mb-4">
-                    <h3><a href="/onsiteclinics">URGENT CARE CENTER</a></h3>
+                <!-- <div class="col-lg-2 mb-4">
+                    <h3><a href="/onsiteclinics">URGENT CARE</a></h3>
+                    <h3><a href="/onsiteclinics">PROVIDERS</a></h3>
                     <ul>
                         <a href="/onsiteclinics">PROVIDERS</a>
                         <li>
@@ -75,16 +78,17 @@
                         <li>
                             <a href="/ccm">Chronic Case Management</a>
                         </li>
-                        <!-- <li>
+                        <li>
                             <a href="">RPM</a>
-                        </li> -->
+                        </li>
                         <li>
                             <a href="">Answering service/Nurse triage</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
 
-                <div class="col-lg-2 mb-4">
+                <div class="col-lg-3 mb-4">
+                    <h3><a href="/onsiteclinics">PROVIDERS</a></h3>
                     <h3><a href="/remotepatient">REMOTE PATIENT MONITORING</a></h3>
                     <h3><a href="/whowe">WHO WE ARE</a></h3>
                     <h3><a href="/news">NEWS</a></h3>

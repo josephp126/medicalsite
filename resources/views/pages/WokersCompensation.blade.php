@@ -105,14 +105,17 @@
                                     <li>
                                         <a href="/telemedicine">Telemedicine</a>
                                     </li>
+                                    <li>
+                                        <a href="/akosadvisor"> Akos Advisor</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="menu-item">
+                        <!-- <li class="menu-item">
                             <a href="/akosadvisor"> Akos Advisor</a>
-                        </li>                            
+                        </li>                             -->
                         <li class="menu-item">
-                            <a href="/urgentcare"> Urgent Care Centre </a>
+                            <a href="/urgentcare"> Urgent Care </a>
                         </li>
                         <li class="menu-item">
                             <a href="/providers"> Providers </a>
@@ -131,7 +134,7 @@
                                         <a href="/ccm">CCM</a>
                                     </li>
                                     <li>
-                                        <a href="remotepatient">RPM</a>
+                                        <a href="/remotepatient">Remote Patient monitoring</a>
                                     </li>
                                     <li>
                                         <a href="">Answering service/Nurse triage</a>
@@ -139,9 +142,9 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="menu-item">
+                        <!-- <li class="menu-item">
                             <a href="/remotepatient"> Remote Patient monitoring </a>
-                        </li>
+                        </li> -->
                         <li class="menu-item">
                             <a href="/whowe"> Who we are </a>
                         </li>
@@ -152,8 +155,8 @@
                             <a href="" class="cta-btn-outline"> Member Login </a>
                         </li> -->
                         <li>
-                            <a href="" class="cta-btn-1">
-                                Contact Us
+                            <a href="https:///Member.AkosMD.com" class="cta-btn-1">
+                                Member Login
                             </a>
                         </li>
                     </ul>
