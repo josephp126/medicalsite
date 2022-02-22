@@ -229,7 +229,7 @@
                             We perform a wide range of lab tests and diagnostics
                             onsite so you can get treated as quickly and conveniently
                             as possible. Check the list of some of the most common
-                            lab tests and diagnostics performed at Akos Med Clinic.
+                            lab tests and diagnostics performed at Akos Urgent Care.
                         </p>
                     </div>
                 </div>
@@ -268,6 +268,9 @@
                         </li>
                         <li>
                             Immunizations
+                        </li>
+                        <li>
+                            Pre Employment PHysicals
                         </li>
                     </ul>
                 </div>
@@ -479,17 +482,17 @@ of your business
                         So whether you walk in or call ahead, we'll be ready to take care of you.
                     </h6>
 
-                    <div class="map-frame">
-                        <iframe
+                    <div class="map">
+                        <!-- <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55565170.29301636!2d-132.08532758867793!3d31.786060306224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1624372261876!5m2!1sen!2sin"
-                            style="border:0;height: 400px;width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+                            style="border:0;height: 400px;width: 100%;" allowfullscreen="" loading="lazy"></iframe> -->
 
-                        <div class="text-left">
-                            <h4 class="pt-4 text-left" style="color: #071F3E;font-size: 23px;">
+                        <div class="text-center">
+                            <h4 class="pt-4" style="color: white;font-size: 23px;">
                                 Always Open
                             </h4>
 
-                            <span class="timing pb-2" style="color: #707070;font-size: 15px;line-height: 22px;">
+                            <span class="timing pb-2" style="color: white;font-size: 15px;line-height: 22px;">
                                 Akos Urgent Care <br>
                                 5104 N. 67th Avenue<br>
                                 Glendale, Arizona 85301<br>
@@ -498,7 +501,7 @@ of your business
                             </span>
                             <br>
                             <a href="mailto:urgentcare@akosmd.com"
-                                style="color: #071F3E;font-size: 15px;">urgentcare@akosmd.com</a>
+                                style="color: white;font-size: 15px;">urgentcare@akosmd.com</a>
                         </div>
                     </div>
                 </div>

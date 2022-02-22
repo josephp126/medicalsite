@@ -1830,10 +1830,9 @@ span.vdivider {
 
 #map-sect {
   background-color: #071f3e;
-  padding: 70px 0 370px 0;
+  padding: 70px 0 70px 0;
   color: #fff;
   position: relative;
-  margin-bottom: 370px;
 }
 
 #map-sect .map-frame {
