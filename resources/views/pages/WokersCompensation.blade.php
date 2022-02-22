@@ -174,7 +174,10 @@
                         do business
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Get the Akos advantage and transform the way your employees get care
+                        Workers compensation that works For you, for them, for everyone.</br></br>
+                        70% of worker's compensation cases can be resolved without a physical visit to the ER or Urgent Care.
+Akos Worker's Compensation Program reduces medical costs, avoids unnecessary ER and urgent visits, 
+improves employee productivity, and keeps employees on site for diagnosis and treatment.
                     </h6>
                     <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
@@ -192,7 +195,7 @@
 
 <div id="wrapper">
     <!--SHORT DESC-->
-    <div id="short-desc" class="mb-0 border-bottom-0">
+    <!-- <div id="short-desc" class="mb-0 border-bottom-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -208,7 +211,7 @@ improves employee productivity, and keeps employees on site for diagnosis and tr
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--SHORT DESC-->
 
     
