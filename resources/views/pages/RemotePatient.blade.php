@@ -273,7 +273,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2>
-                    Monitor your high ris<br>
+                    Monitor your high risk<br>
                     patients in real time.
                 </h2>
             </div>
