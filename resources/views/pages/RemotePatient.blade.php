@@ -103,7 +103,7 @@
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="/whowe"> Who we are </a>
+                            <a href="/whowe"> About Us </a>
                         </li>
                         <li class="menu-item">
                             <a href="/news"> News </a>
@@ -126,9 +126,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 data-aos="fade-right">
+                    <!-- <h2 data-aos="fade-right">
                         Remote Patient Monitoring.
-                    </h2>
+                    </h2> -->
                     <!-- <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         Akos puts healthcare in the palm of your hands.
                     </h6> -->
@@ -150,9 +150,8 @@
 <div id="wrapper" class="remote-wrapper">
     <div class="top-text">
         <p>
-            Telehealth System <br>
-            of Chronic Disease <br>
-            Management
+            Telehealth System of Chronic Disease <br>
+            Management + Remote Patient Monitoring
         </p>
     </div>
     <div class="benefits">
@@ -165,17 +164,19 @@
                 <div style="display:flex">
                     <span class="plus-symbol">+</span>&nbsp;
                     <p>
-                        Patient measures using Bluetooth or 3G<br>
-                        Cellular data transmission device, readings are <br>
-                        immediately organized in the patient's account.
+                        Patient measures using Bluetooth</br>
+                        Cellular data transmission device, </br>
+                        readings are immediately organized</br> 
+                        in the patient's account.
                     </p>
                 </div>
                 <div style="display:flex">
                     <span class="plus-symbol">+</span>&nbsp;
                     <p>
-                        Reduce health care costs by identifying key<br>
-                        problems early and avoid costly ER visits,<br>
-                        hospital stays and long-term complications.
+                        Reduce health care costs by identifying<br>
+                        key problems early and avoid costly<br>
+                        ER visits, hospital stays and long-term<br>
+                        complications.
                     </p>
                 </div>
             </div>
@@ -183,17 +184,18 @@
                 <div style="display:flex">
                     <span class="plus-symbol">+</span>&nbsp;
                     <p>
-                        Print out reports, view pie and trend graphs<br>
-                        for compliance, add data and monitor multiple<br>
-                        parameters such as blood glucose, β-ketone,<br>
-                        pressure, oxygen, weight.
+                        Print out reports, view pie and trend<br>
+                        graphs for compliance, add data and<br>
+                        monitor multiple parameters such as<br>
+                        blood glucose, β-ketone, pressure,<br>
+                        oxygen, weight.
                     </p>
                 </div>
                 <div style="display:flex">
                     <span class="plus-symbol">+</span>&nbsp;
                     <p>
-                        Improve your patient's outcomes by daily, <br>
-                        weekly and monthly monitoring.
+                        Improve your patient's outcomes by<br>
+                        daily, weekly and monthly monitoring.
                     </p>
                 </div>
             </div>
@@ -201,7 +203,7 @@
     </div>
     <div class="cloud">
         <p>
-            Akos's Cloud provides tools that empower<br>
+            Our Cloud provides tools that empower<br>
             healthcare professionals and caregivers to<br>
             remotely monitor patients at home.
         </p>
@@ -271,8 +273,8 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2>
-                    Monitor your chronic disease<br>
-                    management patients in real time.
+                    Monitor your high ris<br>
+                    patients in real time.
                 </h2>
             </div>
             <div class="col-sm-6"></div>
@@ -288,7 +290,7 @@
         </p>
         <img src="{{asset('img/rpm/simple-akos.png')}}" style="width: 100%" />
     </div>
-    <div class="about-akos">
+    <!-- <div class="about-akos">
         <div class="row">
             <div class="col-sm-7 about">
                 <div>
@@ -323,7 +325,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 

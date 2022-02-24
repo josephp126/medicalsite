@@ -90,7 +90,7 @@
                 <div class="col-lg-3 mb-4">
                     <h3><a href="/onsiteclinics">PROVIDERS</a></h3>
                     <h3><a href="/remotepatient">REMOTE PATIENT MONITORING</a></h3>
-                    <h3><a href="/whowe">WHO WE ARE</a></h3>
+                    <h3><a href="/whowe">ABOUT US</a></h3>
                     <h3><a href="/news">NEWS</a></h3>
                 </div>
 

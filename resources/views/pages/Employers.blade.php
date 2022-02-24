@@ -145,7 +145,7 @@
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="/whowe"> Who we are </a>
+                            <a href="/whowe"> About Us </a>
                         </li>
                         <li class="menu-item">
                             <a href="/news"> News </a>

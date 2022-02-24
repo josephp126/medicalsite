@@ -146,7 +146,7 @@
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="/whowe"> Who we are </a>
+                            <a href="/whowe"> About Us </a>
                         </li>
                         <li class="menu-item">
                             <a href="/news"> News </a>
@@ -472,7 +472,7 @@
             </div>
         </div>
     </div>
-    <div class="download">
+    <!-- <div class="download">
         <div class="row">
             <div class="col-sm-6" align="center">
                 <img src="{{asset('img/advisor/download-phone.png')}}" />
@@ -493,7 +493,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 @endsection
 

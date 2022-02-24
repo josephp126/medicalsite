@@ -146,7 +146,7 @@
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="/whowe"> Who we are </a>
+                            <a href="/whowe"> About Us </a>
                         </li>
                         <li class="menu-item">
                             <a href="/news"> News </a>
@@ -172,15 +172,15 @@
                     <h2 data-aos="fade-right">
                         Virtual Primary Care <br>
                     </h2>   
-                    <p data-aos="fade-right">Member Benefits Summary</p>
+                    <p data-aos="fade-right">All-Inclusive Healthcare Benefits</p>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Your employer has expanded their healthcare <br>
-                        benefits package to include Akos as a direct <br>
-                        primary care partner. As a member of the <br>
-                        Akos health plan, you have unlimited access <br>
-                        to many of the services Akos has to offer. <br>
-                        The benefits listed are available to you with <br>
-                        no copay and $0 deductible.
+                        A strong company cannot exist without healthy employees.<br>
+                        The everyday choieces we make can help us live healthier,<br>
+                        happier, and more fulfilling lives - both at work and at home.<br>
+                        And that's why(employer) is offering an essential tool as part<br>
+                        of your overall benefits package - a comprehensive Health and<br>
+                        Wellness Program designed to improve your health,<br>
+                        well-being and productivity.
                     </h6>
                 </div>
             </div>
@@ -198,15 +198,14 @@
     <div id="vpc_explanation" class="bottom4-frow bottom4-frow-newhome">
         <div class="all-inclusive">
             <p class="section-title">
-                All-Inclusive Healthcare Benefits 
+                Your Company Doctor 
             </p>
             <div class="container vpc-description">
                 <p>
-                    A strong company cannot exist without healthy employees. The everyday choieces <br>
-                    we make can help us live healthier, happier, and more fulfilling lives - both at <br>
-                    work and at home. And that's why(employer) is offering an essential tool as part <br>
-                    of your overall benefits package - a comprehensive Health and Wellness Program <br>
-                    designed to improve your health, well-being, and productivity.
+                    Expand your healthcare benefits package to include Akos as virtual primary care.<br>
+                    As a member of the Akos health plan, your employees have unlimited access to many<br>
+                    of the services Akos has to offer.<br>
+                    The benefits listed are available with no copay and $0 deductible.
                 </p>
             </div>
             <div class="row section-content">

@@ -420,13 +420,13 @@ section.newsletter-form {
   width: 100%;
   /* height: 400px; */
   background-color: #14a5ad;
-  padding: 10px 10%;
+  padding: 10px 3%;
 }
 
 .remote-wrapper .top-text p {
   color: white;
-  font-size: 80px;
-  line-height: 92px;
+  font-size: 52px;
+  line-height: 62px;
   font-weight: 300;
 }
 

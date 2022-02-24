@@ -146,7 +146,7 @@
                             <a href="/remotepatient"> Remote Patient monitoring </a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="/whowe"> Who we are </a>
+                            <a href="/whowe"> About Us </a>
                         </li>
                         <li class="menu-item">
                             <a href="/news"> News </a>
@@ -170,11 +170,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 data-aos="fade-right">
-                        Care On Demand And <br>
-                        On Location
+                        Onsite and Near site clinics
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Akos Med Clinic has you covered
+                        A cost effective alternative to an onsite company doctor
                     </h6>
                     <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us
@@ -197,17 +196,14 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="item item-blue">
-                        <h3 class="section-title">Healthcare has <br class="d-none d-lg-block">
-                            a new home
+                        <h3 class="section-title">Your new <br class="d-none d-lg-block">
+                            company doctor
                         </h3>
                         <p class="pt-4">
-                            At Akos Med Clinic, we recognize that the satisfaction
-                            and care of our patients takes precedence above all else.
-                            Our goal is to create an environment and experience that
-                            exceeds expectations from the moment you arrive.
-                            We treat every patient with speed, compassion and
-                            medical expertise because advanced medical care means
-                            catering to you.
+                            At Akos, we recognize that the satisfaction
+                            and care of your employees take precedence above all else.
+                            A 2417 benefit for your employees, with instant access to 
+                            a doctor, keeping them healthier, and at work longer
                         </p>
                     </div>
                 </div>
@@ -335,7 +331,7 @@
                             We perform a wide range of lab tests and diagnostics
                             onsite so you can get treated as quickly and conveniently
                             as possible. Check the list of some of the most common
-                            lab tests and diagnostics performed at Akos Med Clinic.
+                            lab tests and diagnostics performed.
                         </p>
                     </div>
                 </div>
@@ -417,7 +413,7 @@
 
 
     <!--SHORT DESC-->
-    <div id="short-desc" class="mb-0 border-bottom-0">
+    <!-- <div id="short-desc" class="mb-0 border-bottom-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -438,7 +434,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--SHORT DESC-->
 
 
