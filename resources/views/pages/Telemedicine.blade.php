@@ -229,7 +229,7 @@
     </div>
 
   <div class="slides">
-          <div class="slide-1 slide active">
+        <div class="slide-1 slide active">
           <div class="image image-1">
               <img src="https://akosmd.com/app/uploads/2016/12/slide_1_img.png" alt="" />
           </div>
@@ -299,13 +299,13 @@
 <div id="scroller-carousel" class="carousel slide carousel-fade hidden-sm hidden-md hidden-lg" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#scroller-carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#scroller-carousel" data-slide-to="1"></li>
-                  <li data-target="#scroller-carousel" data-slide-to="2"></li>
-                  <li data-target="#scroller-carousel" data-slide-to="3"></li>
-            </ol>
+        <li data-target="#scroller-carousel" data-slide-to="1"></li>
+        <li data-target="#scroller-carousel" data-slide-to="2"></li>
+        <li data-target="#scroller-carousel" data-slide-to="3"></li>
+    </ol>
 
     <div class="carousel-inner">
-                <div class="slide-1 slide item active">
+        <div class="slide-1 slide item active">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-push-1">
@@ -318,13 +318,13 @@
                 <div class="row">
                     <div class="col-xs-12 no-pad">
                       <div class="image image-1">
-                      <img src="https://akosmd.com/app/uploads/2016/12/slide_1_img.png" alt="" />
-                  </div>
-              </div>
+                            <img src="https://akosmd.com/app/uploads/2016/12/slide_1_img.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-                <div class="slide-2 slide item ">
+        <div class="slide-2 slide item ">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-push-1">
@@ -337,13 +337,13 @@
                 <div class="row">
                     <div class="col-xs-12 no-pad">
                       <div class="image image-2">
-                      <img src="https://akosmd.com/app/uploads/2016/12/slide_2_img.png" alt="" />
-                  </div>
-              </div>
+                            <img src="https://akosmd.com/app/uploads/2016/12/slide_2_img.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-                <div class="slide-3 slide item ">
+        <div class="slide-3 slide item ">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-push-1">
@@ -356,13 +356,13 @@
                 <div class="row">
                     <div class="col-xs-12 no-pad">
                       <div class="image image-3">
-                      <img src="https://akosmd.com/app/uploads/2016/12/slide_3_img.png" alt="" />
-                  </div>
-              </div>
+                            <img src="https://akosmd.com/app/uploads/2016/12/slide_3_img.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-                <div class="slide-4 slide item ">
+        <div class="slide-4 slide item ">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-push-1">
@@ -374,14 +374,14 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 no-pad">
-                      <div class="image image-4">
-                      <img src="https://akosmd.com/app/uploads/2016/12/slide_4_img.png" alt="" />
-                  </div>
-              </div>
+                        <div class="image image-4">
+                            <img src="https://akosmd.com/app/uploads/2016/12/slide_4_img.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-            </div>
+    </div>
 </div>
 
 <section class="remedies">
@@ -639,7 +639,7 @@
 @section('custom_js')
 <script type='text/javascript' src='https://akosmd.com/app/themes/akostheme/dist/scripts/main-fb0b5c7b76.js'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/wp-embed.min.js?ver=5.4.7'></script>
-<a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a>
+<!-- <a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a> -->
 <script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

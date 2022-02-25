@@ -39,6 +39,25 @@
 	.physicians-list .physician-tile .col-sm-9 {
 		padding-top: 25px; 
 	}
+	@media only screen and (min-width: 1000px) {
+		.physicians-detail .physician-detail-image img {
+			margin-top: 20px;
+		}
+		.physicians-detail .physician-detail-image {
+			margin-bottom: 0px;
+		}
+		.physicians-detail .physician-bio {
+			margin-top: 10px;
+		}
+	}
+	.physicians-detail .physician-name {
+		font-weight: 500;
+	} 
+	.physicians-detail .physician-title {
+		font-size: 16px;
+		font-weight: 500;
+		color: black;
+	}
 </style>
 @endsection
 
@@ -201,11 +220,25 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2016/12/Kishlay_2.jpg" alt="Kishlay Anand MD MS FHRS" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Kishlay Anand MD MS FHRS</h4> <span class="physician-title">Founder & Chief Executive Officer</span>
-									<!-- <div class="physician-bio">
-										<p>Dr. Kishlay Anand is a board-certified cardiologist and electrophysiologist and Akos co-founder. Dr. Anand garnered extensive administrative experience serving as Chairman of InstantMed Health Center, an innovative healthcare delivery model with Urgent...</p>
-                  					</div> -->
+									<h4 class="physician-name">Kishlay Anand, MD MS</h4> <span class="physician-title">Founder & Chief Executive Officer</span>
+									
 								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Anand is a Cardiovascular Surgeon and is Board-Certified in Cardiovascular 
+									Disease and Cardiac Electrophysiology. Dr. Anand received his medical degree 
+									from All India Institute of Medical Sciences in India, and his Master’s degree 
+									in Epidemiology from Columbia University. He completed his residency and fellowship 
+									of Internal Medicine at Creighton University, and his fellowship in the Division of 
+									Cardiology and the Division of Cardiac Electrophysiology at Creighton University. 
+									Dr. Anand’s entrepreneurial experience includes being the chairman and founding 
+									partner for Prayatna, a voluntary organization that works in the area of promoting 
+									health awareness and patient welfare. In January 2002 when Gujarat, India was hit 
+									by a massive earthquake, he raised funds for earthquake victims and organized an 
+									emergency medical relief team that delivered health care under extremely challenging 
+									conditions.
+								</p>
 							</div>
 						</div>
 						<!-- tile -->
@@ -217,11 +250,24 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2016/12/Swaraj_1.jpg" alt="Swaraj Singh MD" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Swaraj Singh MD</h4> <span class="physician-title">Founder & Chief Innovation Officer</span>
-									<!-- <div class="physician-bio">
-										<p>Dr. Swaraj Singh is a vascular neurologist and Akos co-founder. Dr. Singh garnered extensive administrative experience serving as medical director for neurology and stroke programs at Banner Thunderbird Medical Center, Banner Estrella...</p> 
-                  					</div> -->
+									<h4 class="physician-name">Swaraj Singh, MD</h4> <span class="physician-title">Founder & Chief Innovation Officer</span>
+									
 								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Singh is a Neurologist by profession, and Technologist by passion. He merged those 
+									two interests together, and co-founded AkosMD with Dr. Anand, combining the latest in 
+									technology with the best practices of medicine.  He completed his neurology training at 
+									University of Arkansas for Medical Sciences and VA hospital, Little Rock AR, where he also 
+									served as chief resident. He did a fellowship in vascular neurology at University of Massachusetts. 
+									Dr. Singh has various publications during his training including co-authoring a textbook chapter. 
+									He has presented his research in various national and international conferences. He has been awarded 
+									many times including best resident of the year, Jeff Nicholas prize for dedication towards care of 
+									veterans and a prize for evidence-based improvement in practice. Dr. Singh speaks 4 languages, 
+									loves to play the Indian Classical Flute known as the Bansuri, and is married to a physician and 
+									has 2 lovely daughters. 
+								</p>
 							</div>
 						</div>
 						<!-- tile -->
@@ -234,11 +280,27 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Maria A Shah MD</h4> <span class="physician-title">Coo</span>
-									<!-- <div class="physician-bio">
-										<p>Maria A Shah is an experienced healthcare administrator with proven success in managing clinical operations to drive strong and sustained growth. Maria is a champion for evidence-based and cost-effective medical...</p>
-                  					</div> -->
+									<h4 class="physician-name">Maria Shah, MD</h4> <span class="physician-title">Chief Operating Officer</span>
+									
 								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Shah has over 15 years of healthcare experience. After receiving her Doctorate in Medicine, 
+									she was a postdoctoral research fellow in the pharmaceutical industry as a Clinical 
+									Investigator/Sub-Investigator and Clinical Rater for patient- centered clinical trials in 
+									diabetes and obesity, as well as diabetes and depression. 
+									Dr. Shah moved into Healthcare Administration and Medical Case Management and has over 10 
+									years in managed care experience including Chronic Care Management, Remote Patient Monitoring, 
+									and Utilization Review in leading the development of policy and strategic programs to promote the 
+									continuity of care throughout the healthcare system. She is an outspoken advocate of finding ways 
+									to improve the delivery of care to serve patients’ needs in an evidence-based, cost-effective, and 
+									patient-centric manner.
+									Dr. Shah has previously held executive level positions including as Medical Directorships and 
+									Chief Medical Officer for TPAs, health plans and PPO networks. Dr. Shah also serves on the boards 
+									of several non for profit organizations, and as well as Advisory Boards for various specialty 
+									pharmacies. 
+								</p>
 							</div>
 						</div>
 						<!-- tile -->
@@ -250,11 +312,293 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Dean Hoffman</h4> <span class="physician-title">Chief Financial Officer</span>
-									<!-- <div class="physician-bio">
-										<p>Dean Hoffman is a senior executive with over 25 years of diverse executive leadership. His financial, operational, and entrepreneurial expertise has been the foundation of his working with both private...</p>
-                  					</div> -->
+									<h4 class="physician-name">Dean Hoffman, MBA</h4> <span class="physician-title">Chief Financial Officer</span>
+									
 								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dean Hoffman is a senior executive with over 25 years of diverse executive leadership. 
+									His financial, operational, and entrepreneurial expertise has been the foundation of his 
+									working with both private and publicly traded companies throughout his career. 
+									He has extensive experience in the healthcare and technology sectors and has been a 
+									business consultant to companies in a wide range of industries. 
+									Dean lends his business expertise to various not for profit organizations primarily 
+									in the healthcare, social service, and education arenas by serving on their respective 
+									boards of directors. He has also been a guest lecturer in the business schools at both 
+									Arizona State University and the University of Arizona. Dean holds a Bachelor of Science 
+									degree in Accounting and Business Administration, cum laude, from Illinois State University 
+									and a Master of Business Administration from Arizona State University.
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Bill Swavely</h4> <span class="physician-title">Chief Technology Officer</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Bill Swavely is the newest member of our executive team as the Chief Technology Officer. As the CTO, Bill is responsible for the executive oversight of the company's product and technology roadmap. 
+									Bill Swavely brings more than 25 years of experience leading enterprise information technology in health care, medical devices, digital health, entertainment, private equity, and telecommunications companies. Bill has provided technology leadership for public and private companies as well as startup organizations. 
+									Prior to joining AkosMD, Bill served as the chief information officer for Pharm-Olam (mid-sized CRO), chief innovation officer for InfoBionic (Digital Health/RPM), CIO for BioTelemetry/CardioNet Inc. (Digital Health/RPM), chief technology officer for Blue Cross of Northeastern PA, CIO at VIASYS Healthcare (Med Devices)., as well as chief information technology officer and co-founder at Enable Business Solutions, LLC. Bill received his Bachelor of Science degree in electrical and computer engineering from Clarkson University and his MBA from Rensselaer Polytechnic Institute.
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Tom Henke</h4> <span class="physician-title">Senior Vice President-Growth Officer</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Tom Henke is AkosMD’s Senior Vice President of Sales and is responsible for all growth initiatives.  Tom is an experienced health care executive with deep digital health, care management and managed care experience. 
+									Tom spent 20 years in managed care and spent 10 years as Senior Vice President, General Manager and Chief Innovation Officer at Medica Health Plans, and in 2010 Tom left Medica to launch QuickCheck Health, an early virtual care startup. Later, he led national sales at both Amplifon, a managed care approach to hearing health care and Medtronic Care Management Services, a leader in remote patient monitoring and chronic care management.  In both organizations he was responsible for sales and account success in the payer, provider and employer markets.  In both companies he also led the development of innovative, first-in-market, value-based offerings.  
+									Tom has a Master of Business Administration in Finance from the University of St. Thomas and a Bachelor of Science in Economics from the University of Minnesota and is a frequent speaker on topics including consumer-based health care, digital health, care management, health care innovation and value-based care. 
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Joann Damawand</h4> <span class="physician-title">Vice President of Clinical Operations</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Joann Damawand has 30 + years of experience in healthcare. 
+									Her clinical journey began as a hospital staff nurse managing pre- and post-operative patients in neurology and orthopedics. 
+									She discovered the business of healthcare, and switched over the administrative healthcare, with 20 years in the health care insurance industry working with multiple health plans including self-funded plans, stoploss insurers, and Taft-Hartley plans. 
+									Joann is an entrepreneur by passion, and this led her to start the Algonquin Company in 2000, an organization that provided managed health care services for the unique needs of American Indian membership and businesses across the Midwest. 
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Dewanzer Dawson</h4> <span class="physician-title">Director of Clinical Operations</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dewanzer - Dee, as she’s affectionately known as, is the Director of Clinical Operations at AkosMD with over 13 years of experience in healthcare. Dee has worked in many settings from nursing homes to home health settings, and primary care offices to hospitals.  
+									She also was an instructor for medical assistance. 
+									Dee has strong operational experience which makes her a powerful force in the workplace and uses her positive attitude and tireless energy to encourage others to work hard and succeed. 
+									Dee is inspired daily by her husband and her one son. In her free time, Dee loves to volunteer to feed the homeless, assist ex-prisoners to learn to adjust in the community, go on walks, play Pokémon and enjoy time with her family and friends.
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Tricia Lachat</h4> <span class="physician-title">Chief Operating Officer</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Shah has over 15 years of healthcare experience. After receiving her Doctorate in Medicine, 
+									she was a postdoctoral research fellow in the pharmaceutical industry as a Clinical 
+									Investigator/Sub-Investigator and Clinical Rater for patient- centered clinical trials in 
+									diabetes and obesity, as well as diabetes and depression. 
+									Dr. Shah moved into Healthcare Administration and Medical Case Management and has over 10 
+									years in managed care experience including Chronic Care Management, Remote Patient Monitoring, 
+									and Utilization Review in leading the development of policy and strategic programs to promote the 
+									continuity of care throughout the healthcare system. She is an outspoken advocate of finding ways 
+									to improve the delivery of care to serve patients’ needs in an evidence-based, cost-effective, and 
+									patient-centric manner.
+									Dr. Shah has previously held executive level positions including as Medical Directorships and 
+									Chief Medical Officer for TPAs, health plans and PPO networks. Dr. Shah also serves on the boards 
+									of several non for profit organizations, and as well as Advisory Boards for various specialty 
+									pharmacies. 
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">kelly F</h4> <span class="physician-title">Implementation Manager</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Kelly is AkosMD’s newest Implementation Manager. She has over 5 years of experience in healthcare, and lends her operational expertise to the Implementation and Onboarding of new clients. 
+									Kelly also works with the AkosMD Provider Panel as a liaison to help onboard, train, and help facilitate a strong relationship between our patients, providers, and the Akos Team. 
+									Kelly is motivated every day by her young daughter. They love to go on hikes, go to the park, and volunteer their time helping others. 
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Scott Dlugos, MD</h4> <span class="physician-title">Medical Director, Virtual Primary Care</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Dlugos was born in Detroit, and completed his undergraduate education at Harvard and Doctorate in Medicine from the University of Michigan School of Medicine. 
+									He then completed his residency at the Henry Ford Hospital in Detroit. 
+									Dr. Dlugos moved to San Diego after completing residency in 1993 and became a “flying ER doctor” crisscrossing the southwestern US in his private plane until 2003. 
+									He has traveled around the world several times surfing and playing polo; he played polo semi-professionally until 2009.  
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Anjmun Sharma, MD, MS </h4> <span class="physician-title">Medical Director, Worker’s Compensation</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Sharma is a Board Certified Family and Occupational Medicine Practitioner with over 15 years of experience. 
+									He completed his bachelors at SUNY Geneseo, Masters in Pharmacology from the Jacobs School of Medicine and Biomedical Sciences at the University of Buffalo, and his Doctorate in Medicine from Ross University School of Medicine with three years of General Surgery Graduate Medical Education; ACLS (Advanced Cardiovascular Life Support) and ATLS (Advanced Trauma Life Support) certifications. 
+									Dr has extensive experience in Clinical Case Management, providing expert testimony in administrative court, completing independent medical exams, determining causality, compensability, and managing catastrophic cases. 
+									Dr. Sharma currently lives in Colorado Springs, CO where he enjoys the Great Outdoors and Hiking, Skiing, and Boating.
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Rick Sloan, MD</h4> <span class="physician-title">Medical Director, Akos Urgent Cares</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dr. Rick Sloan grew up in rural Colorado and graduated from the University of Colorado. 
+									Dr. Sloan spent 10 years serving our country in the United States Navy and is now a disabled Veteran, due to an accident on his ship.  
+									After serving in the Navy, Dr. Sloan went back to college and graduated from the University of Colorado Medical School in 2002.  
+									He then completed his residency in Family Medicine at Saint Joseph’s residency program in Phoenix, AZ, where he served as the Chief Resident. 
+									After residency Dr. Sloan started his career working on the reservation at Salt River and Gila River Indian Health Communities, where he rapidly gained experience in helping patients with their drug and alcohol problems.  
+									Dr. Sloan has helped several thousand patients and has been successful keeping his patients clean and sober.  
+									Dr. Sloan opened his own practice in 2010 and his addiction practice grew tremendously.  
+									Dr. Sloan continues to work in Family medicine, Addiction Medicine, and in the Urgent care. Dr. 
+									Sloan also does outpatient detoxes, and provides continuity of care with medically assisted treatment (MAT). Dr. 
+									Sloan’s clinic is the only one of its kind in Arizona, and in 2016 Dr. Sloan had the pleasure of serving on the Governor of Arizona’s Substance Abuse Task Force. 
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Kelly Hoscin</h4> <span class="physician-title">Chief Financial Officer</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Dean Hoffman is a senior executive with over 25 years of diverse executive leadership. 
+									His financial, operational, and entrepreneurial expertise has been the foundation of his 
+									working with both private and publicly traded companies throughout his career. 
+									He has extensive experience in the healthcare and technology sectors and has been a 
+									business consultant to companies in a wide range of industries. 
+									Dean lends his business expertise to various not for profit organizations primarily 
+									in the healthcare, social service, and education arenas by serving on their respective 
+									boards of directors. He has also been a guest lecturer in the business schools at both 
+									Arizona State University and the University of Arizona. Dean holds a Bachelor of Science 
+									degree in Accounting and Business Administration, cum laude, from Illinois State University 
+									and a Master of Business Administration from Arizona State University.
+								</p>
+							</div>
+						</div>
+						<!-- tile -->
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6">
+						<div class="physician-tile">
+							<div class="row">
+								<div class="col-sm-3 mobile-center">
+									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="physician-name">Phelicia Laffredo, RN </h4> <span class="physician-title">Nurse Manager</span>
+									
+								</div>
+							</div>
+							<div class="physician-bio">
+								<p>
+									Phelicia began her career in nursing as a Private Duty RN Care Manager. 
+									After some time in the private sector, Phelicia took a role as a staff nurse in the Progressive Care Unit at a local Community Hospital in PA. 
+									After quickly realizing that many of the patients she cared for ended up going home on hospice, she decided to shift her focus to Case Management for a National Hospice brand, working in both PA and AZ. 
+									As the COVID-19 pandemic changed the global healthcare scene, Phelicia transitioned to a role at AkosMD, using her Nursing and technology background to connect patients to healthcare virtually. 
+									After nearly a year and a half as a staff nurse, she eventually assumed the role of RN Supervisor for the Telephonic Nursing department at AkosMD.
+								</p>
 							</div>
 						</div>
 						<!-- tile -->
