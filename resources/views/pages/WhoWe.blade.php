@@ -309,7 +309,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/dean.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Dean Hoffman, MBA</h4> <span class="physician-title">Chief Financial Officer</span>
@@ -339,7 +339,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/bill.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Bill Swavely</h4> <span class="physician-title">Chief Technology Officer</span>
@@ -360,7 +360,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/tom.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Tom Henke</h4> <span class="physician-title">Senior Vice President-Growth Officer</span>
@@ -382,7 +382,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/joann.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Joann Damawand</h4> <span class="physician-title">Vice President of Clinical Operations</span>
@@ -404,7 +404,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/dewanzer.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Dewanzer Dawson</h4> <span class="physician-title">Director of Clinical Operations</span>
@@ -427,7 +427,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/tom.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Tricia Lachat</h4> <span class="physician-title">Chief Operating Officer</span>
@@ -459,7 +459,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/kelly.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">kelly F</h4> <span class="physician-title">Implementation Manager</span>
@@ -481,7 +481,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/scott.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Scott Dlugos, MD</h4> <span class="physician-title">Medical Director, Virtual Primary Care</span>
@@ -503,7 +503,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/anjumn.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Anjmun Sharma, MD, MS </h4> <span class="physician-title">Medical Director, Worker’s Compensation</span>
@@ -526,7 +526,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/rick.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Rick Sloan, MD</h4> <span class="physician-title">Medical Director, Akos Urgent Cares</span>
@@ -554,7 +554,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/07/Dean-Hoffman-Headshot.jpg" alt="Dean Hoffman" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/kelly.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Kelly Hoscin</h4> <span class="physician-title">Chief Financial Officer</span>
@@ -584,7 +584,7 @@
 						<div class="physician-tile">
 							<div class="row">
 								<div class="col-sm-3 mobile-center">
-									<div class="physician-detail-image"> <img class="img-circle" src="https://akosmd.com/app/uploads/2020/04/MariaShahHeadshot.jpg" alt="Maria A Shah MD" /> </div>
+									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/phelicia.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
 									<h4 class="physician-name">Phelicia Laffredo, RN </h4> <span class="physician-title">Nurse Manager</span>
