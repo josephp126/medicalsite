@@ -121,6 +121,11 @@ section.newsletter-form {
   background-size: cover;
 }
 
+#main-top.primaryprovider {
+  background-image: url("https://player.vimeo.com/external/196455093.sd.mp4?s=186bc7497622f6ae2781be270380a335dc450182&profile_id=165");
+  background-size: cover;
+}
+
 #wrapper #employers_akos_table {
   padding: 20px 8%;
 }
@@ -2160,4 +2165,21 @@ span.vdivider {
   font-weight: bold;
   margin-bottom: 40px;
   color: #071f3e;
+}
+
+.newsletter-form .akos-button,
+.site-form .akos-button {
+  width: auto !important;
+}
+
+#primary_provider_content .changecolor {
+  color: white !important;
+}
+
+#primary_provider_content .changecolorblack {
+  color: #8d8d8d !important;
+}
+
+#primary_provider_content .site-form.form-fadeout {
+  background-color: white;
 }

@@ -67,7 +67,7 @@
                     <ul>
                         <a href="/onsiteclinics">PROVIDERS</a>
                         <li>
-                            <a href="">Primary Providers</a>
+                            <a href="/primaryproviders">Primary Providers</a>
                         </li>
                         <li>
                             <a href="">Specialists</a>

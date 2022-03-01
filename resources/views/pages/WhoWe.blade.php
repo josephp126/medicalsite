@@ -119,7 +119,7 @@
 						<li class="menu-item"> <a href="/providers"> Providers </a>
 							<div class="submenu-cont">
 								<ul class="submenu">
-									<li> <a href="">Primary Providers</a> </li>
+									<li> <a href="/primaryproviders">Primary Providers</a> </li>
 									<li> <a href="">Specialists</a> </li>
 									<li> <a href="/aco">ACO/Value Based entities</a> </li>
 									<li> <a href="/ccm">Chronic Case Management</a> </li>

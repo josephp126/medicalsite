@@ -31,6 +31,8 @@ Route::get('/employers', 'Start_landing_page@Employers');
 
 Route::get('/providers', 'Start_landing_page@Providers');
 
+Route::get('/primaryproviders', 'Start_landing_page@PrimaryProviders');
+
 Route::get('/urgentcare', 'Start_landing_page@urgentCare');
 
 Route::get('/remotepatient', 'Start_landing_page@RemotePatient');

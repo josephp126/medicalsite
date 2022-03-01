@@ -48,6 +48,10 @@ class Start_landing_page extends Controller
         return view('pages.Providers');
     }
 
+    public function PrimaryProviders(){
+        return view('pages.PrimaryProviders');
+    }
+
     public function urgentCare(){
         return view('pages.urgentCare');
     }
