@@ -1068,7 +1068,6 @@
 @section('custom_js')
 <script type='text/javascript' src='https://akosmd.com/app/themes/akostheme/dist/scripts/main-fb0b5c7b76.js'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/wp-embed.min.js?ver=5.4.7'></script>
-<a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a>
 <script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

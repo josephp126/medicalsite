@@ -191,7 +191,7 @@
                         Extend Your Reach
                     </h2>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
-                        Pythisians do more with Akos
+                        Physicians do more with Akos
                     </h6>
                     <!-- <a data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" href="" class="cta-btn">
                         Connect with Us

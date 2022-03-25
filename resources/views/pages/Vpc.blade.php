@@ -175,9 +175,9 @@
                     <p data-aos="fade-right">All-Inclusive Healthcare Benefits</p>
                     <h6 data-aos="fade-right" data-aos-offset="0" data-aos-delay="300">
                         A strong company cannot exist without healthy employees.<br>
-                        The everyday choieces we make can help us live healthier,<br>
+                        The everyday choices we make can help us live healthier,<br>
                         happier, and more fulfilling lives - both at work and at home.<br>
-                        And that's why(employer) is offering an essential tool as part<br>
+                        And that's why(AkosMD) is offering an essential tool as part<br>
                         of your overall benefits package - a comprehensive Health and<br>
                         Wellness Program designed to improve your health,<br>
                         well-being and productivity.

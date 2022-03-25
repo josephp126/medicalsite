@@ -231,7 +231,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="item" style="background-image: url('img/hc-solutions/chronic-hc.jpg');">
-                        <h6>Monitering</h6>
+                        <h6>Monitoring</h6>
                         <a href="/ccm"><span>Learn More</span> <img src="img/rt-arrow-white.svg" width="12" class="ml-2"
                                 alt=""></a>
                     </div>

@@ -321,7 +321,7 @@
             <div class="col-sm-6 col-sm-push-6">
                 <div class="item item-blue">
                     <h3 class="section-title">
-                        It's how helalthcare should be
+                        It's how healthcare should be
                     </h3>
                     <p class="pt-4">
                         To find out all about how Akos is improving healthcare<br>

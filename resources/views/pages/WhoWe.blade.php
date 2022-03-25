@@ -430,7 +430,7 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/tom.png')}}" alt="Maria A Shah MD" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Tricia Lachat</h4> <span class="physician-title">Chief Operating Officer</span>
+									<h4 class="physician-name">Tricia LaChat</h4> <span class="physician-title">Chief Operating Officer</span>
 									
 								</div>
 							</div>
@@ -557,7 +557,7 @@
 									<div class="physician-detail-image"> <img class="img-circle" src="{{asset('img/whowe/kelly.png')}}" alt="Dean Hoffman" /> </div>
 								</div>
 								<div class="col-sm-9">
-									<h4 class="physician-name">Kelly Hoscin</h4> <span class="physician-title">Chief Financial Officer</span>
+									<h4 class="physician-name">Kelly Haskins</h4> <span class="physician-title">Director of Clinical Services</span>
 									
 								</div>
 							</div>
@@ -836,7 +836,6 @@
 @section('custom_js')
 <script type='text/javascript' src='https://akosmd.com/app/themes/akostheme/dist/scripts/main-fb0b5c7b76.js'></script>
 <script type='text/javascript' src='https://akosmd.com/wp/wp-includes/js/wp-embed.min.js?ver=5.4.7'></script>
-<!-- <a href="javascript:void(0);" id="back-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back to top</a> -->
 <script type="text/javascript" src="https://ki344.infusionsoft.com/app/webTracking/getTrackingCode"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
